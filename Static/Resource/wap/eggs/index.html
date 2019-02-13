@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>砸金蛋</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/sea.js"></script>
+        <script src="./js/app.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img class="eggs" src="./img/egg_1.png" alt="" />
+                <img data-event="action.hammer.hit" class="hammer" src="./img/img-6.png" alt="" />
+            </div>
+            <div class='page page_01'>
+                <div class="exp">
+                    <div class="exptitle">
+                        <div class="jcbody"><span>奖项说明：</span></div><div class="juchi"></div>
+                    </div>
+                    <div class="expbody gift_info">
+                        <p><span class="red">砸不开视为作废</span></p>
+                        <p>每人最多有<span class="day_max_times">0</span>次机会</p>
+                        <p>这是您第 <span class="red my_times">0</span> 次砸金蛋</p>
+                        <div class="gift_names"></div>
+                    </div>
+                </div>
+                <div class="exp">
+                    <div class="exptitle">
+                        <div class="jcbody"><span>我的奖品：</span></div><div class="juchi"></div>
+                    </div>
+                    <div class="expbody my_gift_info"></div>
+                </div>
+                <div class="exp">
+                    <div class="exptitle">
+                        <div class="jcbody"><span>活动说明：</span></div><div class="juchi"></div>
+                    </div>
+                    <div class="expbody active_info">
+                        <p>fsdfasdfas</p>
+                        <p>fsdfasdfas</p>
+                        <p>fsdfasdfas</p>
+                        <p>fsdfasdfas</p>
+                        <p>fsdfasdfas</p>
+                    </div>
+                </div>
+            </div>
+            <div class='page page_02 hide'>
+                <p><span class='bg bg-user'></span>姓名 <input class="wb60" name="realname" placeholder="请输入您的姓名" /></p>
+                <p><span class='bg bg-phone'></span>手机 <input class="wb60" name="phone"  placeholder="请输入您的手机号码" /></p>
+                <p>
+                    <span class='bg bg-address'></span>地址
+                    <select name="province" style="margin-left:10px;"></select>
+                    <select name="city"></select>
+                    <select name="area"></select>
+                </p>
+                <p class='tc'><input name="address" class='wb60 tc' placeholder="请输入你的地址" /></p>
+                <div class="tc mt20">
+                    <button data-event='save.member.edit' class='btn btn-warning wb60'>确 认</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.indexOf('micromessenger') !== -1) {
+                window.debug = false;
+            } else {
+                window.debug = true;
+            }
+            window.basic_uri = 'http://cucishop.cuci.cc/index.php/Portal';
+            seajs.use('eggs/1.0.0/app');
+        </script>
+    </body>
+</html>

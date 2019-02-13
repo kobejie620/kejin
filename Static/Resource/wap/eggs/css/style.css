@@ -1,0 +1,190 @@
+/* 初始化 */
+*{margin: 0;padding: 0;}
+
+root,html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position:relative;
+    -moz-user-select: none;
+}
+
+
+.tc{text-align:center}
+.tr{text-align:right}
+.wb80{width:80%}
+.wb60{width:60%}
+.fr{float: right};
+.fl{float: left}
+
+.mt20{
+    margin-top:20px;
+}
+
+.show{
+    position: absolute;
+    opacity: 1;
+    visibility:visible;
+    -webkit-transition:all 0.3s;
+}
+
+.hide{
+    position: absolute;
+    opacity: 0;
+    visibility:hidden;
+    -webkit-transition:all 0.3s;
+}
+
+/* 应用布局 */
+.container{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+    background:rgb(159,89,40) url('../img/egg-bg.jpg') center center;
+}
+
+.container .page{
+    /*height: 100%;*/
+    width:100%;
+}
+
+
+.header{
+    text-align:center;
+    padding:50px;
+    /*width:100%;*/
+}
+
+.header .eggs{
+    margin-left: -70px;
+}
+
+.header .hammer{
+    position:absolute;
+    margin-top: -30px;
+    margin-left:-20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-weight:700;
+}
+
+.btn-warning{
+    color: #ffffff;
+    background-color: rgb(255,126,67);
+    border-color: rgb(255,116,57);
+    padding:auto 10px;
+}
+
+.exp{
+    width: 90%;
+    margin: 16px auto;
+    padding: 3px;
+    background-color: white;
+    border-radius: 4px;
+}
+.exptitle{
+    border-top: 1px #DDD dashed;
+    border-right: 1px #DDD dashed;
+    border-left: 1px #DDD dashed;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    height: 26px;
+    border-radius: 4px 4px 0 0;
+}
+.expbody{
+    padding: 10px 20px 20px 20px;
+    border-bottom: 1px #DDD dashed;
+    border-right: 1px #DDD dashed;
+    border-left: 1px #DDD dashed;
+    font-size: 14px;
+    font-weight:normal;
+    border-radius: 0 0 4px 4px;
+}
+.expbody p{
+    margin: 4px auto;
+}
+.red{
+    color: #f00;
+}
+/*锯齿边框*/
+.juchi{
+    margin: 2px 0 0 -2px;
+    float: left;
+    width:24px;
+    height:20px;
+    /*    background:#caca8c;*/
+    background-image:
+        -webkit-gradient(linear,50% 0,0 100%,
+        from(transparent),
+        color-stop(.5,transparent),
+        color-stop(.5,#AF5419),
+        to(#AF5419)                                            
+        ),
+        -webkit-gradient(linear,50% 0,100% 100%,
+        from(transparent),
+        color-stop(.5,transparent),
+        color-stop(.5,#AF5419),
+        to(#AF5419)    
+        );                             
+    background-size:10px 5px;
+    background-repeat:repeat-x;
+    background-position:0 100%;
+    -webkit-transform: rotate(90deg);
+}
+/*锯齿并列的主体部分*/
+.jcbody{
+    padding: 4px 0 0 3px;
+    background-color: #AF5419;
+    float: left;
+    width: 110px;
+    height: 20px;
+    border-radius: 4px 0 0 0;
+}
+.higeggs{
+    transform-origin:100% 100%;
+    animation: hit 1s;
+    -moz-animation: hit 1s;	/* Firefox */
+    -webkit-animation: hit 1s;	/* Safari 和 Chrome */
+    -o-animation: hit 1s;	/* Opera */
+}
+@-webkit-keyframes hit{
+    80% {
+        transform:rotate(60deg);
+        -ms-transform:rotate(60deg); 	/* IE 9 */
+        -moz-transform:rotate(60deg); 	/* Firefox */
+        -webkit-transform:rotate(60deg); /* Safari 和 Chrome */
+        -o-transform:rotate(60deg); 	/* Opera */
+    }
+    100% {
+        transform:rotate(-26deg);
+        -ms-transform:rotate(-26deg); 	/* IE 9 */
+        -moz-transform:rotate(-26deg); 	/* Firefox */
+        -webkit-transform:rotate(-26deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-26deg); 	/* Opera */
+    }
+}
+
+.eggs-info{
+    margin-left:-190px!important;
+    margin-top:-39px!important;
+}

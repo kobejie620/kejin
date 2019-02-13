@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost/common/cart.html# -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+        <title>products-details</title>
+        <link href="http://localhost/common/css/bootstrap.css" rel="stylesheet">
+        <link href="http://localhost/common/css/common.css" rel="stylesheet">
+        <link href="http://localhost/common/css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="./products-details_files/jquery-1.8.3.min.js"></script>
+        <!--<script type="text/javascript" src="js/h.js"></script>-->
+        <script type="text/javascript" src="./products-details_files/touchslider.js"></script>
+        <!--[if lt IE 9]>
+          <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--正文开始-->
+        <div class="media shadow margin-bottom-12 padding-top-14 padding-bottom-14 cart">
+            <div class="media-left media-middle">
+                    <img src="./products-details_files/circle.png" alt="">
+            </div>
+            <div class="media-left">
+                <a href="./products-details_files/products-details.html" class="media-object">
+                    <img class="img-rounded" src="./products-details_files/product02.png" alt="...">
+                </a>
+            </div>
+            <div class="media-left">
+                <p class="media-heading ellipsis">元培金装婴幼儿营养奶米粉 </p>
+                一段 500G <span class="high-light-color font-16">¥150</span>
+                <p class="margin-top-20">
+                    <i class="text-999 margin-right-4 normal">数量：</i>
+                    <span class="text-center">
+                        <a class="increase border-ddd" data-dishid="1">-</a>
+                        <input type="text" value="1" class="amount border-ddd">
+                        <a class="reduce border-ddd" data-dishid="1">+</a>
+                    </span>
+                </p>
+            </div>
+            <div class="media-right"><a>删除</a></div>
+        </div>
+        <div class="overflow-hidden shadow padding-left-20 padding-right-20 padding-bottom-30">
+            <div class="border-dashed padding-bottom-14">
+                <div class="">
+                    <img src="./products-details_files/circle.png" alt="">
+                    <img src="./products-details_files/product01.png" class="img-thumbnail" alt="">
+                </div>
+                <div class="">
+                    <p class="margin-top-20">
+                        <i class="text-999 margin-right-4 normal">数量：</i>
+                        <span class="text-center">
+                            <a class="increase border-ddd" data-dishid="1">-</a>
+                            <input type="text" value="1" class="amount border-ddd">
+                            <a class="reduce border-ddd" data-dishid="1">+</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--底部购买菜单栏开始-->
+        <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+            <div class="width-pct-15 pull-left"><img src="./products-details_files/circle.png" alt=""></div>
+            <div class=" width-pct-50 pull-left">
+                <p>合计<span class="high-light-color font-16">¥150</span>＋<span class="high-light-color font-16 padding-right-6">500</span>积分</p>
+                <p class=" text-999 font-12">(不含运费)</p>
+            </div>
+            <div class=" width-pct-30 pull-right"><button class="btn btn-danger btn-block">结算(2)</button></div>
+        </div>
+        <!--底部购买菜单栏结束-->
+        <!--正文结束-->
+        <script type="text/javascript">
+            var sliderLink, slider;
+            sliderLink = $('#pagenavi a').on('click', function () {
+                var index = $(this).index();
+                slider.slide(index);
+            });
+            slider = new TouchSlider({
+                id: 'slider1',
+                auto: '0',
+                fx: 'ease-out',
+                direction: 'left',
+                speed: 600,
+                timeout: 5000,
+                before: function (index) {
+                    sliderLink.removeClass('active').eq(index).addClass('active');
+                }
+            });
+        </script>
+    
+
+
+
+    <!--商品列表结束-->
+    <!-- <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>-->
+</body></html>

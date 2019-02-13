@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{ height:100%;}
+body{ font-family: 'Microsoft Yahei'; color:#999; font-size:14px; line-height:24px; background:#f3f4e9;}
+input,textarea,select,button{ font-family: 'Microsoft Yahei'; color:#999;}
+a{ color:#999;}
+.txt::-webkit-input-placeholder{ color:#999;}
+
+.green{ color:#5baea3;}
+.red{ color:#ff4251;}
+.yellow{ color:#fff000;}
+.bg-green{ background-color:#5baea3;}
+.bg-red{ background-color:#ff4251;}
+.bg-yellow{ background-color:#fff000;}
+
+/*弹出层*/
+.tcBox{width:100%; height:100%; position:fixed; left:0; top:0; z-index:999; background-color: rgba(0,0,0,0.5); font-size:0; -webkit-transform: translateZ(0);}
+.dibox {display: inline-block; vertical-align: middle; margin:0; font-size:14px; max-width:90%; max-height: 90%; overflow:visible;}
+.closeImg{ position:absolute; top:-12px; right:-12px; cursor:pointer; width:24px; height:24px; background-color: rgba(0,0,0,0.8); color:#fff; font-size:16px; text-align:center; line-height:24px; border-radius:50%;}
+/*弹出层*/
+
+/*banner切换*/
+.piclist{position:relative; -webkit-transition: left 600ms ease-out; width:2232px; left:0;}
+.piclist li{display:table-cell; position:relative; float: left; vertical-align: top; height:auto !important;}
+.piclist li a{ display:block;}
+.piclist li a img{ width:100%;}
+.swipe{ overflow: hidden; visibility: visible; list-style: none; position: relative;}
+.page { width:100%; position:absolute; left:0; bottom:8px; text-align:center; line-height:0px;}
+.page a{display:inline-block; width:8px; height:8px; margin:0 1px; background:#fdfefb; border:1px solid #ac8e75; border-radius:50%; vertical-align:middle}
+.page a.active{ background:#fe7531; border:1px solid #fe7531;}
+/*banner切换*/
+
+/*加减*/
+.increase{ width:28px; height:28px; display:block; background:url(../images/c.png) no-repeat; background-size:100% 100%; cursor:pointer; float:left; border:1px solid #ecdacd; border-radius:6px 0px 0px 6px; text-align:center; line-height:22px; font-size:18px; color:#705127;}
+.reduce{ width:28px; height:28px; display:block; background:url(../images/c.png) no-repeat; background-size:100% 100%; cursor:pointer; float:left; border:1px solid #ecdacd; border-radius:0px 6px 6px 0px; text-align:center; line-height:22px; font-size:18px; color:#705127;}
+.amount{ width:50px; height:28px; background:#fff8f2; color:#a27c60; float:left; border:none; border-top:1px solid #ecdacd; border-bottom:1px solid #ecdacd; text-align:center; font-size:16px;}
+/*加减*/
+
+.box{ position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; overflow-y:scroll; -webkit-transform: translateZ(0);}
+.yhBox {width: 100%;height: 100%;position: absolute;left: 0;top: 0;display: table; -webkit-transform: translateZ(0);}
+.yhCont {vertical-align: middle;display: table-cell;opacity:0;}
+
+.header-box{ position:absolute; left:0; top:17%;}
+.header-box-img{ box-shadow:1px 1px 2px #999; width:30%;}
+.header-cout{ position:absolute; left:0; bottom:10%;}
+
+.bs1{ box-shadow:0px 1px 1px #ddd;}
+.order-nav li{ background:url(../images/ordernav.png) right center no-repeat; background-size: auto 50%;}
+.order-nav li:last-child{ background:none;}
+
+.mlist li:last-child{ border-bottom:none;}
+.cjTab td{ border-bottom:1px solid #ddd; border-right:1px solid #ddd; padding:10px 0;}
+.cjTab tr:last-child  td{ border-bottom:none;}
+
+.lytab th{ padding:10px 0; font-weight:normal; border-bottom:1px dashed #ddd; color:#666;}
+.lytab td{ padding:10px 0; font-weight:normal; border-bottom:1px dashed #ddd;}
+.lytab tr:last-child td{border-bottom:none;}
+
+.sqtx{ position:fixed; left:0; bottom:0;-webkit-transform: translateZ(0);}
+
+.lqbtn{ position:absolute; left:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

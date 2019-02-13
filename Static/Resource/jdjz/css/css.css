@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{ height:100%;}
+body{ font-family: 'Microsoft Yahei'; color:#949494; font-size:14px; line-height:24px; background:#f0f0f0;}
+input,textarea,select{ font-family: 'Microsoft Yahei';}
+a{ color:#949494;}
+.hr1{ border:none; border-bottom:1px solid #ebebeb;}
+.pink{ color:#e4007f;}
+.orange{ color:#5c460b;}
+.bg-pink{ background-color:#e4007f;}
+.bg-orange{ background-color:#5c460b;}
+.btd2 { border-top: 1px dotted #ddd; }
+.bbd2 { border-bottom: 1px dotted #ddd; }
+
+.bsdow{box-shadow: 0px 0px 4px #ddd;}
+
+
+
+/*弹出层*/
+.tcBox{width:100%; height:100%; position:fixed; left:0; top:0; z-index:9999; background:url(../images/tcBox.png); font-size:0; -webkit-transform: translateZ(0);}
+.dibox {display: inline-block; vertical-align: middle; margin:0; background: #fff; font-size:14px; width:90%; max-height: 90%; overflow:visible; overflow-y:auto; border-radius:10px;}
+.closeImg{ position:absolute; top:4px; right:4px; cursor:pointer;}
+/*弹出层*/
+
+/*banner切换*/
+.piclist{position:relative; -webkit-transition: left 600ms ease-out; width:2232px; left:0;}
+.piclist li{display:table-cell; position:relative; float: left; vertical-align: top; height:auto !important;}
+.piclist li a{ display:block;}
+.piclist li a img{ width:100%;}
+.swipe{ overflow: hidden; visibility: visible; list-style: none; position: relative;}
+.page { width:100%; position:absolute; left:0; bottom:8px; text-align:center; line-height:0px;}
+.page a{display:inline-block; width:8px; height:8px; border-radius:4px; margin:0 1px; background:#bfbfbf; vertical-align:middle}
+.page a.active{ background:#e4b819;}
+.pageBox{ padding:3px 10px; background:#fff; display:inline-block; line-height:0px; border-radius:8px; box-shadow:1px 1px 1px #dfdfdf;}
+/*banner切换*/
+
+/*加减*/
+.increase{ width:26px; height:26px; display:block; background:#fef0cb; cursor:pointer; float:left; border:1px solid #f0ca64; border-radius:12px 0px 0px 12px; text-align:center; line-height:22px; font-size:18px; color:#705127;}
+.reduce{ width:26px; height:26px; display:block; background:#fef0cb; cursor:pointer; float:left; border:1px solid #f0ca64; border-radius:0px 12px 12px 0px; text-align:center; line-height:22px; font-size:18px; color:#705127;}
+.amount{ width:50px; height:26px; background:#fef0cb; color:#705127; float:left; border:none; border-top:1px solid #f0ca64; border-bottom:1px solid #f0ca64; text-align:center; font-size:16px;}
+/*加减*/
+
+.box{ position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; overflow-y:scroll;}
+
+
+
+
+
+
+
+
