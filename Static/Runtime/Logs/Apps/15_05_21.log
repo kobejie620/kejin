@@ -1,0 +1,1913 @@
+[ 2015-05-21T10:28:06+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionlist.shtml
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'status' dans where clause est ambigu
+
+[ 2015-05-21T10:31:53+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:32:27+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:33:34+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-21T10:35:33+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-21T10:36:02+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:37:34+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:39:34+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-21T10:40:16+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:40:52+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+ERR: 模板不存在:E:/cucisvn/01-code/jonza/Module/Apps/View/Promotion_details.html
+
+[ 2015-05-21T10:41:51+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+ERR: 模板不存在:E:/cucisvn/01-code/jonza/Module/Apps/View/Promotion_details.html
+
+[ 2015-05-21T10:42:23+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+
+[ 2015-05-21T10:43:08+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:44:14+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:49:44+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:49:54+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T10:54:59+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '，m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id' à la ligne 1
+
+[ 2015-05-21T10:55:21+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '，m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id' à la ligne 1
+
+[ 2015-05-21T10:56:02+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id   [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:57:23+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 46  [ RunTime:0.0140s ]
+
+[ 2015-05-21T10:57:59+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 45  [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:58:18+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:58:37+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member`  [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:59:06+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 46  [ RunTime:0.0010s ]
+
+[ 2015-05-21T10:59:24+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 46  [ RunTime:0.0020s ]
+
+[ 2015-05-21T11:01:23+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+
+[ 2015-05-21T11:03:34+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+
+[ 2015-05-21T11:04:14+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:05:55+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: product_name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 21 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: phone E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [8] Undefined index: myaddress E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:06:21+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: product_name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 21 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: phone E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [8] Undefined index: myaddress E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:07:03+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [8] Undefined index: phone E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: myaddress E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:07:23+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T11:07:51+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+
+[ 2015-05-21T11:08:22+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '46'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:09:42+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:10:49+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:11:54+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T11:12:08+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-21T11:12:43+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:12:57+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T11:13:25+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Template\TagLib\Cx.class.php 第 70 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-21T11:13:46+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:13:58+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '46'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T11:14:59+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0110s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:15:16+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '46'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-21T11:16:23+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-21T11:18:26+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 22 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 23 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T11:21:59+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 12 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 13 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 14 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 15 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 16 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+NOTIC: [2] Illegal string offset 'name' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 30 行.
+NOTIC: [2] Illegal string offset 'phone' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 31 行.
+NOTIC: [2] Illegal string offset 'nickname' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 32 行.
+NOTIC: [2] Illegal string offset 'sex' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 33 行.
+NOTIC: [2] Illegal string offset 'myaddress' E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2015-05-21T11:22:48+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT pu.promotion_id,m.* FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id  WHERE pu.id = '43'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: nickname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 24 行.
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Apps\0d1daad1d9f258012b7d7d5772ba0061.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-21T11:25:36+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-21T11:26:04+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-21T11:26:32+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0170s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '40'  [ RunTime:0.0970s ]
+
+[ 2015-05-21T11:26:46+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '40'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:29:03+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0110s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '40'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T11:30:27+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0100s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '40'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-21T13:56:48+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '45'  [ RunTime:0.3870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-21T13:57:50+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0280s ]
+SQL: SELECT pu.promotion_id,m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.promotion_id = m.id left join wx_wechat_member wm on pu.promotion_openid = wm.openid  WHERE pu.id = '45'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T13:58:55+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+
+[ 2015-05-21T14:00:03+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+
+[ 2015-05-21T14:00:18+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+
+[ 2015-05-21T14:01:47+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-21T14:03:00+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_' n'existe pas
+
+[ 2015-05-21T14:03:14+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `promotion_id` = 560  [ RunTime:0.0010s ]
+
+[ 2015-05-21T14:03:26+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `promotion_id` = 593  [ RunTime:0.0010s ]
+
+[ 2015-05-21T14:08:09+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid   [ RunTime:0.1890s ]
+
+[ 2015-05-21T14:09:10+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '593'  [ RunTime:0.0010s ]
+
+[ 2015-05-21T14:09:50+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/46.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '593'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-21T14:10:29+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '538'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T14:10:35+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '231'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T14:10:39+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/41.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '557'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-21T14:10:44+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/43.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '560'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-21T14:10:51+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/44.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '562'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T14:36:28+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '%2015-05-21% )' à la ligne 1
+
+[ 2015-05-21T14:36:51+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')' à la ligne 1
+
+[ 2015-05-21T14:46:48+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'pu.promotion_id' inconnu dans field list
+
+[ 2015-05-21T15:02:31+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_xiangce' n'existe pas
+
+[ 2015-05-21T15:19:15+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml?create_time=2015-05-16
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'pu.create_time' inconnu dans where clause
+
+[ 2015-05-21T15:19:28+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionnum.shtml?create_time=2015-05-16
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'pu.create_time' inconnu dans where clause
+
+[ 2015-05-21T15:36:22+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '231'  [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T15:36:30+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/45.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '231'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-21T15:36:36+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/details/id/40.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Apps\Controller\PromotionController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Apps\Controller\PromotionController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT m.*,wm.nickname,wm.sex,wm.headimgurl FROM wx_promotion_user pu left join wx_member m on pu.uid = m.id left join wx_wechat_member wm on pu.uid_openid = wm.openid  WHERE pu.promotion_id = '538'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

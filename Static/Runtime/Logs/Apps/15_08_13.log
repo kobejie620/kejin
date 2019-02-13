@@ -1,0 +1,3 @@
+[ 2015-08-13T14:05:39+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/promotionlist.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'pu.guide_id' inconnu dans on clause
+

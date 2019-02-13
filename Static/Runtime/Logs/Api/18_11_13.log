@@ -1,0 +1,15 @@
+[ 2018-11-13T10:22:00+08:00 ] ::1 /jonza/index.php/Api/Report/report
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-11-13T14:12:02+08:00 ] ::1 /jonza/index.php/Api/Report/report
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+

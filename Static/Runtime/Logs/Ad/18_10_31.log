@@ -1,0 +1,325 @@
+[ 2018-10-31T17:09:34+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 50 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 61 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 68 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 77 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 84 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 92 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 99 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2018-10-31T17:11:41+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 50 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 61 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 68 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 77 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 84 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 92 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 99 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2018-10-31T17:12:15+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-10-31T17:29:21+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-10-31T17:30:32+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2018-10-31T17:31:43+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Ad\f2cec8d45ebcc8087b08b9ac8790d587.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-10-31T17:32:26+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `name` = '在线视频' LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_emali` = '447324105@qq.com' LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_mobile` = '13268317045' LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_qq` = '447324105' LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_wechat` = 'c-r-bin' LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_advertiser` WHERE `advertiser_id` = 0 LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `name` = '在线视频' LIMIT 1   [ RunTime:0.0089s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_emali` = '447324105@qq.com' LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_mobile` = '13268317045' LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_qq` = '447324105' LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `contacts_wechat` = 'c-r-bin' LIMIT 1   [ RunTime:0.0087s ]
+SQL: INSERT INTO `wx_advertiser` (`name`,`email`,`portrait`,`identity`,`type`,`network`,`logo`,`contacts_name`,`contacts_emali`,`contacts_mobile`,`contacts_qq`,`contacts_wechat`,`advertiser_id`,`product_num`,`add_time`) VALUES ('在线视频','447324105@qq.com','http://ueditor.cdn.cuci.cc/image/2018/10/3/17/3150/4@3x的副本 2.png','2','1','www.baidu.com','http://ueditor.cdn.cuci.cc/image/2018/10/3/17/323/4@3x的副本 2.png','荣彬','447324105@qq.com','13268317045','447324105','c-r-bin','0','0','2018-10-31 17:32:26') [ RunTime:0.0135s ]
+
+[ 2018-10-31T17:36:03+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/edit/id/1.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `advertiser_id` = 1 LIMIT 1   [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2018-10-31T17:37:21+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/edit/id/1.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `advertiser_id` = 1 LIMIT 1   [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2018-10-31T17:37:26+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/edit/id/1.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_advertiser` WHERE `advertiser_id` = 1 LIMIT 1   [ RunTime:0.0083s ]
+SQL: UPDATE `wx_advertiser` SET `name`='在线视频',`email`='447324105@qq.com',`portrait`='http://ueditor.cdn.cuci.cc/image/2018/10/3/17/3150/4@3x的副本 2.png',`identity`='1',`type`='1',`network`='www.baidu.com',`logo`='http://ueditor.cdn.cuci.cc/image/2018/10/3/17/323/4@3x的副本 2.png',`contacts_name`='荣彬',`contacts_emali`='447324105@qq.com',`contacts_mobile`='13268317045',`contacts_qq`='447324105',`contacts_wechat`='c-r-bin',`advertiser_id`='1',`add_time`='2018-10-31 17:37:26' WHERE `advertiser_id` = 1 [ RunTime:0.0111s ]
+
+[ 2018-10-31T17:38:20+08:00 ] ::1 /jonza/index.php/Ad/Advertiser/edit/id/1.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_advertiser` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `wx_advertiser` WHERE `advertiser_id` = 1 LIMIT 1   [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+

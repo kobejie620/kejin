@@ -1,0 +1,21 @@
+[ 2015-05-19T15:50:19+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'back_img_id' inconnu dans field list
+
+[ 2015-05-19T15:50:42+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'distinct openid) nums FROM `wx_exchange_record` WHERE `result` = 1 LIMIT 1' à la ligne 1
+
+[ 2015-05-19T15:52:01+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '=> openid FROM `wx_exchange_record` WHERE `result` = 1 LIMIT 1' à la ligne 1
+
+[ 2015-05-19T15:52:45+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'distinct' inconnu dans field list
+
+[ 2015-05-19T15:56:57+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'distinct' inconnu dans field list
+
+[ 2015-05-19T15:57:35+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'select(distinct openid) data FROM `wx_exchange_record` WHERE `result` = 1' à la ligne 1
+
+[ 2015-05-19T15:57:52+08:00 ] 127.0.0.1 /jonza/index.php/Apps/Promotion/exchangerecord.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'select(distinct openid) FROM `wx_exchange_record` WHERE `result` = 1' à la ligne 1
+

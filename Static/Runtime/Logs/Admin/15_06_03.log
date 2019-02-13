@@ -1,0 +1,90 @@
+[ 2015-06-03T11:21:51+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433301709) LIMIT 0,1 [ RunTime:0.3800s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.2610s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0280s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.3110s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433301711) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0020s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0880s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.468027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.469027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.089005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.118007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012000s ]
+
+[ 2015-06-03T11:22:09+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\cucisvn\01-code\jonza\Module\Admin\Controller\PublicController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wx_sys_user` [ RunTime:0.1000s ]
+SQL: SELECT * FROM `wx_sys_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.1150s ]
+SQL: SHOW COLUMNS FROM `wx_sys_role` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `wx_sys_role` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_sys_user` SET `username`='admin',`password`='21232f297a57a5a743894a0e4a801fc3',`role`='0',`number`=NULL,`status`='2',`qq`=NULL,`mail`=NULL,`phone`=NULL,`pid`=NULL,`wechat`=NULL,`remark`='',`login_num`='372',`login_date`='2015-06-03 11:22:09',`login_ip`='127.0.0.1',`create_by`=NULL,`create_date`='2015-04-13 01:59:43',`update_by`='1',`update_date`='2015-04-20 10:03:52' WHERE `id` = 1 [ RunTime:0.0290s ]
+
+[ 2015-06-03T11:22:54+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433301773) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0010s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.1390s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433301774) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0000s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0000s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0520s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-03T11:23:00+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\cucisvn\01-code\jonza\Module\Admin\Controller\PublicController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wx_sys_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_sys_user` WHERE `username` = '10001' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-03T11:23:06+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\cucisvn\01-code\jonza\Module\Admin\Controller\PublicController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wx_sys_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_sys_user` WHERE `username` = '10001' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-03T11:23:20+08:00 ] 127.0.0.1 /jonza/index.php/Admin/Public/login.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Admin\Controller\PublicController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\cucisvn\01-code\jonza\Module\Admin\Controller\PublicController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `wx_sys_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_sys_user` WHERE `username` = '1006' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_sys_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_sys_role` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_sys_user` SET `username`='1006',`password`='e10adc3949ba59abbe56e057f20f883e',`role`='24',`number`='6',`status`='2',`qq`=NULL,`mail`=NULL,`phone`=NULL,`pid`=NULL,`wechat`=NULL,`remark`='',`login_num`='19',`login_date`='2015-06-03 11:23:20',`login_ip`='127.0.0.1',`create_by`='1',`create_date`='2015-05-27 14:33:40',`update_by`='1',`update_date`='2015-05-27 14:33:40' WHERE `id` = 13 [ RunTime:0.0010s ]
+

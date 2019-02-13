@@ -1,0 +1,31 @@
+[ 2018-11-22T16:22:32+08:00 ] ::1 /jonza/index.php/Apps/Survey/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_apps_survey_problem` [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: title E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 16 行.
+NOTIC: [8] Undefined index: check_type E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 23 行.
+NOTIC: [8] Undefined index: check_type E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 24 行.
+NOTIC: [8] Undefined index: answer_a E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 31 行.
+NOTIC: [8] Undefined index: answer_b E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 37 行.
+NOTIC: [8] Undefined index: answer_c E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 43 行.
+NOTIC: [8] Undefined index: answer_d E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 49 行.
+NOTIC: [8] Undefined index: answer_e E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 55 行.
+NOTIC: [8] Undefined index: answer_f E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 61 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 68 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Apps\e680d430ea05522c719e483bf9c5f7cc.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
