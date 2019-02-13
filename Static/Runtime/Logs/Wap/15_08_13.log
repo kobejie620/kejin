@@ -1,0 +1,292 @@
+[ 2015-08-13T10:39:23+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/promotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.7270s ]
+SQL: SELECT wm.headimgurl,wm.nickname,a.create_time FROM wx_promotion_user a LEFT JOIN wx_wechat_member wm ON wm.openid = a.uid_openid  WHERE a.promotion_openid = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND a.status = '1'  [ RunTime:0.2970s ]
+SQL: SHOW COLUMNS FROM `wx_prize_peizhi` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `wx_prize_peizhi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: province E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 148 行.
+NOTIC: [8] Undefined variable: city E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 148 行.
+NOTIC: [8] Undefined variable: street E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 148 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0930s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0890s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439433561) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_access_token_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:107:"QJlHfkYHvl5SAvMLXay6ao8Yix_PEcQVHxdA10BCVGLpbqihqgPFJebyRmLzW1LaSC8-R1LCSMH2idK2Kr3DgxsTZZgKu2iUaHrLKkhgmMc";' ,datacrc='',expire=1439439563 WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' [ RunTime:0.1840s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439433563) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0000s ]
+SQL: UPDATE think_cache SET data='s:86:"bxLdikRXVbTPdHSM05e5u25xwzYZRklV4lNkl5y_kkod4V-Li9D4VGNKyZXxtfgSETP6wvZQ1-K7KazASdGcjQ";' ,datacrc='',expire=1439439563 WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' [ RunTime:0.0490s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 195 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 196 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\d4a15985328659e508d2724414847aaf.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.932168s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.932168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-13T11:04:06+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/clickpromotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `uid_openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.012000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.047003s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435046) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435046) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 98 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 99 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 100 行.
+NOTIC: [8] Undefined variable: host E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+NOTIC: [8] Undefined variable: id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.259014s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.261015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2015-08-13T11:04:57+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/clickpromotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `uid_openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021001s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435096) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435097) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 98 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 99 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 100 行.
+NOTIC: [8] Undefined variable: host E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+NOTIC: [8] Undefined variable: id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250015s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.253015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-13T11:05:23+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/clickpromotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `uid_openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020002s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435123) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435123) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 98 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 99 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 100 行.
+NOTIC: [8] Undefined variable: host E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+NOTIC: [8] Undefined variable: id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.078004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-08-13T11:06:10+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/clickpromotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `uid_openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020002s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435169) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435170) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 98 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 99 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 100 行.
+NOTIC: [8] Undefined variable: host E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+NOTIC: [8] Undefined variable: id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124007s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.127007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-13T11:06:26+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Promotion/clickpromotion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_user` WHERE `uid_openid` = 'oAeaZjmg7UDYDwzdjDHGkfmivwlY' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020002s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 52 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435186) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1439435186) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 98 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 99 行.
+NOTIC: [8] Undefined variable: puzzle E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 100 行.
+NOTIC: [8] Undefined variable: host E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+NOTIC: [8] Undefined variable: id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\13f08ce8f2e63d435f8e7ebc4da7b3a2.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.143008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

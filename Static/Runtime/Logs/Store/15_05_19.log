@@ -1,0 +1,27 @@
+[ 2015-05-19T10:50:57+08:00 ] 127.0.0.1 /jonza/index.php/Store/Financial/index.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_financial' n'existe pas
+
+[ 2015-05-19T16:37:38+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0220s ]
+SQL: UPDATE `wx_store` SET `number`='4',`min_money`='100' WHERE `id` = 1 [ RunTime:0.0290s ]
+
+[ 2015-05-19T16:37:55+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0080s ]
+SQL: UPDATE `wx_store` SET `number`='5',`min_money`='200' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2015-05-19T16:38:07+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0080s ]
+SQL: UPDATE `wx_store` SET `number`='4',`min_money`='100' WHERE `id` = 1 [ RunTime:0.0050s ]
+

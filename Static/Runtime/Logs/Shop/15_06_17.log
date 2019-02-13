@@ -1,0 +1,29 @@
+[ 2015-06-17T19:31:38+08:00 ] 127.0.0.1 /jonza/index.php/Shop/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.7330s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.6910s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` = 2 LIMIT 1   [ RunTime:0.1200s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0890s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0500s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1434540692) LIMIT 0,1 [ RunTime:0.1830s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_access_token_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:107:"0DpxU_-hbZdzDb1S3hYvoH8HJ_zag50GvwcHcuKUhsL5DtnJptUXTYpJkackrvRGTBRTMHyf9z5dIc_L7fLA1Dy9w_FNeOWb6Fc_2xkhtqw";' ,datacrc='',expire=1434546696 WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' [ RunTime:0.2310s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0260s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-06-17 19:31:36',`create_date`='2015-05-29 17:19:32',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.0590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-06-17 19:31:37',`create_date`='2015-05-29 17:19:32',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.1020s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.1240s ]
+SQL: SELECT m.*,w.headimgurl,w.sex FROM wx_member m LEFT JOIN wx_wechat_member w ON m.openid=w.openid  WHERE m.openid = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND m.status = 2 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.1430s ]
+SQL: SELECT * FROM `wx_store` LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.1320s ]
+SQL: SELECT * FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+

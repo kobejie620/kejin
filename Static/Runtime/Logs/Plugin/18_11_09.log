@@ -1,0 +1,253 @@
+[ 2018-11-09T14:33:20+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745200) LIMIT 0,1 [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0096s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0086s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0143s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745200) LIMIT 0,1 [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0094s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0079s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0106s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745200) LIMIT 0,1 [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0093s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0081s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0101s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745200) LIMIT 0,1 [ RunTime:0.0079s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0093s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0082s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2018-11-09T14:33:59+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0076s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745239) LIMIT 0,1 [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0075s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0077s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0104s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745239) LIMIT 0,1 [ RunTime:0.0074s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0075s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0079s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0105s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745239) LIMIT 0,1 [ RunTime:0.0075s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0073s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0077s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0103s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745239) LIMIT 0,1 [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0074s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0080s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2018-11-09T14:34:02+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745242) LIMIT 0,1 [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0084s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0071s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0100s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745242) LIMIT 0,1 [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0083s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0080s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0103s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745242) LIMIT 0,1 [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0081s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0078s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0101s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745242) LIMIT 0,1 [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0089s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0077s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2018-11-09T14:34:03+08:00 ] ::1 /jonza/index.php/plugin/ueditor/server.js?token=fqilrLJ1eaeBdKTYg3hudA&action=config&&noCache=1541745243601
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004544s ]
+
+[ 2018-11-09T14:34:06+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745246) LIMIT 0,1 [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0076s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0089s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0113s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745246) LIMIT 0,1 [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0076s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0089s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0337s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745246) LIMIT 0,1 [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0073s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0131s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0138s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745246) LIMIT 0,1 [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0097s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0089s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2018-11-09T14:34:07+08:00 ] ::1 /jonza/index.php/plugin/ueditor/server.js?token=fqilrLJ1eaeBdKTYg3hudA&action=config&&noCache=1541745247422
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2018-11-09T14:36:16+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745376) LIMIT 0,1 [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0086s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0079s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0104s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745376) LIMIT 0,1 [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0086s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0079s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0104s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745376) LIMIT 0,1 [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0085s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0070s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0103s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745376) LIMIT 0,1 [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0085s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0071s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-11-09T14:36:18+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0077s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745378) LIMIT 0,1 [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0075s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0095s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0118s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745378) LIMIT 0,1 [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0080s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0093s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0121s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745378) LIMIT 0,1 [ RunTime:0.0095s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0080s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0098s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0118s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745378) LIMIT 0,1 [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0078s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0099s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2018-11-09T14:36:21+08:00 ] ::1 /jonza/index.php/plugin/ueditor.js
+SQL: SHOW COLUMNS FROM `wx_app` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wx_app` WHERE `status` = 2 AND ( `id` = null OR `host` = 'localhost' ) LIMIT 1   [ RunTime:0.0103s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745381) LIMIT 0,1 [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0096s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0094s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0113s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745381) LIMIT 0,1 [ RunTime:0.0128s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0140s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0085s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0123s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745381) LIMIT 0,1 [ RunTime:0.0093s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0104s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0115s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0125s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1541745381) LIMIT 0,1 [ RunTime:0.0434s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0103s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0082s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:16:"乐V微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:22:"广州乐V有限公司";s:8:"app_name";s:16:"乐V微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"ueditor";s:15:"qiniu_accesskey";s:40:"kptWm2wG3vcc5vdG-_H5PTeafNojw8uPV86FHuH5";s:15:"qiniu_secretkey";s:40:"LmCAwO_xBzfz0rlEujPZn3eI8v3f9_UNFeroj3wG";s:12:"qiniu_domain";s:19:"ueditor.cdn.cuci.cc";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2018-11-09T14:36:23+08:00 ] ::1 /jonza/index.php/plugin/ueditor/server.js?token=fqilrLJ1eaeBdKTYg3hudA&action=config&&noCache=1541745383660
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+

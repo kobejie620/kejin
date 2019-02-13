@@ -1,0 +1,453 @@
+[ 2015-06-23T16:19:52+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.1680s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.1464s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: orderInfo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:27:11+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/order_no/1150610230190/id/190.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '190' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '190'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: freight_url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048030) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048030) LIMIT 0,1 [ RunTime:0.0150s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:86:"bxLdikRXVbTPdHSM05e5u25xwzYZRklV4lNkl5y_kkqBjOwDbvzJD1xDLfwFEYuWnF-J1Z4_C2EZ93bgN6zAWg";' ,datacrc='',expire=1435054031 WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' [ RunTime:0.0380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.479027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.479027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:27:18+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/192.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '192' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '192'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048038) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048038) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:27:24+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/confirmSend.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+
+[ 2015-06-23T16:28:10+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048090) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048090) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-23T16:29:14+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048153) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048154) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-23T16:33:32+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048412) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048412) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:37:00+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048620) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048620) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:38:19+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/193.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '193' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '193'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: freight_url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048698) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1435048698) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:49:07+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: role E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-23T16:50:16+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '23'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: role E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-23T16:52:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '1'  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: role E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-23T16:54:40+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0060s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '1'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 98 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: role E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 195 行.
+NOTIC: [8] Undefined variable: role E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\d133d56bfe4406744f2c1c8f95de77c6.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-23T16:55:42+08:00 ] 127.0.0.1 /jonza/index.php/Store/Order/edit/id/206.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0090s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '1'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order` WHERE `id` = '206' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_delivery` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_delivery` WHERE `status` = 2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `wx_store_order_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_order_product` WHERE `order_id` = '206'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: cid E:\cucisvn\01-code\jonza\Module\Store\Controller\OrderController.class.php 第 93 行.
+SQL: SELECT * FROM `wx_store_product` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

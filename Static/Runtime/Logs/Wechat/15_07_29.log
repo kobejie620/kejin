@@ -1,0 +1,79 @@
+[ 2015-07-29T09:56:47+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.5430s ]
+SQL: SELECT `id`,`nickname`,`headimgurl`,`openid`,`group_id` FROM `wx_wechat_member` WHERE `status` = 2 LIMIT 0,500   [ RunTime:0.2650s ]
+
+[ 2015-07-29T09:56:49+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberGroupList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member_group` [ RunTime:0.2420s ]
+SQL: SELECT * FROM `wx_wechat_member_group` WHERE `status` = 2  [ RunTime:0.0950s ]
+
+[ 2015-07-29T11:28:20+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getImageList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_news` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_wechat_news` WHERE `type` = 'image'  [ RunTime:0.0030s ]
+
+[ 2015-07-29T11:28:32+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/edit.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_news` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_news` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_news` SET `id`='116',`type`='news',`media_id`='',`update_time`='0',`local_update_time`='1438140512',`content`='{\"news_item\":[{\"title\":\"aaaaaaaaaa\",\"author\":\"aaaaa\",\"thumb_media_id\":\"jcIw-jDAAdRwQEKHavUAIhuZt3rigcCthvdi2a-3bDc\",\"digest\":\"aaaaaaaaaaaa\",\"content\":\"<p>aaaaaaaaaaaaa</p>\",\"content_source_url\":\"aaaaaaa\",\"show_cover_pic\":0},{\"thumb_media_id\":\"none\"}]}',`update_by`='1',`update_date`='2015-07-29 11:28:32' WHERE `id` = 116 [ RunTime:0.0380s ]
+
+[ 2015-07-29T14:43:02+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.148009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.186011s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0850s ]
+SQL: SELECT `id`,`nickname`,`headimgurl`,`openid`,`group_id` FROM `wx_wechat_member` WHERE `status` = 2 LIMIT 0,500   [ RunTime:0.5830s ]
+
+[ 2015-07-29T14:43:05+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberGroupList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member_group` [ RunTime:0.4340s ]
+SQL: SELECT * FROM `wx_wechat_member_group` WHERE `status` = 2  [ RunTime:0.5250s ]
+
+[ 2015-07-29T14:43:29+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`nickname`,`headimgurl`,`openid`,`group_id` FROM `wx_wechat_member` WHERE `status` = 2 LIMIT 0,500   [ RunTime:0.0040s ]
+
+[ 2015-07-29T14:43:29+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/News/index/action/getMemberGroupList.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member_group` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member_group` WHERE `status` = 2  [ RunTime:0.0010s ]
+

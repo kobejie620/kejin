@@ -1,0 +1,328 @@
+[ 2015-05-26T17:27:09+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-26T17:27:53+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.1350s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-05-26T17:28:35+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-05-26T17:28:39+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-26T17:28:43+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-05-26T17:29:06+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-26T17:29:10+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-26T17:29:11+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/exchange/code/5555974b78c09/store_id/1001.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `wx_prize_peizhi` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `wx_prize_peizhi` LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-26T17:29:16+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_prize_peizhi` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_prize_peizhi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555974b78c09' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_promotion_info` SET `status`='2',`stores`='1001',`use_time`='2015-05-26 17-29:16' WHERE `cdkey` = '5555974b78c09' [ RunTime:0.2290s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0210s ]
+SQL: INSERT INTO `wx_exchange_record` (`code`,`store_id`,`username`,`openid`,`store_name`,`prize_name`,`prize_img`,`create_date`,`result`) VALUES ('5555974b78c09','1','陈荣彬','oAeaZjht65CnSwZ3L4QXa82nvMZA','精典妆家怀远县1店','焕采雪颜面膜','http://www.qjis.com/uploads/allimg/121126/10422545O-34.jpg','2015-05-26 17-29:16','1') [ RunTime:0.0760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-26T17:29:21+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` = 2 LIMIT 1   [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632558) LIMIT 0,1 [ RunTime:0.0150s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_access_token_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:107:"0DpxU_-hbZdzDb1S3hYvoJClGowzOEdD1M8wYeQYToicid2Jmy2EDOJxgzrjKrs3-1SOuvUZgz3Gy9MGH5EG0tLxNpBaVwdyuApPSEc6jQE";' ,datacrc='',expire=1432638559 WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-05-26 17:29:19',`create_date`='2015-05-21 14:33:33',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.0690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-05-26 17:29:20',`create_date`='2015-05-21 14:33:33',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.0790s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT m.*,w.headimgurl,w.sex FROM wx_member m LEFT JOIN wx_wechat_member w ON m.openid=w.openid  WHERE m.openid = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND m.status = 2 LIMIT 1   [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` IN ('1','2') AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `pay_status` = 1 AND `status` IN ('1','2') AND `send_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` IN ('1','2') AND `send_status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `send_status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632561) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632561) LIMIT 0,1 [ RunTime:0.0210s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:86:"bxLdikRXVbTPdHSM05e5u25xwzYZRklV4lNkl5y_kkoG4_OzjWHmnTgmal2Or2BKs46qB-Y4AkkllZimz-ZkrA";' ,datacrc='',expire=1432638561 WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' [ RunTime:0.0270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.426024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.427024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-26T17:30:44+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632642) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-05-26 17:30:43',`create_date`='2015-05-21 14:33:33',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjht65CnSwZ3L4QXa82nvMZA',`nickname`='灬Ben_陈灬',`sex`='男',`language`='zh_CN',`city`='云浮',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/fXia5YqmPeD8Twn5ONFOWUFbfjsJOJF2EQjibKvUKPwd1icXIL7ibVkAYqzWmhb6f1hOKgtmp7JWRIcu4sjHYez8bEGuEJagjo4S/0',`remark`='',`group_id`='0',`update_date`='2015-05-26 17:30:44',`create_date`='2015-05-21 14:33:33',`status`='2' WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT m.*,w.headimgurl,w.sex FROM wx_member m LEFT JOIN wx_wechat_member w ON m.openid=w.openid  WHERE m.openid = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND m.status = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` IN ('1','2') AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `pay_status` = 1 AND `status` IN ('1','2') AND `send_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` IN ('1','2') AND `send_status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `send_status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632644) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1432632644) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

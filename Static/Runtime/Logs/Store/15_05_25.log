@@ -1,0 +1,258 @@
+[ 2015-05-25T10:09:55+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/storesrecord.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_exchange_recordd' n'existe pas
+
+[ 2015-05-25T10:11:31+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/storesrecord.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'm.username' inconnu dans field list
+
+[ 2015-05-25T10:45:35+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0060s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-05-25T10:45:55+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-25T10:46:26+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-25T10:46:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-25T10:46:49+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-25T10:47:15+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-25T10:48:17+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0100s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '5555a728554d7' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-25T10:48:22+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-25T10:55:49+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1066 Table/alias: 'm' non unique
+
+[ 2015-05-25T11:19:48+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '5555a728554d7'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 200 行.
+NOTIC: [8] Undefined index: openid E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 201 行.
+SQL: UPDATE `wx_promotion_info` SET `status`='2',`stores`='1001',`use_time`='2015-05-25 11-19:48' WHERE `cdkey` = '5555a728554d7' [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0140s ]
+SQL: INSERT INTO `wx_exchange_record` (`code`,`store_id`,`username`,`openid`,`store_name`,`prize_name`,`prize_img`,`create_date`,`result`) VALUES ('5555a728554d7','1',NULL,NULL,'精典妆家怀远县1店','宜本草四倍亲肤面膜七片装','http://ueditor.cdn.cuci.cc/image/2015/5/2/14/5433/p_03.jpg','2015-05-25 11-19:48','1') [ RunTime:0.1070s ]
+
+[ 2015-05-25T11:34:32+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0100s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '5555a728554d7'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 200 行.
+NOTIC: [8] Undefined index: openid E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 201 行.
+SQL: UPDATE `wx_promotion_info` SET `status`='2',`stores`='1001',`use_time`='2015-05-25 11-34:32' WHERE `cdkey` = '5555a728554d7' [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: INSERT INTO `wx_exchange_record` (`code`,`store_id`,`username`,`openid`,`store_name`,`prize_name`,`prize_img`,`create_date`,`result`) VALUES ('5555a728554d7','1',NULL,NULL,'精典妆家怀远县1店','宜本草四倍亲肤面膜七片装','http://ueditor.cdn.cuci.cc/image/2015/5/2/14/5433/p_03.jpg','2015-05-25 11-34:32','1') [ RunTime:0.0460s ]
+
+[ 2015-05-25T11:35:28+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0090s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '55559b8de6c0a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '55559b8de6c0a' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-25T11:35:40+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0090s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0070s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '55559b8de6c0a'  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 200 行.
+NOTIC: [8] Undefined index: openid E:\cucisvn\01-code\jonza\Module\Store\Controller\StoresController.class.php 第 201 行.
+SQL: UPDATE `wx_promotion_info` SET `status`='2',`stores`='1001',`use_time`='2015-05-25 11-35:40' WHERE `cdkey` = '55559b8de6c0a' [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: INSERT INTO `wx_exchange_record` (`code`,`store_id`,`username`,`openid`,`store_name`,`prize_name`,`prize_img`,`create_date`,`result`) VALUES ('55559b8de6c0a','1',NULL,NULL,'精典妆家怀远县1店','宜本草四倍亲肤面膜七片装','http://ueditor.cdn.cuci.cc/image/2015/5/2/14/5433/p_03.jpg','2015-05-25 11-35:40','1') [ RunTime:0.0500s ]
+
+[ 2015-05-25T11:37:07+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/extension.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_stores` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '55559b8de6c0a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_exchange_record` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_promotion_info` WHERE `cdkey` = '55559b8de6c0a' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-25T11:37:11+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0090s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '55559b8de6c0a'  [ RunTime:0.0020s ]
+
+[ 2015-05-25T11:37:23+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0060s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0090s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '55559b8de6c0a'  [ RunTime:0.0000s ]
+
+[ 2015-05-25T11:39:36+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0080s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0060s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '55559b8de6c0a' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-25T11:39:51+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/exchange.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0070s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '24'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_stores` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_stores` WHERE `number` = '1001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_promotion_info` [ RunTime:0.0080s ]
+SQL: SELECT pi.*,m.name,m.openid FROM wx_promotion_info pi left join wx_member m on pi.uid = m.id  WHERE `cdkey` = '55559b8de6c0a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_promotion_info` SET `status`='2',`stores`='1001',`use_time`='2015-05-25 11-39:51' WHERE `cdkey` = '55559b8de6c0a' [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `wx_exchange_record` [ RunTime:0.0090s ]
+SQL: INSERT INTO `wx_exchange_record` (`code`,`store_id`,`username`,`openid`,`store_name`,`prize_name`,`prize_img`,`create_date`,`result`) VALUES ('55559b8de6c0a','1','曾令文','oAeaZjkJR9yIIawfwsyES-u4G0rM','精典妆家怀远县1店','宜本草四倍亲肤面膜七片装','http://ueditor.cdn.cuci.cc/image/2015/5/2/14/5433/p_03.jpg','2015-05-25 11-39:51','1') [ RunTime:0.0650s ]
+

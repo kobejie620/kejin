@@ -1,0 +1,24 @@
+[ 2018-11-03T10:22:52+08:00 ] ::1 /jonza/index.php/Site/Module/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_site_config` LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `wx_site_page_module` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Module\Site\Controller\ModuleController.class.php 第 92 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Module\Site\Controller\ModuleController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+

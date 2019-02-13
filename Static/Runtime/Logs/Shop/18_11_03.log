@@ -1,0 +1,23 @@
+[ 2018-11-03T15:57:44+08:00 ] ::1 /jonza/index.php/Shop/Index/edit.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' AND `status` = 2 LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0071s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\kejin\jonza\Library\Util\Api\Wechat.class.php 第 1953 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_' AND (`expire` =0 OR `expire`>1541231863) LIMIT 0,1 [ RunTime:0.0096s ]
+NOTIC: [8] Undefined offset: 0 E:\kejin\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\kejin\jonza\Library\Util\Api\Wechat.class.php 第 2023 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_' AND (`expire` =0 OR `expire`>1541231864) LIMIT 0,1 [ RunTime:0.0085s ]
+NOTIC: [8] Undefined offset: 0 E:\kejin\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+NOTIC: [8] Undefined index: sex E:\kejin\jonza\Module\Wap\Controller\WapController.class.php 第 245 行.
+NOTIC: [8] Undefined index: subscribe_time E:\kejin\jonza\Module\Wap\Controller\WapController.class.php 第 247 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjht65CnSwZ3L4QXa82nvMZA' LIMIT 1   [ RunTime:0.0069s ]
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_date' at row 1
+

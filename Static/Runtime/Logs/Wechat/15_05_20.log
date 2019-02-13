@@ -1,0 +1,9 @@
+[ 2015-05-20T10:15:24+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/Member/index.shtml
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'status' dans where clause est ambigu
+
+[ 2015-05-20T10:55:22+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/Member/index.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '，mr.name as myname,mr.phone FROM wx_wechat_member m left join wx_wechat_member' à la ligne 1
+
+[ 2015-05-20T10:55:52+08:00 ] 127.0.0.1 /jonza/index.php/Wechat/Member/index.shtml
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '.name as myname,mr.phone FROM wx_wechat_member m left join wx_wechat_member_grou' à la ligne 1
+

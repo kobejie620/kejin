@@ -1,0 +1,1400 @@
+[ 2015-05-28T09:39:03+08:00 ] 127.0.0.1 /jonza/index.php?s=Store/Product/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: DELETE FROM `wx_store_product` WHERE `id` IN ('171') [ RunTime:0.0020s ]
+
+[ 2015-05-28T09:39:07+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T09:39:08+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-28T09:40:05+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0080s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-28T09:40:35+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0230s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `code` = '123123123' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_store_product` (`cat_id`,`code`,`name`,`shortname`,`content`,`product_sn`,`discount`,`barcode`,`logo`,`img`,`status`,`times_limit`,`model_id`,`model_params`,`params`,`must_know`,`property`,`notice`,`description`,`id`,`extend_cat`,`store_nums`,`sell_price`,`create_by`,`create_date`,`update_by`,`update_date`) VALUES ('53','123123123','我的奶粉','我的奶粉','我的奶粉','132132','2','1312312312','http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/9/3944/User.png','http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/9/3955/User.png','2','-1','31','{\"\\u91cd\\u91cf_split_800g\":\"800g\",\"\\u91cd\\u91cf_split_600g\":\"600g\"}','{\"800g_split_price\":\"120.00\",\"800g_split_credit\":\"5\",\"800g_split_store\":\"10\",\"600g_split_price\":\"80.00\",\"600g_split_credit\":\"3\",\"600g_split_store\":\"8\"}','测试商品，请勿购买!','测试商品，请勿购买!','测试商品，请勿购买!','','0',NULL,'18','120.00','1','2015-05-28 09:40:35','1','2015-05-28 09:40:35') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.1490s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '172' [ RunTime:0.0210s ]
+
+[ 2015-05-28T09:40:48+08:00 ] 127.0.0.1 /jonza/index.php/Store/ProductModel/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 17 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 40 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 41 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T09:41:14+08:00 ] 127.0.0.1 /jonza/index.php/Store/ProductModel/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product_model` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wx_store_product_model` (`name`,`status`,`id`,`params`,`create_by`,`create_date`,`update_by`,`update_date`) VALUES ('大姨妈','2','0','[{\"name\":\"\\u7247\\u6570\\uff1a\",\"type\":\"\\u5355\\u9009\\u6846\",\"value\":\"6\\u7247,10\\u7247\"}]','1','2015-05-28 09:41:14','1','2015-05-28 09:41:14') [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:22:45+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.1130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T15:22:46+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:22:51+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-28T15:23:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=33&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 33 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:23:48+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:28:33+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.285016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-05-28T15:28:34+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0150s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:28:39+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0610s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T15:30:05+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T15:30:06+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0150s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T15:30:12+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:32:45+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-28T15:32:46+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0140s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0120s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T15:32:51+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0140s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:39:27+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-05-28T15:39:27+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:39:32+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:42:08+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0170s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0960s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 373 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-28T15:42:08+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-05-28T15:43:09+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:43:32+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `code` = '123231232' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '0' LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `wx_store_product` (`cat_id`,`code`,`name`,`shortname`,`content`,`product_sn`,`discount`,`barcode`,`logo`,`img`,`status`,`times_limit`,`model_id`,`model_params`,`params`,`must_know`,`property`,`notice`,`description`,`id`,`extend_cat`,`store_nums`,`sell_price`,`create_by`,`create_date`,`update_by`,`update_date`) VALUES ('53','123231232','我的奶粉','我的奶粉','我的奶粉','13231232','2','23211231','http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/4250/User.png','http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/430/User.png','2','-1','31','{\"\\u91cd\\u91cf_split_800g\":\"800g\"}','{\"800g_split_price\":\"120.00\",\"800g_split_credit\":\"150.00\",\"800g_split_store\":\"10\"}','测试商品，请勿购买!','测试商品，请勿购买!','测试商品，请勿购买!','','0',NULL,'10','120.00','1','2015-05-28 15:43:32','1','2015-05-28 15:43:32') [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.0540s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '173' [ RunTime:0.0210s ]
+
+[ 2015-05-28T15:44:52+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T15:44:53+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0140s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:45:06+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store_product` SET `cat_id`='53',`code`='123231232',`name`='我的奶粉',`shortname`='我的奶粉',`content`='我的奶粉',`product_sn`='13231232',`discount`='2',`barcode`='23211231',`logo`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/4250/User.png',`img`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/430/User.png',`status`='2',`free_express`='0',`times_limit`='-1',`model_id`='31',`model_params`='{\"\\u91cd\\u91cf_split_800g\":\"800g\"}',`params`='{\"800g_split_price\":\"120.00\",\"800g_split_original\":\"150.00\",\"800g_split_store\":\"10\"}',`must_know`='测试商品，请勿购买!',`property`='测试商品，请勿购买!',`notice`='测试商品，请勿购买!',`description`='',`id`='173',`extend_cat`=NULL,`store_nums`='10',`sell_price`='120.00',`update_by`='1',`update_date`='2015-05-28 15:45:06' WHERE `id` = '173' [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.0080s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '173' [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:49:21+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-28T15:49:22+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-28T15:49:30+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_store_product` SET `cat_id`='53',`code`='123231232',`name`='我的奶粉',`shortname`='我的奶粉',`content`='我的奶粉',`product_sn`='13231232',`discount`='2',`barcode`='23211231',`logo`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/4250/User.png',`img`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/430/User.png',`status`='2',`free_express`='0',`times_limit`='-1',`model_id`='31',`model_params`='{\"\\u91cd\\u91cf_split_800g\":\"800g\"}',`params`='{\"800g_split_price\":\"120.00\",\"800g_split_original\":\"150.00\",\"800g_split_store\":\"10\"}',`must_know`='测试商品，请勿购买!',`property`='测试商品，请勿购买!',`notice`='测试商品，请勿购买!',`description`='',`id`='173',`extend_cat`=NULL,`store_nums`='10',`sell_price`='120.00',`original_price`='150.00',`update_by`='1',`update_date`='2015-05-28 15:49:30' WHERE `id` = '173' [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.0100s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '173' [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:50:01+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0320s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T15:50:02+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0130s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:50:07+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_store_product` SET `cat_id`='53',`code`='123231232',`name`='我的奶粉',`shortname`='我的奶粉',`content`='我的奶粉',`product_sn`='13231232',`discount`='2',`barcode`='23211231',`logo`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/4250/User.png',`img`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/430/User.png',`status`='2',`free_express`='0',`times_limit`='-1',`model_id`='31',`model_params`='{\"\\u91cd\\u91cf_split_800g\":\"800g\"}',`params`='{\"800g_split_price\":\"120.00\",\"800g_split_original\":\"150.00\",\"800g_split_store\":\"10\"}',`must_know`='测试商品，请勿购买!',`property`='测试商品，请勿购买!',`notice`='测试商品，请勿购买!',`description`='',`id`='173',`extend_cat`=NULL,`store_nums`='10',`sell_price`='120.00',`original_price`='150.00',`update_by`='1',`update_date`='2015-05-28 15:50:07' WHERE `id` = '173' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.0120s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '173' [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:50:45+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/172.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '172' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 172  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '172' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T15:50:45+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/172.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '172' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:50:55+08:00 ] 127.0.0.1 /jonza/index.php?s=Store/Product/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wx_store_product` WHERE `id` IN ('172') [ RunTime:0.0200s ]
+
+[ 2015-05-28T15:51:01+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T15:51:02+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:56:19+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T15:56:20+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:56:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T15:56:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T15:56:56+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T15:56:56+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T15:58:38+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-05-28T15:58:38+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0120s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T16:03:08+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0260s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-28T16:03:08+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0230s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T16:19:35+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0120s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined index: cat_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 19 行.
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: code E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 38 行.
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 44 行.
+NOTIC: [8] Undefined index: shortname E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 52 行.
+NOTIC: [8] Undefined index: content E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 60 行.
+NOTIC: [8] Undefined index: product_sn E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 68 行.
+NOTIC: [8] Undefined index: discount E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 75 行.
+NOTIC: [8] Undefined index: barcode E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 82 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 86 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 97 行.
+NOTIC: [8] Undefined index: logo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 99 行.
+NOTIC: [8] Undefined index: img E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 107 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 117 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 126 行.
+NOTIC: [8] Undefined index: free_express E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 127 行.
+NOTIC: [8] Undefined index: times_limit E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 135 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: must_know E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 157 行.
+NOTIC: [8] Undefined index: property E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 164 行.
+NOTIC: [8] Undefined index: notice E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 171 行.
+NOTIC: [8] Undefined index: description E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 178 行.
+NOTIC: [8] Undefined index: model_params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 352 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 377 行.
+NOTIC: [8] Undefined index: model_id E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 381 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T16:19:35+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 0 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T16:19:40+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/add.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T16:24:20+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-28T16:24:20+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0080s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-28T16:24:31+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0100s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_store_product` SET `cat_id`='53',`code`='123231232',`name`='我的奶粉',`shortname`='我的奶粉',`content`='我的奶粉',`product_sn`='13231232',`discount`='2',`barcode`='23211231',`logo`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/4250/User.png',`img`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/4/15/430/User.png',`status`='2',`free_express`='0',`times_limit`='-1',`model_id`='31',`model_params`='{\"\\u91cd\\u91cf_split_800g\":\"800g\"}',`params`='{\"800g_split_price\":\"100.00\",\"800g_split_original\":\"120.00\",\"800g_split_store\":\"15\"}',`must_know`='测试商品，请勿购买!',`property`='测试商品，请勿购买!',`notice`='测试商品，请勿购买!',`description`='',`id`='173',`extend_cat`=NULL,`store_nums`='15',`sell_price`='100.00',`original_price`='120.00',`update_by`='1',`update_date`='2015-05-28 16:24:31' WHERE `id` = '173' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_store_order_car` [ RunTime:0.0090s ]
+SQL: UPDATE `wx_store_order_car` SET `status`='3' WHERE `cid` = '173' [ RunTime:0.0010s ]
+
+[ 2015-05-28T16:24:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.2210s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_cat` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_cat` WHERE `status` = 2 AND `id` <> 173  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0110s ]
+SQL: SELECT `extend_cat` FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_store_product_model` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: extendCat E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 27 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+NOTIC: [8] Undefined index: spl E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\79409b6f98c00fca851e0e3095b35d02.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T16:24:37+08:00 ] 127.0.0.1 /jonza/index.php/Store/Product/edit/id/173.shtml?model_id=31&action=getModelJSON
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `wx_store_product` WHERE `id` = '173' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] array_unique() expects parameter 1 to be array, string given E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 54 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\cucisvn\01-code\jonza\Module\Store\Controller\ProductController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0420s ]
+SQL: SELECT `params` FROM `wx_store_product_model` WHERE `id` = 31 AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-28T16:33:57+08:00 ] 127.0.0.1 /jonza/index.php/Store/ProductModel/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store_product_model` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 17 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 40 行.
+NOTIC: [8] Undefined index: status E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 41 行.
+NOTIC: [8] Undefined index: params E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\085601fd5343020acdbeefef274f64f8.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T17:16:24+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_sys_role_node` [ RunTime:0.0100s ]
+SQL: SELECT `node` FROM `wx_sys_role_node` WHERE `role_id` = '23'  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0130s ]
+SQL: UPDATE `wx_store` SET `number`='4',`min_money`='1000' WHERE `id` = 1 [ RunTime:0.2670s ]
+
+[ 2015-05-28T20:30:04+08:00 ] 127.0.0.1 /jonza/index.php/Store/Stores/score.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_' n'existe pas
+

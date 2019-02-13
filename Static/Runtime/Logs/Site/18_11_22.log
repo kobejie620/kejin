@@ -1,0 +1,127 @@
+[ 2018-11-22T16:23:25+08:00 ] ::1 /jonza/index.php/Site/Page/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `wx_site_config` LIMIT 1   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `wx_site_page` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `wx_site_page_module` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `wx_site_page_module` ORDER BY sort asc,id desc  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: code E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 18 行.
+NOTIC: [8] Undefined index: is_show_title E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 26 行.
+NOTIC: [8] Undefined index: title E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 27 行.
+NOTIC: [8] Undefined index: is_wechat_auth E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 35 行.
+NOTIC: [8] Undefined index: is_wechat_auth E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 36 行.
+NOTIC: [8] Undefined index: is_show_link E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 51 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 52 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 53 行.
+NOTIC: [8] Undefined index: keys E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 69 行.
+NOTIC: [8] Undefined index: url E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 76 行.
+NOTIC: [8] Undefined index: content E:\kejin\jonza\Static\Runtime\Cache\Site\bcfe57b8963ac0047728603aca5d9fca.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2018-11-22T16:23:30+08:00 ] ::1 /jonza/index.php/Site/Module/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `wx_site_config` LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wx_site_page_module` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Module\Site\Controller\ModuleController.class.php 第 92 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Module\Site\Controller\ModuleController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2018-11-22T16:23:36+08:00 ] ::1 /jonza/index.php/Site/Content/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `wx_site_config` LIMIT 1   [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `wx_site_content` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `wx_site_content_cat` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wx_site_content_cat` WHERE `status` = 2  [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: is_show_title E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 16 行.
+NOTIC: [8] Undefined index: title E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 17 行.
+NOTIC: [8] Undefined index: is_show_link E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 33 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 34 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 35 行.
+NOTIC: [8] Undefined index: keys E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 41 行.
+NOTIC: [8] Undefined index: is_wechat_auth E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 49 行.
+NOTIC: [8] Undefined index: is_wechat_auth E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 50 行.
+NOTIC: [8] Undefined index: is_show E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 66 行.
+NOTIC: [8] Undefined index: is_show E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 67 行.
+NOTIC: [8] Undefined index: url E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 74 行.
+NOTIC: [8] Undefined index: content E:\kejin\jonza\Static\Runtime\Cache\Site\8f743199d4b9a71fb0aaf4eaa09a9cce.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2018-11-22T16:23:40+08:00 ] ::1 /jonza/index.php/Site/Cat/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wx_site_config` LIMIT 1   [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wx_site_content_cat` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `wx_site_content_cat` WHERE `status` = 2  [ RunTime:0.0163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index: pid E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 16 行.
+NOTIC: [8] Undefined index: title E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 24 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 30 行.
+NOTIC: [8] Undefined index: link E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 31 行.
+NOTIC: [8] Undefined index: is_show E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 39 行.
+NOTIC: [8] Undefined index: is_show E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 40 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 49 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 50 行.
+NOTIC: [8] Undefined index: desc E:\kejin\jonza\Static\Runtime\Cache\Site\442ec36d60b86de1bb4e8f4b3134a4ed.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+

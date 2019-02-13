@@ -1,0 +1,46 @@
+[ 2015-08-27T09:42:49+08:00 ] 127.0.0.1 /jonza/index.php/Store/Tixian/index.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'm.id' inconnu dans on clause
+
+[ 2015-08-27T09:45:21+08:00 ] 127.0.0.1 /jonza/index.php/Store/Tixian/index.shtml
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'member_id' dans where clause est ambigu
+
+[ 2015-08-27T09:53:12+08:00 ] 127.0.0.1 /jonza/index.php/Store/Tixian/tixianexamine.shtml
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Champ: 'status' dans where clause est ambigu
+
+[ 2015-08-27T09:58:26+08:00 ] 127.0.0.1 /jonza/index.php/Store/Tixian/details/id/6.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Store\Controller\TixianController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Store\Controller\TixianController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wx_tixian_record` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wx_tixian_record` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_tixian_record` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_tixian_record` WHERE `id` = 6 AND `price` = '0.01' AND `openid` = 'oAeaZjnAfev3R8RCzoNsf5d6LFnk' AND `member_id` = 563 AND `guide_num` = null AND `create_date` = '2015-08-26 21:13:22' AND `status` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-27T09:58:30+08:00 ] 127.0.0.1 /jonza/index.php/Store/Tixian/details/id/6.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Store\Controller\TixianController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Store\Controller\TixianController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wx_tixian_record` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wx_tixian_record` [ RunTime:0.0070s ]
+SQL: UPDATE `wx_tixian_record` SET `create_date`='2015-08-27 09:58:30',`status`='2' WHERE `id` = 6 [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `id` = 563 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_member` SET `tixianprice`='0.01',`create_date`='2015-08-27 09:58:30' WHERE `id` = 563 [ RunTime:0.0510s ]
+

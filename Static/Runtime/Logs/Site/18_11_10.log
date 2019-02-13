@@ -1,0 +1,6 @@
+[ 2018-11-10T17:03:54+08:00 ] ::1 /jonza/index.php/Site/Module/index.shtml?action=saveOrder&progress=_progress_485525571181
+NOTIC: [8] ob_flush(): failed to flush buffer. No buffer to flush E:\kejin\jonza\Library\Controller\Controller.class.php 第 563 行.
+
+[ 2018-11-10T17:04:05+08:00 ] ::1 /jonza/index.php/Site/Page/index.shtml?action=saveOrder&progress=_progress_929438767351
+NOTIC: [8] ob_flush(): failed to flush buffer. No buffer to flush E:\kejin\jonza\Library\Controller\Controller.class.php 第 563 行.
+

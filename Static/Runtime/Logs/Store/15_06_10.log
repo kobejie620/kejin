@@ -1,0 +1,373 @@
+[ 2015-06-10T17:01:00+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13617343800',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`id`='1',`update_by`='1',`update_date`='2015-06-10 17:01:00' WHERE `id` = 1 [ RunTime:0.0400s ]
+
+[ 2015-06-10T17:34:01+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13617343800',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`id`='1',`update_by`='1',`update_date`='2015-06-10 17:34:01' WHERE `id` = 1 [ RunTime:0.4360s ]
+
+[ 2015-06-10T17:36:44+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13617343800',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`link`='http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/5/2/20/952/105_s2.jpg',`id`='1',`update_by`='1',`update_date`='2015-06-10 17:36:44' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2015-06-10T17:43:55+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13617343800',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='',`id`='1',`update_by`='1',`update_date`='2015-06-10 17:43:55' WHERE `id` = 1 [ RunTime:0.0200s ]
+
+[ 2015-06-10T17:59:00+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13617343800',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='',`id`='1',`update_by`='1',`update_date`='2015-06-10 17:59:00' WHERE `id` = 1 [ RunTime:0.0040s ]
+
+[ 2015-06-10T18:05:36+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_store` WHERE `name` LIKE '%精典妆家微商城%' AND `phone` = '13617343800' AND `province` LIKE '%北京市%' AND `city` LIKE '%市辖区%' AND `area` LIKE '%东城区%' AND `address` LIKE '%精典大厦%' AND `wx_pay` = '2' AND `is_refund` = '1' AND `content` LIKE '%[{\"src\":\"http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/6/3/18/521/b_03.jpg\",\"href\":\"http://www.baidu.com\"}]%' AND `id` = 1 LIMIT 1   [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433930736) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0010s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0290s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wx_sys_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_sys_menu` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.141008s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.209012s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047003s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 62 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 69 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 89 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 97 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 98 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 107 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 108 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 121 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 134 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 172 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-10T18:06:50+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_store` WHERE `name` LIKE '%精典妆家微商城%' AND `phone` = '13617343800' AND `province` LIKE '%北京市%' AND `city` LIKE '%市辖区%' AND `area` LIKE '%东城区%' AND `address` LIKE '%精典大厦%' AND `wx_pay` = '2' AND `is_refund` = '1' AND `content` LIKE '%[{\"src\":\"http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/6/3/18/636/b_03.jpg\",\"href\":\"http://www.baidu.com\"}]%' AND `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433930809) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0010s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0000s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0340s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wx_sys_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_sys_menu` WHERE `status` = 2  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.128008s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.188011s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043003s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 62 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 69 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 89 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 97 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 98 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 107 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 108 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 121 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 134 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 172 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-10T18:08:52+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_store` WHERE `name` LIKE '%精典妆家微商城%' AND `phone` = '13617343800' AND `province` LIKE '%北京市%' AND `city` LIKE '%市辖区%' AND `area` LIKE '%东城区%' AND `address` LIKE '%精典大厦%' AND `wx_pay` = '2' AND `is_refund` = '1' AND `content` LIKE '%[]%' AND `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433930931) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0020s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0690s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wx_sys_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_sys_menu` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.135008s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.200012s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045002s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 62 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 69 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 89 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 97 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 98 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 107 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 108 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 121 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 134 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 172 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-10T18:09:58+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/index.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_store` WHERE `name` LIKE '%精典妆家微商城%' AND `phone` = '13268317045' AND `province` LIKE '%北京市%' AND `city` LIKE '%市辖区%' AND `area` LIKE '%东城区%' AND `address` LIKE '%精典大厦%' AND `wx_pay` = '2' AND `is_refund` = '1' AND `content` LIKE '%[]%' AND `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='sysconfig' AND (`expire` =0 OR `expire`>1433930997) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_sys_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_sys_config`  [ RunTime:0.0540s ]
+SQL: select `cachekey` from `think_cache` where `cachekey`='sysconfig' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='a:25:{s:9:"site_name";s:24:"精典妆家微信管理";s:11:"site_domain";s:22:"yuanpeishop.wx.cuci.cc";s:13:"site_keywords";s:0:"";s:9:"site_desc";s:0:"";s:12:"site_contact";s:0:"";s:9:"site_mail";s:0:"";s:7:"site_qq";s:0:"";s:12:"site_company";s:39:"广州市鑫浪信息科技有限公司";s:8:"app_name";s:24:"精典妆家微信管理";s:11:"app_version";s:8:"1.0 beta";s:8:"app_logo";s:25:"glyphicon glyphicon-apple";s:12:"qiniu_bucket";s:7:"jonzawx";s:15:"qiniu_accesskey";s:40:"fWcSm1smy1_IlRMXfroFo_6Gdee3eNC0f9IGdsjY";s:15:"qiniu_secretkey";s:40:"0mHG6krKEjxzrovZkvJJc3W0Be4nzNZxveIZFJuO";s:12:"qiniu_domain";s:30:"7xj4ba.com1.z0.glb.clouddn.com";s:9:"mail_smtp";s:11:"smtp.qq.com";s:13:"mail_username";s:10:"pm@cuci.cc";s:9:"mail_port";s:3:"465";s:13:"mail_password";s:9:"Test12345";s:14:"mail_smtp_auth";s:1:"1";s:9:"mail_from";s:10:"pm@cuci.cc";s:14:"mail_from_name";s:21:"楚才API管理中心";s:11:"mail_secure";s:3:"ssl";s:10:"mail_reply";s:16:"zoujingli@qq.com";s:20:"app_baidu_tongji_key";s:32:"df31b90409cbd7237728ca1a770d72e6";}' ,datacrc='',expire=0 WHERE `cachekey`='sysconfig' [ RunTime:0.0880s ]
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 11 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 13 行.
+SQL: SHOW COLUMNS FROM `wx_sys_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_sys_menu` WHERE `status` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.141008s ]
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 12 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\3ebe650ab82c31f08aea049c2cd4df39.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.205012s ]
+NOTIC: [8] Undefined index: url E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 10 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 7 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+NOTIC: [8] Undefined index: _class E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\0c3289763f252ee7ee4f83ea966ea522.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045002s ]
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 62 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 69 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 89 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 97 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 98 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 107 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 108 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 121 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 134 行.
+NOTIC: [8] Undefined variable: site E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 172 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+NOTIC: [8] Undefined variable: vo E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Store\302cf5ef9c8d2a9805026a8dd7eadf83.php 第 293 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-06-10T18:10:20+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13268317045',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='',`id`='1',`update_by`='1',`update_date`='2015-06-10 18:10:20' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2015-06-10T18:12:27+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13268317045',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='[]',`id`='1',`update_by`='1',`update_date`='2015-06-10 18:12:27' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2015-06-10T18:13:13+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13268317045',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='[{\"src\":\"http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/6/3/18/1259/b_03.jpg\",\"href\":\"http://www.baidu.com\"}]',`id`='1',`update_by`='1',`update_date`='2015-06-10 18:13:13' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2015-06-10T18:15:35+08:00 ] 127.0.0.1 /jonza/index.php/Store/Config/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_store` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_store` SET `name`='精典妆家微商城',`phone`='13268317045',`province`='北京市',`city`='市辖区',`area`='东城区',`address`='精典大厦',`wx_pay`='2',`is_refund`='1',`content`='[{\"src\":\"http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/6/3/18/1521/b_04.jpg\",\"href\":\"http://www.sina.com\"},{\"src\":\"http://7xj4ba.com1.z0.glb.clouddn.com/image/2015/6/3/18/1259/b_03.jpg\",\"href\":\"http://www.baidu.com\"}]',`id`='1',`update_by`='1',`update_date`='2015-06-10 18:15:35' WHERE `id` = 1 [ RunTime:0.0010s ]
+

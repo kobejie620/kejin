@@ -1,0 +1,1124 @@
+[ 2015-07-31T10:22:18+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+
+[ 2015-07-31T10:31:52+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.2320s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2015-07-31T10:32:34+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309950) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_access_token_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:107:"rY8OcJqisGOqeW0SLWnJjNQcDQ6xBPMX0-n0P2HTjQzqu2SJ-11YJd-7TCT7O7aXOOWNsoiLSie0uKh7d1ccs0ud9ipx4V4Unk0vDDh6ZQU";' ,datacrc='',expire=1438315952 WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:32:33',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:32:33',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.1000s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `pay_status` = 1 AND `status` IN ('1','2') AND `send_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `send_status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `send_status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309954) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309954) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Cache\Driver\Db.class.php 第 55 行.
+SQL: select `cachekey` from `think_cache` where `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' limit 0,1 [ RunTime:0.0010s ]
+SQL: UPDATE think_cache SET data='s:86:"bxLdikRXVbTPdHSM05e5u25xwzYZRklV4lNkl5y_kkoIkMFWVnv0pJ1hQy7kSlnLxVUHQB9f0I8kAaqNHi4yWw";' ,datacrc='',expire=1438315954 WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' [ RunTime:0.0410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.395022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.397022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2015-07-31T10:32:54+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309974) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:32:54',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:32:54',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309974) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309974) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:33:15+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309993) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:13',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.1950s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:14',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.1370s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309994) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:15',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0370s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:15',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.1030s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.0740s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309995) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438309995) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-07-31T10:33:24+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/info.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:33:30+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310008) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:29',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.1010s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:29',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.0850s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310009) LIMIT 0,1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:30',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:30',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.2290s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.0920s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310010) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310010) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-07-31T10:33:34+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/info.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:33:40+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/info.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-31T10:33:44+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310022) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:43',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0880s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:43',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.0640s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310023) LIMIT 0,1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:44',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: sex E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 241 行.
+NOTIC: [8] Undefined index: subscribe_time E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 243 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `group_id`='0',`sex`='保密',`update_date`='2015-07-31 10:33:44',`create_date`='',`status`='2' WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' [ RunTime:0.1330s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 197 行.
+SQL: SELECT * FROM `wx_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wx_member` (`create_date`,`status`) VALUES ('','2') [ RunTime:0.0570s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'ozlL_sqHb_KnWYQo7vtTFD8M755c' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array E:\cucisvn\01-code\jonza\Module\Wap\Controller\WapController.class.php 第 205 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310024) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310024) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-07-31T10:33:54+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310034) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:33:54',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:33:54',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `pay_status` = 1 AND `status` IN ('1','2') AND `send_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `send_status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `send_status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310034) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310034) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:34:29+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310068) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:34:28',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0990s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:34:28',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_store_order` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `pay_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `pay_status` = 1 AND `status` IN ('1','2') AND `send_status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` IN ('1','2') AND `send_status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_store_order` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `send_status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER E:\cucisvn\01-code\jonza\Library\Util\Baidu.class.php 第 72 行.
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310068) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310068) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-07-31T10:34:31+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310070) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:34:31',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:34:31',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310071) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310071) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:37:20+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310239) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:37:19',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:37:20',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1440s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: create_date E:\cucisvn\01-code\jonza\Static\Runtime\Cache\Wap\4463a88e3905e1a606f37505288e5dd4.php 第 39 行.
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310240) LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310240) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:43:11+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310589) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:43:10',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:43:10',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0840s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310591) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310591) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-07-31T10:43:50+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310629) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:43:50',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:43:50',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310630) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310630) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-31T10:44:08+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310647) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:07',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:08',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310648) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310648) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:16+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310655) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:15',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:15',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1560s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310656) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310656) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-31T10:44:18+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310657) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:18',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:18',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310658) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310658) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:25+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310664) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:24',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:25',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1060s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310665) LIMIT 0,1 [ RunTime:0.0020s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310665) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:47+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310686) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:46',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:47',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310687) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310687) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:56+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310695) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:56',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0860s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:56',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310696) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310696) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:59+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310697) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:58',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.2330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:59',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1600s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:59+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.1240s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310698) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:58',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0980s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:59',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1330s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:44:59+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.1990s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310698) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:59',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1670s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:44:59',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310699) LIMIT 0,1 [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:49:56+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310994) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:49:55',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 10:49:55',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0730s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` asc LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310996) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438310996) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T11:03:26+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311805) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 11:03:25',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 11:03:26',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0940s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311806) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311806) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T11:03:49+08:00 ] 127.0.0.1 /jonza/index.php/Wap/Member/integral.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Wap\Controller\MemberController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Wap\Controller\MemberController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `wx_site_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1899 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311827) LIMIT 0,1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_wechat_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 11:03:47',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.1060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_wechat_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_wechat_member` SET `openid`='oAeaZjkJR9yIIawfwsyES-u4G0rM',`nickname`='小男哥',`sex`='男',`language`='zh_CN',`city`='广州',`province`='广东',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/bxicQ8HMEhxFYHBuDhtIJtEseUa0U27oTMP0e1aMzEH3DQeG3odn3swrDsL0kuJypOiaLPUzLBia3uI8VIYrAibhtxn6VMoJNd3P/0',`remark`='',`group_id`='0',`update_date`='2015-07-31 11:03:49',`create_date`='2015-06-18 17:47:04',`status`='2' WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_member` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_member_integral` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(1) AS tp_count FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_member_integral` WHERE `openid` = 'oAeaZjkJR9yIIawfwsyES-u4G0rM' ORDER BY `create_date` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wx_site_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat_config` WHERE `id` = '1' AND `status` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined property: Library\Util\Api\Wechat::$access_token E:\cucisvn\01-code\jonza\Library\Util\Api\Wechat.class.php 第 1066 行.
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_access_token_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311829) LIMIT 0,1 [ RunTime:0.0010s ]
+SQL: SELECT `data`,`datacrc` FROM `think_cache` WHERE `cachekey`='wechat_jsapi_ticket_wx4fc10458037c13c9' AND (`expire` =0 OR `expire`>1438311829) LIMIT 0,1 [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
