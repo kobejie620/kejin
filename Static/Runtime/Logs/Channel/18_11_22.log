@@ -1,0 +1,78 @@
+[ 2018-11-22T13:52:25+08:00 ] ::1 /jonza/index.php/Channel/Index/to_examine/id/9.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0098s ]
+SQL: UPDATE `wx_channel` SET `channel_status`='1' WHERE `channel_id` = 9 [ RunTime:0.0116s ]
+
+[ 2018-11-22T16:08:22+08:00 ] ::1 /jonza/index.php/Channel/Index/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 108 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.004491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2018-11-22T16:08:55+08:00 ] ::1 /jonza/index.php/Channel/Index/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wx_channel` WHERE `name` = '应用宝' LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_channel` WHERE `channel_id` = 0 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wx_channel` WHERE `name` = '应用宝' LIMIT 1   [ RunTime:0.0092s ]
+SQL: INSERT INTO `wx_channel` (`name`,`email`,`portrait`,`identity`,`type`,`network`,`logo`,`contacts_name`,`contacts_emali`,`contacts_mobile`,`contacts_qq`,`contacts_wechat`,`channel_id`,`ad_num`,`channel_status`,`add_time`) VALUES ('应用宝','1301904135@qq.com','http://ueditor.cdn.cuci.cc/image/2018/11/4/16/835/微信图片_20181120140834.jpg','1','2','www.baidu.com','http://ueditor.cdn.cuci.cc/image/2018/11/4/16/843/微信图片_20181120140834.jpg','荣彬','447324105@qq.com','13268317045','1301904135','c-r-bin','0','0','0','2018-11-22 16:08:55') [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_channel` WHERE `channel_id` = 10 LIMIT 1   [ RunTime:0.0086s ]
+SQL: UPDATE `wx_channel` SET `channel_sn`='31018112216',`ad_num`='0',`channel_status`='0',`add_time`='2018-11-22 16:08:55' WHERE `channel_id` = 10 [ RunTime:0.0108s ]
+
+[ 2018-11-22T16:09:12+08:00 ] ::1 /jonza/index.php/Channel/Index/to_examine/id/10.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0099s ]
+SQL: UPDATE `wx_channel` SET `channel_status`='1' WHERE `channel_id` = 10 [ RunTime:0.0365s ]
+
+[ 2018-11-22T16:09:16+08:00 ] ::1 /jonza/index.php/Channel/Index/to_examine/id/8.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0087s ]
+SQL: UPDATE `wx_channel` SET `channel_status`='1' WHERE `channel_id` = 8 [ RunTime:0.0103s ]
+

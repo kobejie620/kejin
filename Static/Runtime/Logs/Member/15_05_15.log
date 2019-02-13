@@ -1,0 +1,16 @@
+[ 2015-05-15T14:38:29+08:00 ] 127.0.0.1 /jonza/index.php/Member/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Member\Controller\ConfigController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Member\Controller\ConfigController.class.php 第 11 行.
+
+[ 2015-05-15T14:38:45+08:00 ] 127.0.0.1 /jonza/index.php/Member/Config/set
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\cucisvn\01-code\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2048] Declaration of Member\Controller\ConfigController::index() should be compatible with Library\Controller\Controller::index($model = NULL, $map = Array, $tpl = NULL) E:\cucisvn\01-code\jonza\Module\Member\Controller\ConfigController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wx_prize_peizhi` [ RunTime:0.0080s ]
+SQL: UPDATE `wx_prize_peizhi` SET `account`='11',`prize_name`='宜本草四倍亲肤面膜七片装11',`prize_img`='http://ueditor.cdn.cuci.cc/image/2015/5/3/20/1725/p_03.jpg',`cftitle`='精典妆家30万份免费面膜，来即可领走，快速快速！1',`ftitle`='免费领面膜啦！精典妆家年中返利，赶紧来领！1',`fdesc`='精典妆家30万份面膜大礼，全部免费送，马上关注即可拿走。1' WHERE `id` = 1 [ RunTime:0.1360s ]
+

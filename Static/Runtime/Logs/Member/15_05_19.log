@@ -1,0 +1,18 @@
+[ 2015-05-19T13:46:15+08:00 ] 127.0.0.1 /jonza/index.php/Member/Extend/index.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_extend' n'existe pas
+
+[ 2015-05-19T13:50:04+08:00 ] 127.0.0.1 /jonza/index.php/Member/Extend/index.shtml
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'jonza.wx_extend' n'existe pas
+
+[ 2015-05-19T17:00:00+08:00 ] 127.0.0.1 /jonza/index.php/Member/Index/index.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'real_name' inconnu dans where clause
+
+[ 2015-05-19T17:06:27+08:00 ] 127.0.0.1 /jonza/index.php/Member/Index/index.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'real_name' inconnu dans where clause
+
+[ 2015-05-19T17:06:43+08:00 ] 127.0.0.1 /jonza/index.php/Member/Index/index.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'real_name' inconnu dans where clause
+
+[ 2015-05-19T17:06:57+08:00 ] 127.0.0.1 /jonza/index.php/Member/Index/index.shtml
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'real_name' inconnu dans where clause
+

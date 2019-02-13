@@ -1,0 +1,54 @@
+[ 2018-11-12T19:48:57+08:00 ] ::1 /jonza/index.php/Channel/Index/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: name E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 16 行.
+NOTIC: [8] Undefined index: email E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 23 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 30 行.
+NOTIC: [8] Undefined index: portrait E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 32 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 40 行.
+NOTIC: [8] Undefined index: identity E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 41 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 51 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 52 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 53 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 54 行.
+NOTIC: [8] Undefined index: type E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 55 行.
+NOTIC: [8] Undefined index: network E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 63 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 70 行.
+NOTIC: [8] Undefined index: logo E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 72 行.
+NOTIC: [8] Undefined index: contacts_name E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 79 行.
+NOTIC: [8] Undefined index: contacts_emali E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 86 行.
+NOTIC: [8] Undefined index: contacts_mobile E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 94 行.
+NOTIC: [8] Undefined index: contacts_qq E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 101 行.
+NOTIC: [8] Undefined index: contacts_wechat E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 108 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 116 行.
+NOTIC: [8] Undefined index: status E:\kejin\jonza\Static\Runtime\Cache\Channel\c9f36cb6d9939da5747ebb8940ac4f0f.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: Run Library\Behavior\EmptyImageBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-11-12T19:49:28+08:00 ] ::1 /jonza/index.php/Channel/Index/add.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\kejin\jonza\Library\Think\Library\Think\Session\Driver\Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `wx_channel` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wx_channel` WHERE `name` = 'appstore' LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_channel` WHERE `channel_id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_channel` WHERE `name` = 'appstore' LIMIT 1   [ RunTime:0.0088s ]
+SQL: INSERT INTO `wx_channel` (`name`,`email`,`portrait`,`identity`,`type`,`network`,`logo`,`contacts_name`,`contacts_emali`,`contacts_mobile`,`contacts_qq`,`contacts_wechat`,`channel_id`,`ad_num`,`add_time`) VALUES ('appstore','447324105@qq.com','http://ueditor.cdn.cuci.cc/image/2018/11/1/19/4912/微信图片_20181112150557.jpg','1','2','www.baidu.com','http://ueditor.cdn.cuci.cc/image/2018/11/1/19/4920/微信图片_20181112150557.jpg','荣彬','447324105@qq.com','13268317045','1301904135','c-r-bin','0','0','2018-11-12 19:49:28') [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_channel` WHERE `channel_id` = 9 LIMIT 1   [ RunTime:0.0087s ]
+SQL: UPDATE `wx_channel` SET `channel_sn`='30918111219',`ad_num`='0',`add_time`='2018-11-12 19:49:28' WHERE `channel_id` = 9 [ RunTime:0.0106s ]
+
