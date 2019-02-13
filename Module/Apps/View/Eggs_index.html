@@ -1,0 +1,146 @@
+<extend name="Admin@Public:index" />
+
+<block name='pContent'>
+    <form action="{:U('Apps/Eggs/edit')}" data-ajax="true" method="post"  class="form-horizontal mb40" role="form">
+        <div class="panel panel-default mb10">
+            <!-- Default panel contents -->
+            <div class="panel-heading title">{$ptitle}</div>
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">分享图片</label>
+                        <div class="col-sm-6">
+                            <input title="" value="{$vo.startpicurl}" name="startpicurl" type="text" class="form-control" />
+                            <a href="javascript:void(0)" data-name="startpicurl" class="upload_one_img">上传图片</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">活动名称 <b class="required">*</b></label>
+                        <div class="col-sm-6">
+                            <input title="请输入活动名称" required  pattern="^.{1,}$" value="{$vo.title}" name="title" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">活动说明 </label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" name="info">{$vo.info}</textarea>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">每天可砸金蛋次数 <b class="required">*</b></label>
+                        <div class="col-sm-6">
+                            <input title="请输入每天可砸金蛋次数" required  pattern="^[0-9]{1,}$" value="{$vo.canrqnums|default=1}" name="canrqnums" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">活动状态</label>
+                        <div class="col-sm-6">
+                            <div class='form-control'>
+                                <label><input type="radio" name="status" value="2" <eq name='vo.status' value='2'>checked</eq> /> 开启</label>
+                                <label><input type="radio" name="status" value="1" <neq name='vo.status' value='2'>checked</neq> /> 停止</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">一等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.first|default=1}" name="first" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.first_rate|default=0.00}" name="first_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">二等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.second|default=1}" name="second" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.second_rate|default=0.00}" name="second_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">三等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.third|default=1}" name="third" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.third_rate|default=0.00}" name="third_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">四等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.four|default=1}" name="four" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.four_rate|default=0.00}" name="four_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">五等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.five|default=1}" name="five" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.five_rate|default=0.00}" name="five_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">六等奖积分 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9]{1,}$" value="{$vo.six|default=1}" name="six" type="text" class="form-control" />
+                        </div>
+                        <label class="col-sm-2 control-label tr">中奖机率 <b class="required">*</b></label>
+                        <div class="col-sm-3">
+                            <input required pattern="^[0-9\.]{1,}$" value="{$vo.six_rate|default=0.00}" name="six_rate" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="form-group mb0">
+                        <label class="col-sm-2 control-label tr">活动结束说明 </label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" name="endinfo">{$vo.endinfo}</textarea>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <if condition="auth('Apps/Eggs/edit')">
+            <div class="clearfix form-actions tc mt30">
+                <input type="hidden" value="{$user.openid}" name="create_by" />
+                <input type='hidden' value='1' name='id' />
+                <button class="btn btn-info"><i class="ace-icon fa fa-check bigger-110"></i> 提交保存</button>
+            </div>
+        </if>
+    </form>
+</block>

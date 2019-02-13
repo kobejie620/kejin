@@ -1,0 +1,265 @@
+<extend name='Admin@Public:index' />
+
+<block name="style">
+    <style>
+        .margin-left-10{ margin-left:10px;}
+        .text-ccc{color:#ccc;}
+        .text-999{color:#999;}
+        .pct30 { width: 30%;}
+        .pct80 { width: 80%;}
+        .title-section{border-bottom:1px solid #ddd;border-top:1px solid #ddd;background-color:#f5f5f5;height:40px;padding:10px 15px;}
+    </style>
+</block>
+
+<block name='ptitle'><span class="text-ccc">基本信息</span><span class="margin-left-10 text-999">基本信息提交后不可修改</span></block>
+<block name='content'>
+    <div class="form-group mt20">
+        <switch name="vo.audit_state" >
+        <case value="1"><div class="m10 alert alert-danger">系统错误</div></case>
+        <case value="4">
+            <div class="m10 alert alert-danger">门店审核不通过    原因为：{$vo.reason}</div>
+        </case>
+        <case value="2">
+            <form class="form-horizontal mb40">
+                <div class="m10 alert alert-info">门店审核中，预计5个工作日内完成，请耐心等待结果</div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店名称 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <input title="门店名不能为空且长度不超过15个汉字或30个英文字母" value="{$vo.business_name}" type="text" class="form-control" disabled/>
+                        <span class="help-block">注意：门店名不得含有区域地址信息（如，北京市XXX公司）</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">分店名称 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <input autofocus title="分店名称最长支持20个字符" value="{$vo.branch_name}" type="text" class="form-control" pattern="^.{0,20}$" maxlength="20" disabled/>
+                        <span class="help-block">注意分店名不得含有区域地址信息（如，“北京国贸店”中的“北京”）</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店类目 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <volist name="vo.categories" id="cat_audit">
+                            <select class="form-control pct30 inline-block" disabled><option>{$cat_audit}</option></select>
+                        </volist>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">地址 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.province}</option></select>
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.city}</option></select>
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.district}</option></select>
+                        <input type="text" class="form-control mt10 pct80" value="{$vo.address}" maxlength="255"  disabled/>
+                        <div id="allmap" class="mt10" style="height:300px;width:100%;"></div>
+                    </div>
+                </div>
+
+                <div class="title-section mb20">
+                    <span class="text-ccc">服务信息</span>
+                    <span class="margin-left-10 text-999">该部分为公共编辑信息，每个添加了该门店的商户均可提交修改意见，并在审核后选择性采纳</span>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店照片 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <div class='show-images'></div>
+                        <input type='hidden' name="photo_list" value="{$vo.photo_list}" disabled/>
+                        <button data-name='photo_list' data-show-class='show-images' class="btn btn-default upload_multi_img" disabled>上传图片</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">联系电话<b class="required">*</b> </label>
+                    <div class="col-sm-9">
+                        <input value="{$vo.telephone}" type="text" class="form-control" disabled/>
+                        <span class="help-block">固定电话需加区号；区号、分机号均用“-”连接</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">人均价格 </label>
+                    <div class="col-sm-9">
+                        <input value="{$vo.avg_price}" type="text" class="form-control" disabled />
+                        <p class="help-block">大于零的整数，须如实填写，默认单位为人民币（元）</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">运营时间 </label>
+                    <div class="col-sm-9">
+                        <input value="{$vo.open_time}" type="text" class="form-control" disabled/>
+                        <p class="help-block">如，10:00-21:00</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">推荐 </label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" disabled>{$vo.recommend}</textarea>
+                        <p class="help-block">如，推荐菜，推荐景点，推荐房间</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">特色服务 </label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" disabled>{$vo.special}</textarea>
+                        <p class="help-block">如，免费停车，WiFi</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">简介 </label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" disabled>{$vo.introduction}</textarea>
+                        <p class="help-block">对品牌或门店的简要介绍</p>
+                    </div>
+                </div>
+            </form>
+        </case>
+
+        <case value="3">
+            <form onsubmit="return false" action="{:url_filter()}" data-ajax="true" method="post" class="form-horizontal mb40" role="form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店名称 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <input value="{$vo.business_name}" type="text" class="form-control" disabled />
+                        <span class="help-block">注意：门店名不得含有区域地址信息（如，北京市XXX公司）</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">分店名称 </label>
+                    <div class="col-sm-9">
+                        <input value="{$vo.branch_name}" type="text" class="form-control" disabled/>
+                        <span class="help-block">注意分店名不得含有区域地址信息（如，“北京国贸店”中的“北京”）</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">门店类目 <b class="required">*</b></label>
+                    <volist name="vo.categories" id="cat_audit">
+                        <select class="form-control pct30 inline-block" disabled><option>{$cat_audit}</option></select>
+                    </volist>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">地址 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.province}</option></select>
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.city}</option></select>
+                        <select class='form-control inline-block pct30' disabled><option>{$vo.district}</option></select>
+                        <input type="text" class="form-control mt10 pct80" value="{$vo.address}" maxlength="255"  disabled/>
+                        <div id="allmap" class="mt10" style="height:300px;width:100%;"></div>
+                    </div>
+                </div>
+
+                <div class="title-section mb20">
+                    <span class="text-ccc">服务信息</span><span class="margin-left-10 text-999">该部分为公共编辑信息，每个添加了该门店的商户均可提交修改意见，并在审核后选择性采纳</span>
+                </div>
+                <eq name="vo.update_status" value="1">
+                <div class="m10 alert alert-info">服务信息审核中，完成前不可再次修改</div>
+                <else/>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label tr">门店照片 <b class="required">*</b></label>
+                    <div class="col-sm-9">
+                        <div class='show-images'></div>
+                        <input type='hidden' name="photo_list" value="{$vo.photo_list}" />
+                        <a data-name='photo_list' data-show-class='show-images' class="btn btn-default upload_multi_img" >上传图片</a>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">联系电话<b class="required">*</b> </label>
+                    <div class="col-sm-9">
+                        <input autofocus title="请输入电话号码,只能为数字" name="telephone" type="text" value="{$vo.telephone}" class="form-control" pattern="^(\d+)(-*)(\d+)$" maxlength="20" />
+                        <span class="help-block">固定电话需加区号；区号、分机号均用“-”连接</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">人均价格 </label>
+                    <div class="col-sm-9">
+                        <input autofocus title="请填写人均价格，大于零的整数" name="avg_price" type="text" value="{$vo.avg_price}" class="form-control" pattern="number" maxlength="50" />
+                        <p class="help-block">大于零的整数，须如实填写，默认单位为人民币（元）</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">运营时间 </label>
+                    <div class="col-sm-9">
+                        <input name="open_time" type="text" class="form-control" maxlength="50"  value="{$vo.open_time}" />
+                        <p class="help-block">如，10:00-21:00</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">推荐 </label>
+                    <div class="col-sm-9">
+                        <textarea name="recommend" class="form-control" maxlength="250">{$vo.recommend}</textarea>
+                        <p class="help-block">如，推荐菜，推荐景点，推荐房间</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">特色服务 </label>
+                    <div class="col-sm-9">
+                        <textarea name="special" class="form-control" maxlength="250">{$vo.special}</textarea>
+                        <p class="help-block">如，免费停车，WiFi</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">简介 </label>
+                    <div class="col-sm-9">
+                        <textarea name="introduction" class="form-control" maxlength="250">{$vo.introduction}</textarea>
+                        <p class="help-block">对品牌或门店的简要介绍</p>
+                    </div>
+                </div>
+                <input name="poi_id" value="{$vo.poi_id}" type="hidden"/>
+                <div class='col-xs-offset-5'>
+                    <a class='btn btn-warning btn-sm mr20' href="{:U('index')}">取消</a>
+                    <button class="btn btn-success btn-sm mr10">保存</button>
+                </div>
+                </eq>
+            </form>
+        </case>
+        </switch>
+    </div>
+</block>
+
+<block name="script">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0IpTKAV9hlYpLCo1f1omCimM"></script>
+    <script>
+                var lng = '{$vo.longitude}';
+                var lat = '{$vo.latitude}';
+    </script>
+    <script src="__RES__/js/baidu.map.location.js" type="text/javascript"></script>
+    <script>
+                /* 门店类目 */
+                function categories(jsondata, split) {
+                    this.jsondata = jsondata;
+                    this.split = split || ',';
+                    $.msg.loading('门店类目加载中...');
+                    $('#categories').html(this.createSelect());
+                    $.msg.close();
+                }
+                categories.prototype.createSelect = function (key) {
+                    var self = this;
+                    var $select = $('<select name="categories[]" class="form-control pct30 inline-block" required><option value="">请选择</option></select>');
+                    for (var i in this.jsondata) {
+                        if (this.jsondata[i].indexOf(key) === 0 || !key) {
+                            var index = !key ? 0 : key.split(this.split).length;
+                            var value = this.jsondata[i].split(this.split)[index];
+                            if ($select.find('option[value="' + value + '"]').length < 1 && value) {
+                                $('<option></option>').attr('data-key', (key ? key + this.split + value : value)).attr('value', value).html(value).appendTo($select);
+                            }
+                        }
+                    }
+                    if ($select.find('option').size() < 2) {
+                        $select.remove();
+                        return;
+                    }
+                    $select.on('change', function () {
+                        var key = $(this.options[this.selectedIndex]).attr('data-key');
+                        if (key) {
+                            $(this).nextAll('select').remove();
+                            $(this).after(self.createSelect(key));
+                        }
+                    });
+                    return $select;
+                }
+                ;
+                new categories({$categories});
+    </script>
+</block>

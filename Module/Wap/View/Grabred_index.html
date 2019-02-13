@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <title>抢红包</title>
+        <link href="__RES__/three/css/base.css" rel="stylesheet" type="text/css" />
+        <link href="__RES__/three/css/css.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__RES__/three/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="__RES__/three/js/k.js"></script>
+
+    </head>
+
+    <body>
+        <div class="fix box" style="background:url(__RES__/three/images/hb.jpg) no-repeat; background-size:cover;">
+            <div class="fix tc pct100 lqbtn" style="bottom:20%;">
+                <img src="__RES__/three/images/msq-btn.png" alt="img" id="send" width="37%" />
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $('#send').click(function () {
+                    $.get("{:U('wap/grabred/grab')}", {username: 'qhb'}, function (data) {
+                        alert(data.info);
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

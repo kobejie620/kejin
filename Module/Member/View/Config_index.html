@@ -1,0 +1,81 @@
+<extend name='Admin@Public:index' />
+
+
+<block name='pContent'>
+    <form onsubmit="return false" action="__URL__/set" data-ajax="true" method="post"  class="form-horizontal mb40" role="form">
+        <div class="panel panel-default mb10">
+            <!-- Default panel contents -->
+            <div class="panel-heading title">
+                {$ptitle}
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">要推广人数 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input value="{$info.account}"   type="text"   name="account" class="form-control" id="account" placeholder="请输入要推广人数" maxlength="10px">
+                </div>
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">奖品名称 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" value="{$info.prize_name}" pattern="^.{4,}$" title="奖品名称至少4个字符！" type="text"   name="prize_name" class="form-control" id="prize_name" placeholder="请输入奖品名称" mexlength="20">
+                </div>
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">朋友圈分享标题 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" value="{$info.cftitle}" pattern="^.{4,}$" title="分享标题至少4个字符！" type="text"   name="cftitle" class="form-control" id="cftitle" placeholder="请输入朋友圈分享标题" maxlength="50px">
+                </div>
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">朋友分享标题 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" value="{$info.ftitle}" pattern="^.{4,}$" title="分享标题至少4个字符！" type="text"   name="ftitle" class="form-control" id="ftitle" placeholder="请输入朋友分享标题" maxlength="50px">
+                </div>
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">朋友分享内容 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" value="{$info.fdesc}" pattern="^.{4,}$" title="朋友分享内容至少4个字符！" type="text"   name="fdesc" class="form-control" id="fdesc" placeholder="请输入分享内容" maxlength="200px">
+                </div>
+            </div>
+            
+<!--            <div class="form-group">
+                <label class="col-sm-2 control-label">奖品图片<empty name="vo"> <b class="required">*</b></empty></label>
+                <div class="col-sm-9">
+                    <p>
+                        <a href='javascript:void(0)' data-name="link" data-show-class='link-show' data-online="true" class='upload_multi_img control-label mr20'>上传图片</a>
+                        <label class='control-label'><input name='is_show_link' value='2' <eq name='vo.is_show_link' value='2'>checked</eq> type='checkbox'/> 显示奖品图片</label>
+                    </p>
+                    <input type='hidden' name="prize_img" value="{$vo.link}" />
+                    <div class='link-show'></div>
+                </div>
+            </div>-->
+            
+            <div class="form-group">
+                <label class="col-sm-2 control-label">奖品图片<empty name="vo"> <b class="required">*</b></empty></label>
+                <div class="col-sm-9">
+                    <p>
+                        <a href='javascript:void(0)' data-name="prize_img" data-show-class='link-show' data-online="true" class='upload_multi_img control-label mr20'>上传图片</a>
+                        <label class='control-label'>请上传一张奖品图片</label>
+                    </p>
+                    <input type="hidden" name="prize_img" value="{$info.prize_img}" />
+                    <div class='link-show'></div>
+                </div>
+            </div>
+
+            <notempty name="vo">
+                <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+            </notempty>
+            <if condition="auth('Member/Config/set')">
+                <div class="tc p20">
+                    <button class="btn btn-success btn-sm"> 保 存 </button>
+                </div>
+            </if>
+        </div>
+    </form>
+</block>

@@ -1,0 +1,65 @@
+<extend name="Public:index" />
+
+<block name="body">
+
+    <notempty name='data.link'>
+        <eq name='data.is_show_link' value='2'>
+        <!--Top图片开始-->
+        <div class="shadow overflow-hidden margin-bottom-10">
+            <div class="box_pic">
+                <img class="img-responsive width-pct-100" src="{$data.link}" alt="" />
+            </div>
+        </div>
+        <!--Top图片结束-->
+        </eq>
+    </notempty>
+
+    <div class="shadow padding-20">
+        <div class="media padding-top-bottom-20">
+            <eq name='data.is_show_title' value='2'>
+            <div class="text-center border-bottom-eee padding-bottom-10">
+                <h4 class="media-heading main-color">{$data.title}</h4>
+                <p class="text-999"><span class="padding-right-10">{$data.create_date|strtotime|date="Y-m-d",###}</span><span>{$data.click}</span> 次阅读</p>
+            </div>
+            </eq>
+            <div class="padding-top-20 text-999 line-height-24" id="content-container">
+                {$data.content}
+            </div>
+            <script>
+                try {
+                    var imgs = document.getElementById('content-container').getElementsByTagName('img');
+                    var imgRemoveAttr = ['width', 'height', 'style'];
+                    for (var i in imgs) {
+                        for (var j in imgRemoveAttr)
+                            imgs[i].removeAttribute(imgRemoveAttr[j]);
+                        imgs[i].className += " img-responsive";
+                    }
+                } catch (e) {
+                }
+            </script>
+        </div>
+    </div>
+</block>
+
+<block name='script'>
+    {:W('Wechat/JsSign')}
+    <script src="__RES__/wap/js/share.js" type="text/javascript"></script>
+    <script>;</script>
+    <script>
+        var share = {};
+        share.title = '{$data.title}';
+        share.desc = '{$data.content|strip_tags=###|substr=###,0,100}';
+        share.link = '{:to_domain(url_filter())}';
+        share.imgUrl = '{$data.link}';
+        share.type = 'link';
+        share.success = function () {
+            share.model = 'SiteContent';
+            share.id = '{$data.id}';
+            share.img = share.imgUrl;
+            /*<notempty name="share_integral">*/
+            $.form.load('{:U("Wap/Wap/setshare")}', share, 'POST');
+            /*</notempty>*/
+        };
+        $.share.data(share);
+    </script>
+</block>

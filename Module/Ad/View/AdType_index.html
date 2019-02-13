@@ -1,0 +1,26 @@
+<extend name='Admin@Public:index' />
+
+<block name='ptitle'>
+	{$ptitle}
+	<span class='pull-right'>
+        <if condition="auth('Ad/AdType/edit')">
+            <button class="btn btn-success btn-sm mr5" data-del data-path='Ad/AdType/del'>批量删除</button>
+        </if>
+    </span>
+	<span class='pull-right'>
+        <if condition="auth('Ad/AdType/add')">
+            <button data-load="{:U('Ad/AdType/add')}" class="btn btn-success btn-sm mr5">添加分类</button>
+        </if>
+    </span>
+</block>
+
+<block name='content'>    
+	<wx:table
+		list='list'
+		color="status|show_color"
+		sort="true"
+		check="true"
+		class='table table-striped table-responsive table-bordered table-center'
+		show='type_id:分类编号,type_name:分类姓名,sort:排序,status|show_status_text:状态'
+		action="type_id|show_load_button:编辑#Ad/AdType/edit,type_id|show_status_button,type_id|show_del_button:删除#Ad/AdType/del" />
+</block>

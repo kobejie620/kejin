@@ -1,0 +1,41 @@
+<extend name='Admin@Public:form' />
+
+<block name="form">
+    <empty name='Think.get.id'>
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">当前活动 <b class="required">*</b></label>
+            <div class="col-sm-9">
+                <select readonly name='vote_id' required="" pattern='^[1-9]+[0-9]*$' title='请选择活动' class='form-control'>
+                    <option value='{$activity.id}'>{$activity.title}</option>
+                </select>
+            </div>
+        </div>
+    </empty>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">标题 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input name='title' value='{$vo.title}' class='form-control' required="" title='文件标题不能为空' />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">图片<empty name="vo"> <b class="required">*</b></empty></label>
+        <div class="col-sm-9">
+            <input type='hidden' name="link" value="{$vo.link}" />
+            <img data-name="link" alt="" class="upload-thumbnail thumbnail upload_one_img w200" src="{$vo.link}"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">状态</label>
+        <div class="col-sm-9">
+            <div class='form-control'>
+                <label><input <neq name='vo.check' value='1'>checked</neq> type="radio" name="check" value="2" /> 通过审核 </label>
+                <label><input <eq name='vo.check' value='1'>checked</eq> type="radio" name="check" value="1" /> 不通过</label>
+            </div>
+        </div>
+    </div>
+    <notempty name="vo">
+        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+    </notempty>
+</block>

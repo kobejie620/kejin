@@ -1,0 +1,175 @@
+<extend name='Wap@Public:index' />
+
+<block name='body'>
+    <ul class="list-group padding-bottom-0 shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>商品信息</span>
+        </li>
+        <li class="border-dashed overflow-hidden padding-top-14 relative padding-bottom-10">
+            <a href="javascript:void(0)"><img class="width-80 pull-left padding-right-8" src="{:to_domain($product['logo'])}" alt="" /></a>
+            <div class="">
+                <p class="ellipsis padding-right-40 text-333"><a href="javascript:void(0)">{$product.name}</a></p>
+                <p class="pull-left">
+                    <span class="text-999 padding-left-10">{$product.params|str_replace='_split_',',',###}</span>
+                </p>
+            </div>
+            <div class="absolute order-price">
+                <span>{$product.credit}积分</span><br />
+                <span class="text-999 pull-right">× {$product.num}</span><br />
+            </div>
+        </li>
+    </ul>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>积分信息</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>积分总额</span><span class='pull-right'>{$info.total_credit}积分</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>合计</span><span class='pull-right'>{$info.total_credit}</span>
+        </li>
+    </ul>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>金额信息</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>商品总额</span><span class='pull-right'>￥{$info.order_amount|default=0.00}</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>邮费</span><span class='pull-right'>￥{$info.pay_freight|default=0.00}</span>
+        </li>
+        <!--        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+                    <span>礼品包装</span><span class='pull-right'>￥0.00</span>
+                </li>-->
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>优惠</span><span class='pull-right'>-￥{$info.promotions|default=0.00}</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>总额</span><span class='pull-right'>￥{:sprintf("%.2f",$info['order_amount'] + $info['pay_freight'] - $info['promotions'])}</span>
+        </li>
+    </ul>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>收货信息</span>
+        </li>
+        <notempty name='info.accept_name'>
+            <li class="list-group-item border-none line-height-36 margin-top-2">
+                <p>
+                    <span class="padding-right-10">姓名：{$info.accept_name} </span>手机：{$info.phone}
+                </p>
+                <p>
+                    地址：{$info.province} {$info.city} {$info.area} {$info.address}
+            <notempty name='info.postcode'> (邮编 {$info.postcode} )</notempty>
+            </p>
+            </li>
+        </notempty>
+    </ul>
+    <ul class='list-group shadow margin-bottom-10'>
+        <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+            <span class="glyphicon glyphicon-yen"></span>
+            <span class="padding-left-10">支付方式</span>
+            <!--<span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>-->
+            <span class="pull-right padding-right-10"><input type="hidden" name="pay_type" value="1"/>微信支付</span>
+        </li>
+    </ul>
+
+    <input type="hidden" name="list" value='{$data}'  />
+    <div style='height:60px;'></div>
+    <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+        <div class="pull-right">
+            <eq name='info.pay_status' value='1'>
+                <in name="info.status" value="4">
+                    <a  class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8" href="javascript:void(0)"> 已退款</a>
+                <else/>
+                    <in name="info.status" value="3">
+                        <a class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8" href="javascript:void(0)"> 等待手动退款</a>
+                    <else/>
+                        <a  class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8" href="javascript:void(0)"> 已支付</a>
+                    </in>
+                </in>
+            <else />
+                <gt name="info.pay_freight" value="0.00">
+                    <in name="info.status" value="1,2">
+                        <a  class="btn btn-main padding-left-20 padding-right-20 margin-right-8" style='color:white;' data-order="{$info.credit_no}"  data-id="{$info.id}" id="jk_pay" href="javascript:void(0)"> 支付订单</a>
+                    </in>
+                    <in name="info.status" value="3">
+                        <a  class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8"  href="javascript:void(0)"> 已取消</a>
+                    </in>
+                    <in name="info.status" value="4">
+                        <a  class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8"  href="javascript:void(0)"> 已退款</a>
+                    </in>
+                    <in name="info.status" value="5">
+                        <a  class="btn btn-default disabled padding-left-20 padding-right-20 margin-right-8"  href="javascript:void(0)"> 已完成</a>
+                    </in>
+                </gt>
+            </eq>
+            <in name="info.status" value="1,2">
+                <a class="btn btn-grey padding-left-20 padding-right-20" data-id="{$info.id}" onclick="cancelOrder(this);">取消订单</a>
+            </in>
+        </div>
+    </div>
+</block>
+
+<block name='script'>
+    {:W("Wap/Wechat/jsSign")}
+    {:W('Wap/Wechat/jsHideMenu')}
+    <script>
+        /**
+         * 取消订单
+         * @param {type} obj
+         * @returns {unresolved}
+         */
+        function cancelOrder(obj) {
+            var order_id = $(obj).data('id');
+            if (window.doing) {
+                return $.msg.alert("数据正在处理，请稍后...");
+            }
+            window.doing = true;
+            $.msg.confirm('确定要取消订单吗！', function () {
+                $.msg.loading();
+                $.post("{:U('Shop/Credit/cancel')}", {id: order_id}, function (data) {
+                    window.doing = false;
+                    $.msg.auto(data);
+                }, 'JSON');
+            });
+        }
+        /**
+         * 微信SDK操作
+         * @param {type} param
+         */
+        wx.ready(function () {
+            $("#jk_pay").click(function () {
+                var order_id = $(this).data('order');
+                if (window.diong) {
+                    return $.msg.alert("数据正在处理，请稍后");
+                }
+                window.doing = true;
+                $.msg.loading();
+                $.post("{:U('Shop/Order/payInfo')}", {id: order_id}, function (data) {
+                    if (!data.status) {
+                        return $.msg.alert(data.info);
+                    }
+                    $.msg.close();
+                    wx.chooseWXPay({
+                        timestamp: data.timeStamp, // 支付签名时间戳，注意微信jssdk中的所有使用timestamp字段均为小写。但最新版的支付后台生成签名使用的timeStamp字段名需大写其中的S字符
+                        timeStamp: data.timeStamp, // 支付签名时间戳，注意微信jssdk中的所有使用timestamp字段均为小写。但最新版的支付后台生成签名使用的timeStamp字段名需大写其中的S字符
+                        nonceStr: data.nonceStr, // 支付签名随机串，不长于 32 位
+                        package: data.package, // 统一支付接口返回的prepay_id参数值，提交格式如：prepay_id=***）
+                        signType: data.signType, // 签名方式，默认为'SHA1'，使用新版支付需传入'MD5'
+                        paySign: data.paySign, // 支付签名
+                        success: function (res) {
+                            window.doing = false;
+                            top.location = "{:U('Shop/CreditOrder/index')}";
+                        },
+                        cancel: function (res) {
+                            window.doing = false;
+                            $.msg.alert('已经取消支付');
+                        }
+                    });
+                });
+            });
+        })
+    </script>
+</block>

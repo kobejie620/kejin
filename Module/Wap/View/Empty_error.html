@@ -1,0 +1,15 @@
+<extend name="Wap@Public:index" />
+
+<block name="body">
+    <div class="container padding-top-20">
+        <div class="padding-30 text-center">
+            <img src="__RES__/wap/images/error.png" class="center-block width-120" alt="" />
+            <p class="main-color font-24 bold line-height-48">{$title}<i class="">！</i></p>
+            <p class="text-999 padding-20 padding-top-0">{$info}</p>
+        </div>
+    </div>
+</block>
+
+<block name='script'>
+    {:W('Wap/Wechat/jsHideMenu')}
+</block>

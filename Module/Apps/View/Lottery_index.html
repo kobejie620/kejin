@@ -1,0 +1,181 @@
+<extend name='Admin@Public:index' />
+
+<block name='pContent'>
+    <div class="panel panel-default mb30">
+        <!-- 活动标题 -->
+        <div class="panel-heading title mb20">
+            {$ptitle}
+        </div>
+
+        <!-- 活动参数设置 -->
+        <form action="{:U('Apps/Lottery/edit')}" data-ajax="true" method="post"  class="form-horizontal" role="form">
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">活动名称 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input type="hidden" name="id" value="{$vo.id}" />
+                    <input name='title' value='{$vo.title}' class='form-control' required="" title='活动名称不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">微信关键字 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input name='keys' value='{$vo.keys}' class='form-control' required="" title='关键字不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">主题图片<empty name="vo"> <b class="required">*</b></empty></label>
+                <div class="col-sm-9">
+                    <input type='hidden' name="link" id="img1" value="{$vo.link}" />
+                    <img data-name="link" style='height: 120px;' alt="" class="upload_one_img cursor img-thumbnail" src="{$vo.link}"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">活动内容</label>
+                <div class="col-sm-9">
+                    <textarea name="content" class="form-control">{$vo.content}</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">抽奖扣除积分 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input name='kouchujifen' value='{$vo.kouchujifen}' type="text" class='form-control' required="" title='抽奖积分' />
+                </div>
+            </div>
+
+            <!-- 奖品设置 -->
+            <div class='split'><i class='glyphicon glyphicon-refresh'></i> 奖项设置</div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">一等奖积分 <b class="required">*</b></label>
+                <div class="col-sm-3">
+                    <input name='first' value='{$vo.first}' type="text" class='form-control' required="" title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">一等奖数量 <b class="required">*</b></label>
+                <div class="col-sm-3">
+                    <input name='firstnums' value='{$vo.firstnums}' type="text"  class='form-control' required="" title='奖品数量不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">二等奖积分</label>
+                <div class="col-sm-3">
+                    <input name='second' value='{$vo.second}' type="text" class='form-control'  title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">二等奖数量</label>
+                <div class="col-sm-3">
+                    <input name='secondnums' value='{$vo.secondnums}' type="text"  class='form-control'  title='奖品数量不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">三等奖积分</label>
+                <div class="col-sm-3">
+                    <input name='third' value='{$vo.third}' type="text" class='form-control'  title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">三等奖数量</label>
+                <div class="col-sm-3">
+                    <input name='thirdnums' value='{$vo.thirdnums}' type="text"  class='form-control'  title='奖品数量不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">四等奖积分</label>
+                <div class="col-sm-3">
+                    <input name='four' value='{$vo.four}' type="text" class='form-control'  title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">四等奖数量</label>
+                <div class="col-sm-3">
+                    <input name='fournums' value='{$vo.fournums}' type="text"  class='form-control' title='奖品数量不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">五等奖积分</label>
+                <div class="col-sm-3">
+                    <input name='five' value='{$vo.five}' type="text" class='form-control' title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">五等奖数量</label>
+                <div class="col-sm-3">
+                    <input name='fivenums' value='{$vo.fivenums}' type="text"  class='form-control'  title='奖品数量不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">六等奖积分</label>
+                <div class="col-sm-3">
+                    <input name='six' value='{$vo.six}' type="text" class='form-control'  title='奖品名称不能为空' />
+                </div>
+                <label class="col-sm-2 control-label tr">六等奖数量</label>
+                <div class="col-sm-3">
+                    <input name='sixnums' value='{$vo.sixnums}' type="text"  class='form-control' title='奖品数量不能为空' />
+                </div>
+            </div>
+            <!-- 奖品设置end -->
+
+            <!-- 其他设置 -->
+            <div class='split'><i class='glyphicon glyphicon-refresh'></i> 其他设置</div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">预计活动人数 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input name='joinnum' value='{$vo.joinnum}' class='form-control' required="" title='参加人数不能为空' />
+                    <span class="label label-info"> 如果要确保任何时候都100%中奖建议设置为1人参加!并且奖项只设置一等奖.</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">每人每天允许抽奖次数 </label>
+                <div class="col-sm-9">
+                    <input name='canrqnums' value='{$vo.canrqnums}' class='form-control'  title='参加人数不能为空' />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">开始时间 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input name='startdate' value='{$vo.startdate}' type="text" class='form-control' required="" title='开始时间不能为空' />
+                    <span class="label label-info">时间格式:2014-09-05</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label tr">结束时间 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input name='enddate' value='{$vo.enddate}' type="text"  class='form-control' required="" title='结束时间不能为空' />
+                    <span class="label label-info">时间格式:2014-09-05</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">活动结束提示</label>
+                <div class="col-sm-9">
+                    <textarea name="endinfo" class="form-control">{$vo.endinfo}</textarea>
+                </div>
+            </div>
+
+            <notin name="vo.status" value="3,4">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">活动状态</label>
+                <div class="col-sm-9">
+                    <div class='form-control'>
+                        <label><input <notin name='vo.status' value='1,3,4'>checked</notin> type="radio" name="status" value="2" /> 启用</label>
+                        <label><input <eq name='vo.status' value='1'>checked</eq> type="radio" name="status" value="1" /> 停用</label>
+                    </div>
+                </div>
+            </div>
+            </notin>
+
+            <notempty name="vo">
+                <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+            </notempty>
+            <if condition="auth('Apps/Lottery/edit')">
+                <div class="tc p20 ">
+                    <button class="btn btn-success"><i class='glyphicon glyphicon-check'></i> 保存信息</button>
+                </div>
+            </if>
+        </form>
+    </div>
+</block>

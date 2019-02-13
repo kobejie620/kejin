@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <title>砸金蛋</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="__RES__/wap/eggs/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="__LIB__/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="__LIB__/layui/layer.m/layer.m.js" type="text/javascript"></script>
+        <script src="__LIB__/json/json2.js" type="text/javascript"></script>
+        <script src="__RES__/js/common.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <eq name="vo.status" value="2">
+            <div class="header <elt name='vo.canrqnums' value='$usenums'>hide</elt>">
+                <img class="eggs eggs_hammer" src="__RES__/wap/eggs/img/egg_1.png" alt="" />
+                <img data-event="action.hammer.hit" class="hammer" src="__RES__/wap/eggs/img/egg-6.png" alt="" />
+            </div>
+
+            <div class='page page_01'>
+                <div class="exp">
+                    <div class="exptitle">
+                        <div class="jcbody"><span>奖项说明：</span></div><div class="juchi"></div>
+                    </div>
+                    <div class="expbody gift_info">
+                        <p>
+                            每天有 {$vo.canrqnums} 次机会，今天还可以砸 {$vo['canrqnums']<=$usenums?0:($vo['canrqnums']-$usenums)} 次金蛋
+                        </p>
+                        <div class="gift_names"></div>
+                    </div>
+                </div>
+                <div class="exp">
+                    <div class="exptitle">
+                        <div class="jcbody"><span>活动说明：</span></div><div class="juchi"></div>
+                    </div>
+                    <div class="expbody active_info">
+                        <notempty name="vo.first"> <p>一等奖: {$vo[first][1]} <eq name="vo['first'][0]" value='0'>积分</eq></p></notempty>
+                        <notempty name="vo.second"> <p>二等奖: {$vo['second'][1]} <eq name="vo['second'][0]" value='0'>积分</eq></p></notempty>
+                        <notempty name="vo.third"> <p>三等奖: {$vo[third][1]} <eq name="vo['third'][0]" value='0'>积分</eq></p></notempty>
+                        <notempty name="vo.four"> <p>四等奖: {$vo[four][1]} <eq name="vo['four'][0]" value='0'>积分</eq></p></notempty>
+                        <notempty name="vo.five"> <p>五等奖: {$vo[five][1]} <eq name="vo['five'][0]" value='0'>积分</eq></p></notempty>
+                        <notempty name="vo.six"> <p>六等奖: {$vo[six][1]} <eq name="vo['six'][0]" value='0'>积分</eq></p></notempty>  
+                    </div>
+                </div>
+                <notempty name='recode'>
+                    <div class="exp">
+                        <div class="exptitle">
+                            <div class="jcbody"><span>中奖记录：</span></div><div class="juchi"></div>
+                        </div>
+                        <div class="expbody gift_info">
+                            <volist name='recode' id='re'>
+                                <p>{$re.create_date|strtotime|date="Y-m-d",###} {$re.name} - 获得{$re.prize}<eq name='re.type' value='0'>积分</eq></p>
+                            </volist>
+                        </div>
+                    </div>
+                </notempty>
+            </div>
+            <else/>
+            <div class="exp">
+                <div class="exptitle">
+                    <div class="jcbody"><span>活动已经结束：</span></div><div class="juchi"></div>
+                </div>
+                <div class="expbody gift_info">
+                    <p>{$vo.endinfo}</p>
+                </div>
+            </div>
+            </eq>
+        </div>
+
+        <script>
+            $(function () {
+                var setHammerState = function (is) {
+                    $('img.eggs').attr('src', '__RES__/wap/eggs/img/egg_2.png');
+                    $('img.eggs,img.hammer').off('click');
+                    if (is !== null) {
+                        $("img.hammer").removeClass("higeggs").removeAttr('data-event').animate({opacity: 0}, function () {
+                            var src = is ? '__RES__/wap/eggs/img/egg-4.png' : '__RES__/wap/eggs/img/egg-5.png';
+                            $(this).attr('src', src).on('load', function () {
+                                $(this).addClass('eggs-info').animate({opacity: 1});
+                            });
+                        });
+                    } else {
+                        $('img.eggs,img.hammer').hide();
+                        $('.header').slideUp();
+                    }
+                };
+                $('.hammer,.eggs_hammer').on('click', function () {
+                    $('.hammer').addClass('higeggs');
+                    var time = new Date().getTime();
+                    $.post('{:U("Wap/Eggs/add_eggs")}', function (data) {
+                        var diff_time = new Date().getTime() - time;
+                        setTimeout(function () {
+                            if (parseInt(data.status) === 1) {
+                                setHammerState(0);
+                            } else {
+                                setHammerState(1);
+                            }
+                            setTimeout(function () {
+                                $.msg.alert(data.info, function () {
+                                    window.location.reload();
+                                });
+                            }, 2000);
+                        }, diff_time < 1000 ? 1000 - diff_time : 10);
+                    }, 'JSON');
+                });
+            });
+        </script>
+        {:W('Wechat/JsSign')}
+        <script src="__RES__/wap/js/share.js" type="text/javascript"></script>
+        <script>
+            var share = {};
+            share.title = '{$vo.title}';
+            share.desc = '{$vo.info}';
+            share.link = '{:to_domain(url_filter())}';
+            share.imgUrl = '{$vo.startpicurl}';
+            share.type = 'link';
+            $.share.data(share);
+        </script>
+    </body>
+</html>

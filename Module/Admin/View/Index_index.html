@@ -1,0 +1,60 @@
+<extend name="Public:index" />
+
+<block name='body'>
+    <div class="panel panel-default animated bounceIn">
+        <div class="panel-heading title">登录信息</div>
+        <div class="panel-body content" >
+            <div  class=" pt20 pb20 pl20 main-color">
+                <span class="glyphicon glyphicon-user pr10" ></span>亲爱的 {:session('user.username')} 用户，您好：
+            </div>
+            <div class='box-content pb20 pl20 col-lg-4 col-md-5'>
+                <p>
+                    <strong>这是您第 {$user.login_num} 次登录本系统：</strong>
+                </p>
+                <p>
+                    当前登录时间：{$user.login_date}
+                </p>
+                <p>
+                <php>$info = get_ip_location($user['login_ip']);</php>
+                当前登录地点： {$info.address|default='未知'} {$info['supplier']} (IP：{$user.login_ip})
+                </p>
+            </div>
+            <div class='box-content pb20 pl20 col-lg-4 col-md-5'>
+                <p>
+                    <strong>您上次的登录信息如下：</strong>
+                </p>
+                <p>
+                    登录时间： {:session('user.login_date')}
+                </p>
+                <p>
+                <php>$info = get_ip_location(session('user.login_ip'));</php>
+                登录地点： {$info.address|default='未知'} {$info['supplier']} (IP：{:session('user.login_ip')})
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <notempty name='list'>
+        <div class="panel panel-default animated bounceIn">
+            <div class="panel-heading title">系统信息</div>
+            <div class="panel-body content">
+                <div class='box-content'>
+                    <div class="row m0 p0">
+                        <div class='list-group'>
+                            <volist name='list' id='vo'>
+                                <div class="col-sm-6">
+                                    <div class='row list-group-item b0'>
+                                        <div class='col-xs-5'>{$key}</div>
+                                        <div class='col-xs-6'>{$vo}</div>
+                                    </div>
+                                </div>
+                            </volist>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </notempty>
+
+</block>

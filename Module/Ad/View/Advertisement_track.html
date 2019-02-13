@@ -1,0 +1,57 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">选择渠道</label>
+        <div class="col-sm-5">
+            <select name='channel_id' id="channel_id" class='form-control'>
+                <option value="">请选择渠道</option>
+                <volist name='channelList' id='vo'>
+                    <option channel_sn="{$vo.channel_sn}" value='{$vo.channel_id}' <eq name='info.channel_id' value='$vo.channel_id'>selected="selected"</eq>>({$vo.channel_sn}){$vo.name}</option>
+                </volist>
+            </select>
+        </div>
+        <div class="col-sm-5">
+            <span class="btn btn-info btn-sm" onclick='add_track(this)'>创建追踪链接</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">追踪链接 <b class="required">*</b></label>
+        <div class="col-sm-8">
+            <span>渠道访问tracking时，务必带上跳转参数track，参数值（t1表示异步，t2表示302）</span>
+            <textarea required="" id="track_link" title="请输入追踪链接"  value="{$info.track_link}" type="text" name="track_link" class="form-control" rows="4">{$info.track_link}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">模拟转化 <b class="required">*</b></label>
+        <div class="col-sm-8" >
+            <button class="btn btn-info btn-sm">配置</button><br /><br />
+            <span>该功能仅测试渠道接口与您的17ADS接口是否打通，确保17ADS可正常收到点击，渠道自家后台可正常收到转化，使用方法;</span><br /><br />
+            <span>1、生成追踪链接，提供给渠道包装;</span><br /><br />
+            <span>2、配置渠道包装后的追踪链接到“点击链接”;</span><br /><br />
+            <span>3、选择“回调方式”、“模拟数据是否统计到报表”;</span><br /><br />
+            <span>4、提交测试;</span>
+        </div>
+    </div>
+
+    <notempty name="vo">
+        <input type="hidden" value="{$info.ad_id|default=0}" name="ad_id"/>
+    </notempty>
+</block>
+
+<block name='script'>
+    <script type="text/javascript">
+        function add_track(obj) {
+            var channel_sn = $("#channel_id").find("option:selected").attr("channel_sn");
+            var value = $("#channel_id").val();//获取channel_id 为uname的值
+            if(!value) {  //判断是否为空
+                alert("请选择渠道");
+            } else {
+                var url = '{$config.link}/click?affid={$info.advertiser_sn}&offerid='+channel_sn+'&idfa={idfa}';
+                $("#track_link").val(url);
+            }
+        }
+    </script>
+</block>

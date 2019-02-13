@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>{$ptitle}</title>
+	<link href="__RES__/jonza3/css/base.css" rel="stylesheet" type="text/css" />
+	<link href="__RES__/jonza3/css/css.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__RES__/jonza3/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__RES__/jonza3/js/k.js"></script>
+
+</head>
+
+<body>
+	<div class="fix box">
+    	<div class="fix rel">
+        	<img src="__RES__/jonza3/images/img_01.jpg" alt="img" width="100%" class="db" />
+            <div class="header-box pct100 tc">
+            	<a href="javascript:;" class="dib p6 bgwh brpct50 header-box-img"><img src="{$info['headimgurl']}" alt="img" width="100%" class="db brpct50" /></a>
+				<p class="g6 f16" style=" margin-top: -8px;">{$guide['guide_num']}</p>
+			</div>
+            <div class="fix pct100 header-cout">
+            	<ul class="fix tc g6 f16">
+                	<li class="dtc pct1">总积分：{$data.total_integral}</li>
+                    <li class="dtc pct1">可用积分：{$data.integral}</li>
+                </ul>
+            </div>
+        </div>
+<!--        <ul class="fix tc g6 order-nav bgwh bs1 pt6 pb6 mb12">
+            <li class="dtc pct1">
+                <span class="db">0</span>
+                <span class="db">待付款</span>
+            </li>
+            <li class="dtc pct1">
+                <span class="db green">2</span>
+                <span class="db">待发货</span>
+            </li>
+            <li class="dtc pct1">
+                <span class="db">0</span>
+                <span class="db">已发货</span>
+            </li>
+            <li class="dtc pct1">
+                <span class="db">0</span>
+                <span class="db"> 已完成</span>
+            </li>
+        </ul>-->
+        <ul class="fix  bgwh bs1 mb12 f16 mlist">
+            <li  class="fix bbd">
+            	<a href="{:U('Wap/Guide/jifenrecord')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m02.png" alt="img" width="18" class="vt-3 mr6" />积分记录</span><i class="st f20 r">&gt;</i></a>
+            </li>
+        </ul>
+        <ul class="fix  bgwh bs1 mb12 f16 mlist">
+        	<li class="fix bbd">
+            	<a href="{:U('Shop/Guide/index')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m03.png" alt="img" width="18" class="vt-3 mr6" />我的订单</span><i class="st f20 r">&gt;</i></a>
+            </li>
+            <li class="fix bbd">
+            	<a href="{:U('Shop/CreditOrder/index')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m04.png" alt="img" width="18" class="vt-3 mr6" />兑换订单</span><i class="st f20 r">&gt;</i></a>
+            </li>
+        </ul>
+        <ul class="fix  bgwh bs1 mb12 f16 mlist">
+        	<li class="fix bbd">
+            	<a href="{:U('Wap/Guide/rebate')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m05.png" alt="img" width="18" class="vt-3 mr6" />返利记录</span><i class="st f20 r">&gt;</i></a>
+            </li>
+            <li class="fix bbd">
+            	<a href="{:U('Wap/Guide/tixian')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m06.png" alt="img" width="18" class="vt-3 mr6" />佣金提现</span><i class="st f20 r">&gt;</i></a>
+            </li>
+            <li class="fix bbd">
+            	<a href="{:U('Wap/Guide/tixianrecord')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m07.png" alt="img" width="18" class="vt-3 mr6" />提现记录</span><i class="st f20 r">&gt;</i></a>
+            </li>
+        </ul>
+        <ul class="fix  bgwh bs1 mb12 f16 mlist">
+        	<li class="fix bbd">
+            	<a href="{:U('Wap/Guide/score')}" class="db fix p10 pl14 pr14 g6"><span class="l"><img src="__RES__/jonza3/images/m08.png" alt="img" width="18" class="vt-3 mr6" />我的成绩</span><i class="st f20 r">&gt;</i></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

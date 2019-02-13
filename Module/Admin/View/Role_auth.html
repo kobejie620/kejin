@@ -1,0 +1,118 @@
+<extend name='Public:form' />
+
+<block name='form'>
+    <ul id="zTree" class="ztree loading"><li style="height:100px;" class="loading-background"></li></ul>
+    <div class='form_inputs'></div>
+    <style>
+        ul.ztree li span.button.switch{
+            margin-right:5px;
+        }
+        ul.ztree ul ul li{
+            display:inline-block;
+            white-space: normal;
+        }
+        ul.ztree>li>ul>li{
+            padding:5px;
+        }
+        ul.ztree>li:nth-child(even){
+            background: #ecf2f7;
+        }
+        ul.ztree>li:nth-child(odd){
+            background: #dae6f0;
+        }
+        ul.ztree>li:nth-child(even)>ul>li:nth-child(even){
+            background: #eef5fa;
+        }
+        ul.ztree>li:nth-child(even)>ul>li:nth-child(odd){
+            background: #f6fbff;
+        }
+        ul.ztree>li:nth-child(odd)>ul>li:nth-child(even){
+            background: #eef5fa;
+        }
+        ul.ztree>li:nth-child(odd)>ul>li:nth-child(odd){
+            background: #f6fbff;
+        }
+        ul.ztree>li>ul{
+            margin-top:12px;
+        }
+        ul.ztree>li{
+            padding:15px;
+            padding-right:25px;
+        }
+        ul.ztree>li>a>span{
+            font-size:15px;
+            font-weight:700;
+        }
+    </style>
+    <script>
+        jQuery(function () {
+            function showTree() {
+                this.data = {};
+                this.ztree = null;
+                this.setting = {
+                    view: {showLine: false, showIcon: false, dblClickExpand: false},
+                    check: {enable: true, nocheck: false, chkboxType: {"Y": "ps", "N": "ps"}},
+                    callback: {
+                        beforeClick: function (treeId, treeNode) {
+                            if (treeNode.level === 2) {
+                                window.role_form.ztree.checkNode(treeNode, !treeNode.checked, null, true);
+                            } else {
+                                window.role_form.ztree.expandNode(treeNode);
+                            }
+                            return false;
+                        }
+                    }
+                };
+                this.listen();
+            }
+            showTree.prototype = {
+                constructor: showTree,
+                listen: function () {
+                    this.getData(this);
+                },
+                getData: function (self) {
+                    jQuery.get('__SELF__', {action: 'getZtreeData'}, function (data) {
+                        for (var a in data) {
+                            for (var b in data[a].children) {
+                                data[a].checked = true;
+                                for (var c in data[a].children[b].children) {
+                                    data[a].children[b].checked = true;
+                                    if (!data[a].children[b].children[c].checked) {
+                                        data[a].children[b].checked = false;
+                                        continue;
+                                    }
+                                }
+                                if (!data[a].children[b].checked) {
+                                    data[a].checked = false;
+                                    continue;
+                                }
+                            }
+                        }
+                        self.data = data;
+                        self.showTree();
+                    }, 'JSON');
+                },
+                showTree: function () {
+                    this.ztree = jQuery.fn.zTree.init(jQuery("#zTree"), this.setting, this.data);
+                },
+                build: function ($container) {
+                    var data = this.ztree.getCheckedNodes(true);
+                    var paths = [];
+                    for (var i in data) {
+                        (data[i].path) && paths.push(data[i].path);
+                    }
+                    $container.empty();
+                    for (var i in paths) {
+                        $container.append('<input name="node[]" value="' + paths[i] + '" type="hidden" />');
+                    }
+                }
+            };
+            window.role_form = new showTree();
+            var $container = $('.form_inputs');
+            $container.parents('form').attr('data-progress', 'true').on('submit', function () {
+                role_form.build($container);
+                return false;
+            });
+        });
+    </script>
+</block>

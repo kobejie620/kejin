@@ -1,0 +1,75 @@
+<extend name='Wap@Public:index' />
+
+<block name='body'>
+    <!-- search -- >
+    <form data-ajax='true' action="{:U('Shop/CreditOrder/index')}" method="get">
+        <div class="line-height-48 shadow overflow-hidden">
+            <div class="col-xs-10 inline-block"><input class="width-pct-100 border-none" type="text" name="search" value="{$Think.get.search}" placeholder="请输入您需要搜索的信息" /></div>
+            <div class="col-xs-2 padding-left-0"><button disabled=""><img class="width-30" src="__RES__/wap/images/search-icon.png" alt="" /></button></div>
+        </div>
+    </form>
+    < !-- search end -->
+
+    <!-- 订单列表 -->
+    <empty name="list">
+        <ul class="list-group shadow margin-bottom-10">
+            <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+                <h4>您还没有订单，赶紧去兑换吧...</h4>
+            </li>
+        </ul>
+        <else/>
+        <volist name='list' id='vo'>
+            <a <eq name="vo.send_status" value="0">href="{:U('shop/pay/credit_'.$vo['id'])}"<else />href="{:U('Shop/CreditOrder/detail',array('credit_id'=>$vo['id']))}"</eq> >
+                <ul class="padding-10 padding-bottom-0 shadow overflow-hidden margin-top-10">
+                    <li class="border-dashed line-height-40"> 
+                        <span class="main-color">单号 {$vo.credit_no} </span>
+                        <span class="margin-left-10 text-999">下单时间 {$vo.create_date|substr=0,10}</span>
+                    </li>
+                    <!-- 产品信息 -->
+                    <li class="border-dashed overflow-hidden padding-top-12 relative padding-bottom-10">
+                        <img class="width-80 pull-left margin-right-8" src="{:to_domain($vo['products']['logo'])}" alt="" />
+                        <div class="">
+                            <p class="ellipsis padding-right-62 text-333">{$vo.products.name}</p>
+                            <p class="pull-left"><span class="text-999 padding-left-10">{$vo.product_params|str_replace='_split_',',',###}</span></p>
+                        </div>
+                        <div class="absolute order-price">
+                            <span>{$vo.credit}积分</span><br />
+                            <span class="text-999 pull-right">× {$vo.num}</span><br />
+                        </div>
+                    </li>
+                    <li class="pull-right line-height-48 text-999">
+                        共<span class="padding-left-8 padding-right-8">{$vo.num}</span>件 合计
+                        <span class="font-20 high-light-color padding-left-8 padding-right-8">{$vo.total_credit}积分<eq name='vo.notify' value='pay'>+ ￥{:sprintf("%.2f",$vo['order_amount'] + $vo['pay_freight'] - $vo['promotions'])}</eq></span>
+                        <eq name="vo.status" value="2">
+                        <eq name="vo.send_status" value="0">
+                        <span class="main-color">未发货</span>
+                        </eq>
+                        <eq name="vo.send_status" value="1">
+                        <span class="main-color">已发货</span>
+                        </eq>
+                        <eq name="vo.send_status" value="2">
+                        <span class="main-color">已签收</span>
+                        </eq>
+                    <else/>
+                    {$vo|show_order_status="credit"}
+                    </eq>
+                    </li>
+                </ul>
+            </a>
+        </volist>
+        {$page}
+    </empty>
+</block>
+
+<block name="script">
+    {:W('Wap/Wechat/jsHideMenu')}
+    <empty name="list">
+        <script>
+            $(function () {
+                $.msg.alert('您还没有订单，赶紧去兑换吧', function () {
+                    window.location.href = "{:U('Shop/Credit/index')}";
+                });
+            });
+        </script>
+    </empty>
+</block>

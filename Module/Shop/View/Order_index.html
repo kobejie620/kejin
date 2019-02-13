@@ -1,0 +1,133 @@
+<extend name="Wap@Public:index" />
+
+<block name="body">
+    <div class="box">
+
+        <ul class="i_menu">
+            <li><a <eq name='Think.get.send_status' value='0'>class="on"</eq> href="{:U('Shop/Order/index',array('send_status'=>0))}">待发货</a></li>
+            <li><a <eq name='Think.get.send_status' value='1'>class="on"</eq> href="{:U('Shop/Order/index',array('send_status'=>1))}">已发货</a></li>
+            <li class="i_menul3"><a <eq name='Think.get.send_status' value='2'>class="on"</eq> href="{:U('Shop/Order/index',array('send_status'=>2))}">已收货</a></li>
+        </ul>
+
+        <volist name="list" id="vo">
+            <div class="gbox gbox2 mt12 dn">
+                <div class="ord_tl">
+                    <span class="font15 left blue">编号：{$vo.order_no}</span>
+                    <span class="font13 right blue">{$vo.create_date}</span>
+                </div>
+                <volist name="vo.list" id="item">
+                    <div class="over mt8">
+                        <div class="gbox_lf">
+                            <img src="__RES__/Wap/images/i_prod.jpg" alt="img" class="img-responsive">
+                        </div>
+                        <div class="gbox_rg">
+                            <p class="ord_tl">{$item.product_name}</p>
+                            <p class="ord_tl yellow2">
+                                阶段：1段&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数量：{$item.product_nums}
+                            </p>
+                            <p class="ord_tl yellow2">
+                                金额：<span class="red">￥{$item.product_price}</span> 
+                            </p>
+                            <p class="ord_tl yellow2 bor_no">
+                                收货地址：{$vo.province}{$vo.city}{$vo.area}{$vo.address}
+                            </p>
+                        </div>
+                    </div>
+                </volist>
+            </div>
+
+
+            <div class="gbox gbox2 mt12">
+                <div class="ord_tl">
+                    <span class="font15 left blue pt4">{$vo.order_no}</span>
+                    <switch name='vo.send_status'>
+                    <case value='0'>
+                        <span class="yfk right">待发货</span>
+                    </case>
+                    <case value='1' >
+                        <span onclick='confirmSend(this)' data-id='{$vo.id}' class="yfk yfk2 right">确认收货</span>
+                    </case>
+                    <case value='2' >
+                        <span class="yfk yfk3 right">订单完成</span>
+                    </case>
+                    </switch>
+                    <span class="font12 left grey ml6 pt6">{$vo.create_date}</span>
+                </div>
+                <div class="over mt8 gb_ck">
+                    <div class="gbox_rg ml0">
+                        <p class="ord_tl">{$vo.list.0.product_name}</p>
+                        <p class="ord_tl yellow2">
+                            总金额：<span class="red">￥{$vo.order_amount}</span>
+                        </p>
+                        <p class="ord_tl yellow2">
+                            {$vo.accept_name} {$vo.phone}
+                            {$vo.province}{$vo.city}{$vo.area}{$vo.address}
+                        </p>
+                        <p class="ord_tl yellow2 tr">
+                            <span class="pbut pbut2">展开</span>
+                        </p>
+                    </div>
+                </div>
+                <volist name="vo.list" id="item"> 
+                    <div class="over mt8 gb_ck dn ">
+                        <div class="gbox_lf">
+                            <img src="{:to_domain($item['img'])}" alt="img" class="img-responsive">
+                        </div>
+                        <div class="gbox_rg">
+                            <p class="ord_tl">
+                                <a href='{:U("Shop/Index/form",array("id"=>$item["product_id"]))}'>{$item.product_name}</a>
+                            </p>
+                            <p class="ord_tl yellow2">
+                                {$item.params|explode='_split_',###|join=###,' 、'}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数量：{$item.product_nums}
+                            </p>
+                            <p class="ord_tl yellow2">
+                                单价：<span class="red">￥{$item.product_price}</span> 
+                            </p>
+                        </div>
+                    </div>
+                </volist>
+            </div>
+        </volist>
+
+        <style>
+            .ml0{ margin-left:0;}
+            .tr{ text-align:right;}
+            .pbut{ height:24px; line-height:24px;padding: 0 16px; font-size:14px;}
+            .dn{ display:none;}
+        </style>
+    </div>
+</block>
+
+<block name="script">
+    {:W('Wap/Wechat/jsHideMenu')}
+    <script>
+        function confirmSend(obj) {
+            var order_id = $(obj).data('id');
+            $.msg.confirm('确定收到货了吗？', function () {
+                $.post("{:U('Shop/Order/confirmSend')}", {id: order_id}, function (data) {
+                    var msg = '确定收货成功!';
+                    if (!data.status) {
+                        msg = '确定收货失败，请稍候再试!';
+                    }
+                    $.msg.alert(msg, function () {
+                        window.location.reload();
+                    });
+                });
+            });
+        }
+        (function ($) {
+            $(document).ready(function () {
+                $(".pbut2").click(function () {
+                    var $cate = $(this).parents(".gb_ck").siblings(".gb_ck");
+                    if ($cate.is(":visible")) {
+                        $cate.slideUp(0);
+                        $(this).html('展开');
+                    } else {
+                        $cate.slideDown(300);
+                        $(this).html('收起');
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
+</block>

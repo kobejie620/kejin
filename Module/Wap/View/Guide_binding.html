@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>{$ptitle}</title>
+<link href="__RES__/jdjz/css/base.css" rel="stylesheet" type="text/css" />
+<link href="__RES__/jdjz/css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__RES__/jdjz/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__RES__/jdjz/js/k.js"></script>
+
+</head>
+
+<body>
+<div class="box">
+    <form data-ajax="true" method="POST" action="{:U('Wap/Guide/binding')}">
+        <div class="m12 p20 fix bgwh bsdow">
+            <div class="tc mt10 mb30">
+                    <img src="__RES__/jdjz/images/logo_03.png" alt="logo" width="190" />
+            </div>
+            <div class="fix mb10">
+                <input type="text" required="" pattern="^.{8,10}$" name="guide_num" class="txt bdd" title="请输入8-10位有效的导购员编号！" placeholder="请输入导购员编号" maxlength="10"/>
+            </div>
+            <div class="fix mb10 mt30">
+                <button type="submit" class="dib btn bd0 br4 bg-pink lh24 pct100">绑定</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+
+

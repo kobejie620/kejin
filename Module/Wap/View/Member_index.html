@@ -1,0 +1,99 @@
+<extend name='Public:index' />
+<block name="style">
+	<style>
+		.personal-banner > img {
+			border: 0px solid #fff;
+			box-shadow: 1px 5px 3px rgba(0,0,0,.6);
+		}
+	</style>
+</block>
+<block name='body'>
+    <div class="height-180 padding-top-12 text-center personal-banner">
+        <img class="center-block img-circle width-120 height-120" src="{$member.headimgurl}" alt=""/>
+        <p data-href="{:U('Wap/Member/integral')}" class="padding-top-16">总积分：<span class="padding-right-10">{$member.total_integral}</span> 可用积分：<span>{$member.integral}</span></p>
+    </div>
+    <div class="font-12 padding-top-14 shadow overflow-hidden height-60 text-center tab-bottom">
+        <div class="col-xs-3 border-right-ddd"><a href="{$total.pay_url}">{$total.pay}<br />待付款</a></div>
+        <div class="col-xs-3 border-right-ddd"><a href="{$total.route_url}">{$total.route}<br />待发货</a></div>
+        <div class="col-xs-3 border-right-ddd"><a href="{$total.routed_url}">{$total.routed}<br />已发货</a></div>
+        <div class="col-xs-3"><a href="{$total.success_url}">{$total.success}<br />已完成</a></div>
+    </div>
+    <ul class="list-group">
+
+        <li data-href="{:U('Shop/CreditOrder/index')}" class="list-group-item border-none shadow line-height-36 margin-top-1 ">
+            <span class="glyphicon glyphicon-tags"></span>
+            <span class="padding-left-10">我的兑换记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+
+        <li data-href="{:U('Shop/MyOrder/index')}" class="list-group-item border-none shadow line-height-36 margin-top-2 ">
+            <span class="glyphicon glyphicon-time"></span>
+            <span class="padding-left-10">我的购买记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+
+     <!--   <li data-href="{:U('Wap/Member/integral')}" class="list-group-item border-none shadow line-height-36 margin-top-2 ">
+            <span class="glyphicon glyphicon-list-alt"></span>
+            <span class="padding-left-10">我的积分记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>-->
+
+        <li data-href="{:U('Wap/Member/info')}" class="list-group-item border-none shadow line-height-36 margin-top-2 ">
+            <span class="glyphicon glyphicon-user"></span>
+            <span class="padding-left-10">个人资料管理</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+
+        <li data-href="{:U('Wap/Member/address')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">收货地址管理</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+        <li data-href="{:U('Wap/Promotion/promotion')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">我的推广</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+		
+		<li data-href="{:U('Wap/Member/tixian')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">佣金提现</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+		
+		<li data-href="{:U('Wap/Member/tixianrecord')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">提现记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+		
+		<li data-href="{:U('Wap/Member/rebate')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">返利记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+		
+		<li data-href="{:U('Wap/Member/jifenrecord')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">积分记录</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+		
+		<li data-href="{:U('Wap/Member/score')}" class="list-group-item border-none shadow line-height-36 margin-top-2">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <span class="padding-left-10">我的成绩</span>
+            <span class="glyphicon glyphicon-chevron-right pull-right padding-top-8"></span>
+        </li>
+    </ul>
+    <div class='height-40'></div>
+    <div class="font-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom height-49 text-center tab-bottom line-height-48">
+        <div class="col-xs-3 border-right-ddd height-49"><a href="{:U('/wap')}"><span class="glyphicon glyphicon-home font-20 padding-top-14"></span></a></div>
+        <div class="col-xs-3 border-right-ddd height-49"><a href="{:U('Shop/index/index')}" class="block">在线商品</a></div>
+        <div class="col-xs-3 border-right-ddd height-49"><a href="{:U('Shop/Car/index')}">购物车</a></div>
+        <div class="col-xs-3"><a href="{:U('Shop/MyOrder/index')}">我的订单</a></div>
+    </div>
+</block>
+
+<block name='script'>
+    {:W('Wap/Wechat/jsHideMenu')}
+</block>

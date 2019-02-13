@@ -1,0 +1,137 @@
+<extend name='Admin@Public:index' />
+
+<block name='pContent'>
+    <div class="panel panel-default mb10">
+        <form onsubmit="return false" action="__URL__/edit" data-tip="正在同步接口信息，大约需10秒钟，请耐心等待..." data-ajax="true" method="post"  class="form-horizontal mb40" role="form">
+            <div class='split'><i class='glyphicon glyphicon-refresh'></i> 自动绑定公众号</div>
+            <div class='mb40 row'>
+                <div class='col-xs-1'></div>
+                <div class='col-xs-10'>
+                    <div class="col-sm-4">
+                        <h5 class="color_8b"><i class='glyphicon glyphicon-user'></i> 公众平台帐号 <b class="required">*</b></h5>
+                        <input value="{$vo.username}" required='' title='请填写公众平台帐号' type="text" name="username" class="form-control" />
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="color_8b"><i class="glyphicon glyphicon-lock"></i> 公众平台密码 <b class="required">*</b></h5>
+                        <input value="{$vo.password}" required='' title='请填写公众平台密码' type="password" name="password" class="form-control" />
+                    </div>
+                    <if condition="auth('Wechat/Config/edit')">
+                        <div class="col-sm-3 tc">
+                            <h5 class="color_8b">&nbsp;</h5>
+                            <notempty name="vo">
+                                <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+                            </notempty>
+                            <input type="hidden" value='_autobind' name='action' />
+                            <button class="btn btn-default f12"><i class='glyphicon glyphicon-random'></i> 自动对接 </button>
+                        </div>
+                    </if>
+                </div>
+            </div>
+        </form>
+        <form onsubmit="return false" action="{:U('Wechat/Config/edit')}" data-ajax="true" method="post"  class="form-horizontal mb40" role="form">
+            <div class='split'>
+                <i class='glyphicon glyphicon-edit'></i> 手动配置公众号
+            </div>
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10">
+                    <div class='split ml0 mr0 f12'>A. 常规参数配置</div>
+                    <h5 class="color_8b"><i class='glyphicon glyphicon-globe'></i> 服务器对接地址</h5>
+                    <input class="form-control disabled" readonly value="{:U('/api/','',true,true)}" />
+                    <h5 class="color_8b"><i class='glyphicon glyphicon-globe'></i> 支付授权目录</h5>
+                    <input class="form-control disabled" readonly value="{:U('/shop/pay/','',false,true)}/" />
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">公众号名称 <b class="required">*</b></h5>
+                            <input required="" value="{$vo.title}" pattern="^.{4,}$" title="用户帐号至少4个字符！" type="text" name="title" class="form-control" placeholder="输入应用名称">
+                        </div>
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">认证TOKEN <b class="required">*</b></h5>
+                            <input value="{$vo.token}" required="" title='TOKEN不能为空' type="text" name="token" class="form-control" />
+                        </div>
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">公众号类型 <b class="required">*</b></h5>
+                            <select name='apptype' class='form-control'>
+                                <option <eq name='vo.apptype' value='订阅号'>selected</eq> value='订阅号'>订阅号</option>
+                                <option <eq name='vo.apptype' value='服务号'>selected</eq> value='服务号'>服务号</option>
+                                <option <eq name='vo.apptype' value='企业号'>selected</eq> value='企业号'>企业号</option>
+                            </select>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">消息加密密钥 <span class="help-block f12">消息加密密钥由43位字符组成</span></h5>
+                            <input type="text" maxlength="43" name="encodingaeskey" value="{$vo.encodingaeskey}" class='form-control' />
+                        </div>
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">消息加解密方式 <span class="help-block f12">消息加密密钥由43位字符组成</span></h5>
+                            <select name="encryptmode" class="form-control">
+                                <option <eq name="vo.encryptmode" value="0">selected</eq> value="0">明文模式</option>
+                                <option <eq name="vo.encryptmode" value="1">selected</eq> value="1">兼容模式</option>
+                                <option <eq name="vo.encryptmode" value="2">selected</eq> value="2">安全模式</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">二维码<span class="help-block f12">点击图片即可上传公众号二维码</span></h5>
+                            <input type='hidden' id='qrc_img' name='qrc_img' value='{$vo.qrc_img}' />
+                            <img alt='公众号二维码' class='upload_one_img cursor' data-name='qrc_img' title='二维码上传' style='width: 36px;height:36px' src='{$vo.qrc_img|to_domain}?_file_=default.jpg' />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">公众号APPID</h5>
+                            <input value="{$vo.appid}" type="text" name="appid" class="form-control"/>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="color_8b">公众号AppSecret</h5>
+                            <input value="{$vo.appsecret}" type="text" name="appsecret" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row mb20">
+                        <div class="col-sm-12">
+                            <h5 class="color_8b">自动回复消息 <span class="help-block f12">关注时的自动回复消息，默认系统做为关键字处理</span></h5>
+                            <textarea name="reply" class='form-control' style="height:80px">{$vo.reply}</textarea>
+                        </div>
+                    </div>
+
+                    <div class='split ml0 mr0 f12'>B. 微信支付配置</div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5 class="color_8b">商户身份标识 mch_id</h5>
+                            <input value="{$vo.partnerid}" type="text" name="partnerid" class="form-control" />
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="color_8b">商户权限密钥 PartnerKey</h5>
+                            <input value="{$vo.partnerkey}" type="text" name="partnerkey" class="form-control" />
+                        </div>
+                        <!--                        
+                        <div class="col-sm-4">
+                            <h5 class="color_8b">Paysignkey <span class="help-block f12">商户签名密钥Key</span></h5>
+                            <input value="{$vo.paysignkey}" type="text" name="paysignkey" class="form-control" />
+                        </div>
+                        -->
+                    </div>
+                    <div class='row'>
+                        <div class="col-sm-6">
+                            <h5 class="color_8b">商户证书CER <span class="help-block f12">可直接填写CER文件的内容或文件在服务器上的路径</span></h5>
+                            <textarea style='height:100px' class='form-control' name='ssl_cer'>{$vo.ssl_cer}</textarea>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="color_8b">商户证书KEY <span class="help-block f12">可直接填写CER文件的内容或文件在服务器上的路径</span></h5>
+                            <textarea style='height:100px' class='form-control' name='ssl_key'>{$vo.ssl_key}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <if condition="auth('Wechat/Config/edit')">
+                <div class="tc p20">
+                    <notempty name="vo">
+                        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+                    </notempty>
+                    <input type='hidden' name='action' value='_saveinfo' />
+                    <button class="btn btn-success"><i class='glyphicon glyphicon-check'></i> 保存配置信息</button>
+                </div>
+            </if>
+        </form>
+    </div>
+</block>

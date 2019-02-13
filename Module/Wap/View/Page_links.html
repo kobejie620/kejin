@@ -1,0 +1,14 @@
+<notempty name='_data_.content'>
+    <!--盒子开始-->
+    <div class="web-index text-999 text-center">
+        <volist name='_data_.content' id='vo'>
+            <div data-href='{$vo.href|U}' class="col-xs-4 bg-fff height-120 display-table border-right-ddd border-bottom-ddd">
+                <div class="table-cell">
+                    <img src="{$vo.src}?imageView2/5/w/100/h/100" class="width-30" alt="" />
+                    <p class="line-height-30">{$vo.title}</p>
+                </div>
+            </div>
+        </volist>
+        <div style='clear: both'></div>
+    </div>
+</notempty>

@@ -1,0 +1,151 @@
+<extend name='Wap@Public:index' />
+
+
+<block name='body'>
+    <ul class="list-group padding-bottom-0 shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>商品信息</span>
+        </li>
+        <li class="border-dashed overflow-hidden padding-top-14 relative padding-bottom-10">
+            <a href="javascript:void(0)"><img class="width-80 pull-left padding-right-8" src="{:to_domain($info['logo'])}" alt="" /></a>
+            <div class="">
+                <p class="ellipsis padding-right-40 text-333"><a href="javascript:void(0)">{$info.product_name}</a></p>
+                <p class="pull-left">
+                    <span class="text-999 padding-left-10">{$info.product_params|str_replace='_split_',',',###}</span>
+                </p>
+            </div>
+            <div class="absolute order-price">
+                <span>¥{$info.credit}</span><br />
+                <span class="text-999 pull-right">× {$info.num}</span><br />
+            </div>
+        </li>
+    </ul>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>积分信息</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>积分总额</span><span class='pull-right'>{$info.total_credit}积分</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>合计</span><span class='pull-right'>{$info.total_credit}</span>
+        </li>
+    </ul>
+    <gt name='vo.pay_type' value='0'>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>金额信息</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>商品总额</span><span class='pull-right'>￥{$info.order_amount}</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>邮费</span><span class='pull-right'>￥{$info.pay_freight}</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>礼品包装</span><span class='pull-right'>￥0.00</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>优惠</span><span class='pull-right'>-￥{$info.promotions}</span>
+        </li>
+        <li class="list-group-item border-none shadow line-height-20 margin-top-2 ">
+            <span>总额</span><span class='pull-right'>￥{:sprintf("%.2f",$info['order_amount'] + $info['pay_freight'] - $info['promotions'])}</span>
+        </li>
+    </ul>
+    <ul class='list-group shadow margin-bottom-10'>
+        <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+            <input type="hidden" name="list" value='{$data}'  />
+            <span class="glyphicon glyphicon-yen"></span>
+            <span class="padding-left-10">支付方式</span>
+            <span class="pull-right padding-right-10"><input type="hidden" name="pay_type" value="1"/>微信支付</span>
+        </li>
+    </ul>
+    </gt>
+    <ul class="list-group shadow margin-bottom-10">
+        <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            <span>收货信息</span>
+        </li>
+        <notempty name='info.accept_name'>
+            <li class="list-group-item border-none line-height-36 margin-top-2">
+                <p>
+                    <span class="padding-right-10">姓名：{$info.accept_name} </span>手机：{$info.phone}
+                </p>
+                <p>
+                    地址：{$info.province} {$info.city} {$info.area} {$info.address}
+            <notempty name='info.postcode'> (邮编 {$info.postcode} )</notempty>
+            </p>
+            </li>
+        </notempty>
+    </ul>
+    <div class="list-group shadow margin-bottom-10">
+        <div class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+            物流信息
+        </div>
+        <div class="list-group-item border-none line-height-36 margin-top-2">
+            <div class="">
+                <p>物流公司：{$info['freight']}</p>
+                <p>物流号：{$info['freight_num']}</p>
+            </div>
+            <ul class="list-group m0 freight">
+                <a href="javascript:void(0)" class="list-group-item">
+                    正在加载快递信息，请稍后... ...
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="height-40"></div>
+    <eq name="info.send_status" value="1">
+    <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+        <button class="tj_but fw btn btn-danger pull-right padding-left-20 padding-right-20" onclick='confirmSend(this)' data-id="{$info['id']}">确认收货</button>
+    </div>
+    </eq>
+    <eq name="info.send_status" value="2">
+    <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+        <span class="pull-right font-16" style='color:green;'>已签收</span>
+    </div>
+    </eq>
+</block>
+<block name='script'>
+    {:W('Wap/Wechat/jsHideMenu')}
+    <script type="text/javascript">
+        function confirmSend(obj) {
+            var id = $(obj).data('id');
+            window.confirm('确定收到货了吗？') && $.post("{:U('Shop/CreditGuide/confirmSend')}", {id: id}, function (data) {
+                if (data) {
+                    alert('确定收货成功!');
+                    window.location.reload();
+                } else {
+                    alert('确定收货失败，请稍候再试...');
+                    window.location.reload();
+                }
+            });
+        }
+        $(function () {
+            var freight_num = "{$info.freight_num}";
+            $.post("{:U('Shop/CreditGuide/showFreight')}", {freight_num: freight_num}, function (data) {
+                if (data.status == 0) {
+                    var html = '';
+                    html = '<a href="javascript:void(0)" class="list-group-item">'
+                            + data.info +
+                            '</a>';
+                    $(".freight").html(html);
+                } else if (data.status == 200) {
+                    var html = "";
+                    $.each(data.data, function (name, value) {
+                        html += '<a href="javascript:void(0)" class="list-group-item">'
+                                + '<span class="list-group-item-heading">' + value.time + '</span>'
+                                + '<p class="list-group-item-text">' + value.context + '</p>'
+                                + '</a>';
+                    });
+                    $(".freight").html(html);
+                } else {
+                    var html = '<a href="javascript:void(0)" class="list-group-item">'
+                            + "快递异常！" +
+                            '</a>';
+                    $(".freight").html(html);
+                }
+            });
+        });
+
+    </script>
+</block>

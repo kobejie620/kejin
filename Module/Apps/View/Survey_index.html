@@ -1,0 +1,50 @@
+<extend name="Admin@Public:index" />
+
+<block name='ptitle'>
+    {$ptitle}
+    <span class='pull-right'>
+        <if condition="auth(MODULE_NAME.'/'.CONTROLLER_NAME.'/rule_edit')">
+            <button data-load="{:U(MODULE_NAME.'/'.CONTROLLER_NAME.'/rule_edit')}" class="btn btn-info btn-sm mr5">编辑设置</button>
+        </if>
+        <if condition="auth(MODULE_NAME.'/'.CONTROLLER_NAME.'/add')">
+            <button data-load="{:U(MODULE_NAME.'/'.CONTROLLER_NAME.'/add')}" class="btn btn-success btn-sm mr5">添加问题</button>
+        </if>
+        <if condition="auth(MODULE_NAME.'/'.CONTROLLER_NAME.'/del')">
+            <button data-del data-path='Apps/Survey/del' class="btn btn-warning btn-sm">删除已选</button>
+        </if>
+    </span>
+</block>
+
+<block name="search">
+    <form class="form-inline" action="__SELF__" method="GET" id="search_form" role="form">
+        <div class="form-group p10">
+            <label class="control-label">关键字</label>
+            <input class="form-control" name="_kw" value="{$Think.get._kw}" />
+        </div>
+
+        <div class="form-group p10">
+            <label class="control-label">类型</label>
+            <select name="_cate" class="form-control">
+                <option value="">全部</option>
+                <option value="0"<eq name="Think.get._cate" value="0"> selected</eq>>单选</option>
+                <option value="1"<eq name="Think.get._cate" value="1"> selected</eq>>多选</option>
+            </select>
+        </div>
+
+        <div class="form-group p10 ml20">
+            <div class="input-group ">
+                <div class="cursor mr5 mt2 btn btn-default btn-sm" onclick="search_form.submit()">
+                    <span class="glyphicon glyphicon-search"></span> 搜索
+                </div>
+            </div>
+        </div>
+    </form>
+</block>
+
+<block name='content'>
+    <wx:table 
+        list='list'
+        class='table table-striped table-responsive table-bordered table-center' 
+        show='title|get_answer_situation:标题:left,check_type|get_problem_type:类型,create_date:发表时间' 
+        action="id|show_load_button:编辑#Apps/Survey/edit,id|show_status_button#Apps/Survey/forbid,id|show_del_button:删除#Apps/Survey/del" />
+</block>
