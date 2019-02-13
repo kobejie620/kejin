@@ -1,0 +1,134 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">门店名称 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.name}" pattern="^.{2,}$" title="商家名称至少2个字符！" type="text" name="name" class="form-control" id="name" placeholder="输入门店名称" maxlength="20px">
+        </div>
+    </div>
+    <!-- 关联门店帐号 -->
+<!--    
+<div class="form-group">
+        <label for="password" class="col-sm-2 control-label">绑定帐号</label>
+        <div class="col-sm-9">
+            <select name='uid' class='form-control'>
+                <volist name='systemUsers' id='sys'>
+                <option <eq name='vo.uid' value='$sys.id'>selected</eq> value='{$sys.id}'>{$sys.username}</option>
+                </volist>
+            </select>
+        </div>
+    </div>
+-->
+    <!-- 关联end -->
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">负责人 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.username}"  title="请输入负责人" type="text" name="username" class="form-control" id="name" placeholder="输入负责人姓名" maxlength="20px">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">联系电话 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.phone}"  title="请输入电话" type="text" name="phone" class="form-control" id="name" placeholder="输入负责人电话" maxlength="13px">
+        </div>
+    </div>    
+        <div class="form-group">
+        <label class="col-sm-2 control-label tr">门店编号 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.number}"  title="请输入门店编号" type="text" name="number" class="form-control" id="name" placeholder="请输入门店编号" maxlength="10px">
+        </div>
+    </div>    
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">门店图片</label>
+        <div class="col-sm-9">
+            <input type='hidden' name="link" value="{:to_domain($vo['link'])}" />
+            <img alt="" class="upload_one_img cursor thumbnail" data-name="link" title="分类图片"  src="{:to_domain($vo['link'])}" style="max-width: 100px;" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">门店地址 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <select name="province" id="province" class='form-control' style="width: 49.6%;display:inline;"></select>
+            <select name="city" id="city" class='form-control' style="width: 49.6%;display:inline;"></select>
+            <input autofocus required="" id="jk_map" value="{$vo.street}"  title="门店地址至少4个字符！" type="text" name="street" class="form-control" style="margin-top:5px; " placeholder="输入门店地址" maxlength="20px">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">经纬度</label>
+        <div class="col-sm-9">
+            <input type="text" name="latLng" id="latLng" value="{$vo.latlng}"  class="form-control" maxlength="20px"/>
+            <span class="help-block">如果无法自动获取经纬度，请核实地址在操作</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">排序 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input required="" value="{$vo.sort|default=0}" type="text" name="sort" class="form-control" maxlength="10px">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">分类状态</label>
+        <div class="col-sm-9">
+            <div class='form-control'>
+                <label><input <neq name='vo.status' value='1'>checked</neq> type="radio" name="status" value="2" /> 启用</label>
+                <label><input <eq name='vo.status' value='1'>checked</eq> type="radio" name="status" value="1" /> 禁用</label>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="type" value="1"/>
+    <notempty name="vo">
+        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+    </notempty>
+</block>
+
+
+<block name="script">
+
+    <script>
+        new PCAS("province", "city", "{$vo.province}", "{$vo.city}");
+        $(function () {
+            $("#jk_map").focusout(function () {
+                var address = $(this).val();
+                var _this = $(this);
+                $(this).next().remove();
+                if (address != '') {
+                    $.ajax({
+                        url: "http://apic.map.qq.com/geoc/?addr=" + address,
+                        type: 'get',
+                        dataType: 'jsonp',
+                        jsonp: "cb",
+                        jsonpCallback: "geocoder0",
+                        success: function (json) {
+                            var detail = json.detail;
+                            var zoom = 16;  //试图级别
+                            var size = "600*300";   //地图大小
+                            var key = "R5WBZ-VRP3Q-ESD5D-GUDN6-4EBIJ-DDFV3";    //开发这密钥
+                            var center = detail.pointy + "," + detail.pointx;   //地图视图中心点，可以为经纬度坐标或者地名。
+                            if (detail.pointy === undefined) {
+                                alert('您的地址无法解析，请核实后在操作！');
+                                $("#latLng").val("");
+                            } else {
+                                var parameters = "center=" + center + "&zoom=" + zoom + "&size=" + size + "&key=" + key + "&maptype=roadmap&markers=size:large|color:0xFFCCFF|label:k|" + center;
+                                img = "<i" + "mg class='img-responsive' src='http://apis.map.qq.com/ws/staticmap/v2/?" + parameters + "' style='margin:0 auto;margin-top:10px;' />";
+                                _this.after(img);
+                                $("#latLng").val(center);
+                            }
+
+                        },
+                        error: function () {
+                            alert("无法地址设置地图");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</block>

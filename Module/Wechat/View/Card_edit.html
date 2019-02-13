@@ -1,0 +1,337 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+    <switch name="list.card_type">
+    <case value="DISCOUNT">
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">卡券分类</label>
+            <div class="col-sm-9">
+                <input value="折扣券" type='text' class='form-control' disabled/>
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>折扣额度</label>
+            <div class='col-sm-9'>
+                <input value="{$list.discount}" type='text' class='form-control' disabled>表示打折额度（百分比）。填 30 就是七折。
+            </div>
+        </div>
+    </case>
+    <case value="CASH">
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">卡券分类</label>
+            <div class="col-sm-9">
+                <input value="代金券" type='text' class='form-control' disabled/>
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>减免金额</label>
+            <div class='col-sm-9'>
+                <input value='{$list.reduce_cost}' type='text' class='form-control' disabled>表示减免金额（单位为分）
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>起用金额</label>
+            <div class='col-sm-9'>
+                <input value='{$list.least_cost}' type='text' class='form-control' disabled>表示起用金额（单位为分）
+            </div>
+        </div>
+    </case>
+    <case value="GIFT">
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">卡券分类</label>
+            <div class="col-sm-9">
+                <input value="礼品券" type='text' class='form-control' disabled/>
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>礼品名称</label>
+            <div class='col-sm-9'>
+                <input value='{$list.gift}' type='text' class='form-control' disabled/>
+            </div>
+        </div>
+    </case>
+    <case value="GROUPON">
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">卡券分类</label>
+            <div class="col-sm-9">
+                <input value="团购券" type='text' class='form-control' disabled/>
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>团购详情</label>
+            <div class='col-sm-9'>
+                <textarea class='form-control' disabled>{$list.deal_detail}</textarea>
+            </div>
+        </div>
+    </case>
+    <case value="GENERAL_COUPON">
+        <div class="form-group">
+            <label class="col-sm-2 control-label tr">卡券分类</label>
+            <div class="col-sm-9">
+                <input value="优惠券" type='text' class='form-control' disabled/>
+            </div>
+        </div>
+        <div class='form-group'>
+            <label class='col-sm-2 control-label tr'>优惠详情</label>
+            <div class='col-sm-9'>
+                <textarea name='default_detail' class='form-control' disabled>{$list.default_detail}</textarea>
+            </div>
+        </div>
+    </case>
+    </switch>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券LOGO</label>
+        <div class="col-sm-9">
+            <img alt="logo图片"  class="cursor img-thumbnail" data-name="logo_url_show" src="{:to_domain($list['logo_url_show'])}" />
+            <span class="help-block">注意：上传的图片限制文件大小限制 1MB，像素为 300*300，支持 JPG 格式</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">销券方式 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <select name='code_type' class='form-control' <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>>
+                <option <eq name="list.code_type" value="CODE_TYPE_TEXT">selected</eq> value="CODE_TYPE_TEXT">文本</option>
+                <option <eq name="list.code_type" value="CODE_TYPE_BARCODE">selected</eq> value="CODE_TYPE_BARCODE">一维码</option>
+                <option <eq name="list.code_type" value="CODE_TYPE_QRCODE">selected</eq> value="CODE_TYPE_QRCODE">二维码</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">商户名字 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input class="form-control" value="{$list.brand_name}" disabled>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券标题 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input class="form-control" value="{$list.title}" maxlength="9" pattern="^.{0,9}$" title="请输入卡券标题，并且最多只能输入9个字" disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券副标题</label>
+        <div class="col-sm-9">
+            <input class="form-control" value="{$list.sub_title}" maxlength="9" pattern="^.{0,9}$" title="请输入卡券标题，并且最多只能输入9个字" disabled />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券颜色 <b class="required">*</b></label>
+        <div class="col-sm-10">
+            <div class="mt10">
+                <span style="height:16px;width:26px;margin-right: 6px;display:inline-block;background-color:{$list.color|reset}"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">适用门店 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <div class="row mb10" style="line-height: 34px;">
+                <span class="fl" style="margin:0 15px;">
+                    <input type="radio" name="store" value="0" <empty name='vo.location_id_list'>checked</empty>  <notin name="vo.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin> style="position: relative; top: 2px;" />无指定门店 
+                </span>
+            </div>
+            <div class="row"  style="line-height: 34px;">
+                <span class="fl" style="margin:0 15px;">
+                    <input type="radio" name="store" value="1" style="position: relative; top: 2px;" <notempty name='vo.location_id_list'>checked</notempty> <notin name="vo.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin> />指定门店
+                </span>
+                <span class="fl">
+                    <select multiple="multiple" name='store_id[]' class="form-control" id="select-store" style="width: 80px;"  <notin name="vo.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>>
+                        <volist name="store" id="s">
+                            <option value="{$s.poi_id}" <in name="s.poi_id" value="$vo.location_id_list">checked</in> >{$s.business_name}<notempty name="s.branch_name">{$s.branch_name}</notempty></option>
+                        </volist>
+                    </select>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">操作提示 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input class="form-control" value="{$list.notice}" maxlength="16" pattern="^.{0,16}$" title="请输入卡券标题，并且最多只能输入9个字" disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">使用须知 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <textarea class="form-control" maxlength="1000" pattern="^.{0,1000}$" title="请输入卡券使用须知，不超过1000个字" disabled>{$list.description}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">有效期 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <eq name="list.date_info.type" value="DATE_TYPE_FIX_TIME_RANGE">
+            <div class="row mb10" style="line-height: 34px;">
+                <span class="fl" style="margin:0 15px;">
+                    <input type="radio" checked value="DATE_TYPE_FIX_TIME_RANGE" style="position: relative; top: 2px;" />固定日期区间 
+                </span>
+                <span class="fl"><input class="form-control" data-date value="{$list.date_info.begin_timestamp}" /></span>
+                <span class="fl" style="margin:0 15px">至</span>
+                <span class="fl"><input class="form-control" data-date value="{$list.date_info.end_timestamp}" /></span>
+            </div>
+            <else/>
+            <div class="row"  style="line-height: 34px;">
+                <span class="fl" style="margin:0 15px;">
+                    <input type="radio" checked value="DATE_TYPE_FIX_TERM"  style="position: relative; top: 2px;" />固定时长（自领取后按天算）
+                </span>
+                <span class="fl" style="margin:0 15px 0 0">领取后，</span>
+                <span class="fl">
+                    <select class="form-control" style="width: 80px;" disabled>
+                        <option value="{$list.date_info.fixed_begin_term}">{$list.date_info.fixed_begin_term}</option>
+                    </select>
+                </span>
+                <span class="fl" style="margin:0 15px">生效，有效天数</span>
+                <span class="fl">
+                    <select class="form-control" style="width: 80px;" disabled>
+                        <option value="{$list.date_info.fixed_term}">{$list.date_info.fixed_term}</option>
+                    </select>
+                </span>
+            </div>
+            </eq>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券库存 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input type="text" value="{$list.quantity}" class="form-control"  pattern="^\d{1,10}$" disabled>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">是否指定用户领取</label>
+        <div class="col-sm-9">
+            <select class="form-control" disabled>
+                <option <eq name="list.bind_openid" value="false">checked</eq> value="false">否</option>
+                <option <eq name="list.bind_openid" value="true">checked</eq> value="true">是</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">领取卡券原生页面是否可分享</label>
+        <div class="col-sm-9">
+            <select name="can_share" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>>
+                <option <eq name="list.can_share" value="true">checked</eq> value="true">是</option>
+                <option <eq name="list.can_share" value="false">checked</eq> value="false">否</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">卡券是否可转赠</label>
+        <div class="col-sm-9">
+            <select name="can_give_friend" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>>
+                <option <eq name="list.can_give_friend" value="true">checked</eq> value="true">是</option>
+                <option <eq name="list.can_give_friend" value="false">checked</eq> value="false">否</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">每人最大领取次数</label>
+        <div class="col-sm-9">
+            <input type="text" name="get_limit" value="{$list.get_limit}" pattern="^\d{1,10}$" title="只能填入正数" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">客服电话</label>
+        <div class="col-sm-9">
+            <input type="text" name="service_phone" value="{$list.service_phone}" pattern="^.{0,24}$" title="最多只能输入24个字符" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">第三方来源名</label>
+        <div class="col-sm-9">
+            <input type="text" value="{$list.source}" class="form-control" disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">商户自定义入口名称</label>
+        <div class="col-sm-9">
+            <input type="text" name="custom_url_name" value="{$list.custom_url_name}" pattern="^.{0,5}$" title="最多只能输入5个汉字" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">商户自定义入口跳转外链的地址链接</label>
+        <div class="col-sm-9">
+            <input type="text" name="custom_url" value="{$list.custom_url}" pattern="^.{0,128}$" title="最多只能输入128个字符" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">显示在入口右侧的 tips</label>
+        <div class="col-sm-9">
+            <input type="text" name="custom_url_sub_title" value="{$list.custom_url_sub_title}" pattern="^.{0,6}$" title="最多只能输入6个汉字" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">营销场景的自定义入口</label>
+        <div class="col-sm-9">
+            <input type="text" name="promotion_url_name" value="{$list.promotion_url_name}" pattern="^.{0,5}$" title="最多只能输入5个汉字" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">入口跳转外链的地址链接</label>
+        <div class="col-sm-9">
+            <input type="text" name="promotion_url" value="{$list.promotion_url}" pattern="^.{0,128}$" title="最多只能输入128个字符" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">显示在入口右侧的 tips</label>
+        <div class="col-sm-9">
+            <input type="text" name="promotion_url_sub_title" value="{$list.promotion_url_sub_title}" pattern="^.{0,6}$" title="最多只能输入6个字符" class="form-control" <notin name="list.audit_status" value="CARD_STATUS_VERIFY_OK,CARD_STATUS_DISPATCH">disabled</notin>/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">排序 </label>
+        <div class="col-sm-9">
+            <input name="sort" value="{$list.sort}" type="text" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">卡券状态</label>
+        <div class="col-sm-9">
+            <div class='form-control'>
+                <label><input <neq name='vo.status' value='1'>checked</neq> type="radio" name="status" value="2"/> 启用</label>
+                <label><input <eq name='vo.status' value='1'>checked</eq> type="radio" name="status" value="1"/> 禁用</label>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" value="{$list.id}" name="id"/>
+    <input type="hidden" value="{$list.card_id}" name="card_id"/>
+    <input type="hidden" value="{$list.card_type}" name="card_type"/>
+</block>
+
+<block name="script">
+    <script>
+        $(function () {
+            $('#select-store').multiselect({
+                includeSelectAllOption: true,
+                buttonClass: 'form-control',
+                selectAllText: '选中所有门店',
+                allSelectedText: '所有门店',
+                nonSelectedText: '请选择门店'
+            });
+        });
+    </script>
+</block>

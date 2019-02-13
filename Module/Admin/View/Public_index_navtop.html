@@ -1,0 +1,133 @@
+<!-- 顶部菜单 -->
+<nav class="navbar navbar-default default-heading navbar-static-top mb10" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header new-header" style="min-width:205px">
+            <notempty name="sys_menu">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">导航菜单</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </notempty>
+            <a class="navbar-brand" target='_blank' href="__APP__">
+                <i class='{$site.app_logo|default="fa fa-life-ring"} color_8b f15'></i> {$site.app_name}
+                <sup style="padding:0px 2px; letter-spacing: 0; font-weight: lighter;" class='f8 label label-danger p2'>{$site.app_version}</sup>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <!-- 响应式小菜单开始 -->
+            <ul class="nav navbar-nav visible-xs">
+                <volist name="sys_menu" id="_vo">
+                    <!--<notempty name="_vo.sub"> 一级菜单开始 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-align-justify"></span> {$_vo.title} <span class="caret"></span>
+                        </a>
+                        <!-- 二级子菜单开始 <notempty name="_vo.sub">-->
+                        <ul class="dropdown-menu" role="menu">
+                            <volist name="_vo.sub" id="sub_vo"> 
+                                <empty name="sub_vo.sub">
+                                    <li><a target="{$sub_vo.target}" href="{$sub_vo.url}">{$sub_vo.title}</a></li>
+                                    <else />
+                                    <!-- 三级子菜单开始 <volist name="sub_vo.sub" id="sub_vo_sub">  -->
+                                    <li><a target="{$sub_vo_sub.target}" href="{$sub_vo_sub.url}">{$sub_vo_sub.title}</a></li>
+                                    <!-- </volist> 三级子菜单结束 -->
+                                </empty>
+                            </volist> 
+                        </ul>
+                        <!--</notempty> 二级菜单结束 -->
+                    </li>
+                    <!-- 一级菜单结束 </notempty>-->
+                </volist>
+            </ul>
+            <!-- 响应式主菜单开始-->
+            <ul class="nav navbar-nav top-nav-list hidden-xs" role="tablist">
+                <volist name="sys_menu" id="_vo">
+                    <eq name="_vo.pid" value="0">
+                    <li class="{$_vo._class}">
+                        <a data-id="{$_vo.id}" href="{$_vo.url|default='#'}">
+                            <notempty name="_vo.ico">
+                                <i class='{$_vo.ico|default="glyphicon glyphicon-align-justify"}'></i> 
+                            </notempty>
+                            {$_vo.title}
+                        </a>
+                    </li>
+                    </eq>
+                </volist> 
+            </ul>
+            <!-- 响应式主菜单结束 -->
+
+            <if condition="is_login()">
+                <div class="navbar-right">
+                    <notempty name='apilist'>
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <!--<gt name="apilist|count" value="1">-->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <volist name="apilist" id="_vo">
+                                        <eq name='_vo.id' value='$Think.session.api.id'>
+                                        <img alt="" style='width:20px;height:20px;' src='{:to_domain($_vo["api_img"])}' /> {$_vo.api_title}
+                                        </eq>
+                                    </volist>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="dropdown-header">应用切换</li>
+                                    <volist name="apilist" id="_vo">
+                                        <li>
+                                            <a onclick="$.form.switchApi('{$_vo.id}')" href="javascript:void(0)">
+                                                <img alt="" style='width:20px;height:20px;' src='{:to_domain($_vo["api_img"])}' /> {$_vo.api_title}
+                                            </a>
+                                        </li>
+                                    </volist>
+
+                                    <if condition="auth('admin/Wechat/index')">
+                                        <li class="divider"></li>
+                                        <li><a href="{:U('admin/Wechat/index')}"><i class="glyphicon glyphicon-cog"></i> 应用配置管理</a></li>
+                                    </if>
+                                </ul>
+                                <!--<else />-->
+                                <!--<volist name="apilist" id="_vo">-->
+                                <!--<eq name='_vo.id' value='$Think.session.api.id'>-->
+                                <!--<if condition="auth('User/Wechat/index')">-->
+                                <a href="{:U('User/Wechat/index')}">
+                                    <img alt="" style='width:20px;height:20px;' src='__ROOT__{$_vo.api_img}' /> {$_vo.api_title}
+                                </a>
+                                <!--<else />-->
+                                <a href="javascript:void(0)">
+                                    <img alt="" style='width:20px;height:20px;' src='__ROOT__{$_vo.api_img}' /> {$_vo.api_title}
+                                </a>
+                                <!--</if>-->
+                                <!--</eq>-->
+                                <!--</volist>-->
+                                <!--</gt>-->
+                            </li>
+                        </ul>
+                    </notempty>
+
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class='glyphicon glyphicon-user'></i> {$Think.session.user.username} <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <if condition="auth('admin/user/edit')">
+                                    <li>
+                                        <a data-load="{:U('admin/user/edit',array('id'=>session('user.id')))}" href="javascript:void(0)">
+                                            <i class="glyphicon glyphicon-info-sign"></i> 修改资料
+                                        </a>
+                                    </li>
+                                    <else/>
+                                    <li><a data-load="{:U('admin/user/edit',array('id'=>session('user.id')))}" href="javascript:void(0)"><i class="glyphicon glyphicon-align-justify"></i> 修改资料</a></li>
+                                </if>
+                                <li><a data-logout href="javascript:void(0)"><i class="glyphicon glyphicon-log-out"></i> 退出登录</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </if>
+        </div>
+    </div>
+</nav>

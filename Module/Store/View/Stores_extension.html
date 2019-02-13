@@ -1,0 +1,34 @@
+<extend name='Admin@Public:index' />
+
+<block name='pContent'>
+    <form data-ajax="true" class="form-horizontal mb40" method="POST" action="{:U('Store/Stores/extension')}">
+        <div class="panel panel-default mb10">
+            <!-- Default panel contents -->
+            <div class="panel-heading title">
+                {$ptitle}
+            </div>
+            
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">兑换码: <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input  type="text" name="code" pattern="^[0-9a-zA-Z]{10,}$" title="只能输入10-15位的数字或字母" class="form-control" id="code" placeholder="请输入奖品兑换码" maxlength="15px">
+                </div>
+            </div>
+            
+<!--            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">门店编号: <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" pattern="^.{4,10}$" title="请输入4-10位有效的门店编号！" type="text"   name="store_id" class="form-control" id="store_id" placeholder="请输入门店编号" maxlength="10px">
+                </div>
+            </div>-->
+            
+            <notempty name="vo">
+                <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+            </notempty>
+            <div class="tc p20">
+<!--                <a class="btn btn-success btn-sm" data-load="{:U('Store/Stores/extension')}" method="POST"></a>-->
+                <button type="submit" class="btn btn-success btn-sm">下一步</button>
+            </div>
+        </div>
+    </form>
+</block>

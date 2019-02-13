@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>分享有礼</title>
+<link href="__LIB__/puzzle/oldcss/base.css" rel="stylesheet" type="text/css" />
+<link href="__LIB__/puzzle/oldcss/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="p10 pt14 pb14 ovh top rel">
+	<a href="javascript:history.back();"><img src="__RES__/wap/images/ym_09.png" alt="img" width="24" height="24" class="return" /></a>
+    <h3 class="tc white f18">分享专区</h3>
+</div>
+<div class="slist">
+<volist name="list" id="one">
+<div class="ovh p6">
+	<div class="dib l"><img src="{$one.link}" width="100" /></div>
+	<div class="dib ml6 l">
+		<a href="{:U('detail?id='.$one['id'])}"><h3>{$one.title}</h3></a>
+		<div>{$one.content}</div>
+	</div>
+</div>
+</volist>
+</div>
+<div class="mt8 ml8">
+	{$page}
+</div>
+</body>
+</html>

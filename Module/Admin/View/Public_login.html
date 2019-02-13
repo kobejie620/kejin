@@ -1,0 +1,42 @@
+<extend name="Public:index" />
+
+<block name="body">
+    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 shadow bgwhite wrap_box bdr4 pb20 animated bounceInUp login-mt">
+        <div class="row mb20">
+            <div class=" col-sm-8 col-sm-offset-2 mb20">
+                <form onsubmit="return false" action="{:U('Admin/Public/login')}" data-timeout="hide" data-ajax="true" method="post">
+                    <h3 class="mt20 mb40 main-color fn text-center">
+                        <span class="db fm mt2">{$site.app_name}</span>
+                    </h3>
+                    <input class="form-control dib bdd login-input login-input-username mb4" type="text" required="required" title='请输入四位或以上的字母或数字' pattern="^[a-zA-Z0-9]{4,}$" autocomplete="off" name="username"/>
+                    <input class="form-control dib bdd login-input login-input-password mb4 mt20" type="password" required="required" title="请输入四位或以上的字母或数字" pattern="^.{4,}$" name="password"/>
+
+                    <div class="text-center mb20 mt20 pct100">
+                        <button class="btn btn-blue btn-lg sp3 wb100 main_btn">登录</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class=" clearfix "></div>
+    <div class="login-copyright text-center mt40">
+        Copyright © {:date('Y')} {$site.site_company} 版权所有
+    </div>
+</block>
+
+<block name="script">
+    <script>
+        $(function () {
+            $('.login-input').on('focus', function () {
+                $(this).removeClass('login-input');
+            }).on('change blur', function () {
+                this.value.length < 1 ?
+                        $(this).addClass('login-input') :
+                        $(this).removeClass('login-input');
+            }).trigger('change');
+        });
+    </script>
+</block>
+
+<block name='nav'></block>
+<block name='footer'></block>

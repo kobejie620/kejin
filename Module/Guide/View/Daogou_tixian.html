@@ -1,0 +1,16 @@
+<extend name='Admin@Public:index' />
+
+<block name='ptitle'>
+    {$ptitle}
+</block>
+
+<block name='content'>    
+		<wx:table
+			list='list'
+			color="status"
+			sort='false'
+			check="false"
+			class='table table-striped table-responsive table-bordered table-center' 
+			show='guide_num:导购员编号,guide_name:导购员姓名,price:提现金额,status:状态,create_date:提现时间' />
+	
+</block>

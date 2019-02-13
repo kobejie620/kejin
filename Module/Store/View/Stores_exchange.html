@@ -1,0 +1,25 @@
+<extend name='Admin@Public:index' />
+
+<block name='pContent'>
+    <form data-ajax="true" method="POST" action="{:U('Store/Stores/exchange')}">
+        <div class="m12  fix bgwh bsdow">
+            <div class="tc p20">
+                <div class="p8 bde br2 mb20"><span class="pink">兑换码：</span>{$code}</div>
+                <div class="fix">
+                    <img src="{$info.prize_img}" alt="img" width="40%" />
+                    <p class="mt10">奖品名称：{$info.prize_name}</p>
+                </div>
+            </div>
+            <div class="fix p20 btd2" style="text-align: center ; padding-bottom: 40px;">
+                <button type="submit" class="btn btn-danger" style='width: 30%;'>完成兑换</button>
+            </div>
+            <div style="display: none">
+                <input type="text" name="code" class="txt bdd" value="{$code}" />
+                <input type="text" name="store_id" class="txt bdd" value="{$store_id}"/>
+            </div>
+        </div>
+    </form>
+</block>
+
+
+

@@ -1,0 +1,57 @@
+<extend name="Admin@Public:index" />
+
+<block name='ptitle'>
+    {$ptitle}
+    <span class='pull-right'>
+        <if condition="auth(MODULE_NAME.'/'.CONTROLLER_NAME.'/add')">
+            <button data-load="{:U(MODULE_NAME.'/'.CONTROLLER_NAME.'/add')}" class="btn btn-success btn-sm mr5">添加选项</button>
+        </if>
+        <if condition="auth(MODULE_NAME.'/'.CONTROLLER_NAME.'/del')">
+            <button data-del  data-path='Apps/Compare/del' class="btn btn-warning btn-sm">删除已选</button>
+        </if>
+    </span>
+</block>
+
+<block name="search">
+    <form onsubmit="return false" class="form-inline padding-top-10 pb10" action="__SELF__" method="GET" id="search_form" role="form">
+        <div class='pl10'>
+            <div class="form-group inline-block pr20">
+                <label class="control-label">关键字</label>
+                <input class="form-control" name="_kw" value="{$Think.get._kw}" />
+            </div>
+            <div class="form-group inline-block pr20">
+                <label class="control-label">活动</label>
+                <select class='form-control' name='vote_id'>
+                    <option value=''>全部</option>
+                    <volist name='cats' id='cat'>
+                        <option <eq name='Think.get.vote_id' value='$cat.id'>selected</eq> value='{$cat.id}'>{$cat.title}</option>
+                    </volist>
+                </select>
+            </div>
+            <div class="form-group inline-block pr20">
+                <label class="control-label">审核</label>
+                <select class='form-control' name='check'>
+                    <option value=''>全部</option>
+                    <option <eq name='Think.get.check' value='1'>selected</eq> value='1'>未审核</option>
+                    <option <eq name='Think.get.check' value='2'>selected</eq> value='2'>已审核</option>
+                </select>
+            </div>
+            <div class="form-group inline-block pr20">
+                <label class="control-label">&nbsp;</label>
+                <button class="cursor mr5 mt2 btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-search"></span> 搜索
+                </button>
+            </div>
+        </div>
+    </form>
+</block>
+
+<block name='content'>
+    <wx:table 
+        list='list'
+        color="check|show_color"
+        sort='true'
+        class='table table-striped table-responsive table-bordered table-center' 
+        show='link|show_img_link:图片,title:标题,act_title:活动,count:点赞数,create_date:创建时间,check|show_picture_status:审核状态' 
+        action="id|show_load_button:点赞情况#Apps/Compare/detail,id|show_load_button:审核#Apps/Compare/edit" />
+</block>

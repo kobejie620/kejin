@@ -1,0 +1,27 @@
+<extend name='Admin@Public:index' />
+
+<block name='ptitle'>
+    {$ptitle}	
+    <span class='pull-right'>
+        <if condition="auth('Store/Product/add')">
+            <button data-load="{:U('Store/Product/add')}" class="btn btn-success btn-sm mr5">添加产品</button>
+        </if>
+    </span>
+</block>
+
+<block name='content'>
+    <wx:table 
+        list='list'
+        color="status|show_color"
+        class='table table-striped table-responsive table-bordered table-center' 
+        show='name:产品名称,img|show_img_link:图片,cat_id|get_product_name:产品分类,store_nums:总库存,status|show_status_text:状态' 
+        action="view:id:查看,id|show_load_button:编辑#Store/Product/edit,status|show_status_button=$vo#Store/Product/forbid" />
+</block>
+
+<block name="script">
+    <script>
+        function view(id) {
+            $.form.load('__URL__/view');
+        }
+    </script>
+</block>

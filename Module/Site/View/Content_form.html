@@ -1,0 +1,81 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">文章标题 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <p><label class='control-label'><input name='is_show_title' value='2' <eq name='vo.is_show_title' value='2'>checked</eq> type='checkbox'/> 在页面上显示标题</label></p>
+            <input name='title' value='{$vo.title}' class='form-control' required="" title='文件标题不能为空' />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">文章分类<empty name="vo"> <b class="required">*</b></empty></label>
+        <div class="col-sm-9">
+            <select class="form-control" name="cid">
+                <!--<volist name="catList" id="cat">-->
+                <option <eq name="cat.id" value="$vo.cid">selected</eq> value="{$cat.id}" >{$cat.spl}{$cat.title}</option>
+                <!--</volist>-->
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">主题图片<empty name="vo"> <b class="required">*</b></empty></label>
+        <div class="col-sm-9">
+            <p><label class='control-label'><input name='is_show_link' value='2' <eq name='vo.is_show_link' value='2'>checked</eq> type='checkbox'/> 在页面TOP图片显示</label></p>
+            <input type='hidden' name="link" value="{$vo.link}" />
+            <img data-name="link" data-online="true" alt="" class="thumbnail cursor upload_one_img h100" src="{$vo.link}"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">微信关键字</label>
+        <div class="col-sm-9">
+            <input name='keys' value='{$vo.keys}' class='form-control' />
+            <p class='help-block'>在微信中发送此关键字将返回对应的图文链接（可留空）</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">微信网页授权</label>
+        <div class="col-sm-9">
+            <label class='control-label'><input <eq name='vo.is_wechat_auth' value='2'>checked</eq> type="radio" name="is_wechat_auth" value="2" /> 启用</label>
+            <label  class='control-label'><input <neq name='vo.is_wechat_auth' value='2'>checked</neq> type="radio" name="is_wechat_auth" value="1" /> 关闭</label>
+            <p class='help-block'>开启后页面<span class='red'>必需在微信中才能访问</span>，并自动进行微信网页授权，识别用户身份。</p>
+        </div>
+    </div>
+    <eq name='wapsite.content_share_integral' value='2'>
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">分享积分</label>
+        <div class="col-sm-9">
+            <input type='number' pattern="^[0-9]{1,}$" title="请输入正确的数字" name='integral' value='{$vo.integral}' class='form-control' />
+            <p class='help-block'>当填写的积分数大于0时有效，此功能<span class='red'>需要开启微信网页授权</span>。</p>
+        </div>
+    </div>
+    </eq>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">前台显示</label>
+        <div class="col-sm-9">
+            <div class='form-control'>
+                <label><input <neq name='vo.is_show' value='1'>checked</neq> type="radio" name="is_show" value="2" /> 启用</label>
+                <label><input <eq name='vo.is_show' value='1'>checked</eq> type="radio" name="is_show" value="1" /> 禁用</label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">跳转链接<empty name="vo"> <b class="required">*</b></empty></label>
+        <div class="col-sm-9">
+            <input name='url' value='{$vo.url}' class='form-control'  />
+            <font class="red">请注意，不需要跳转请留空，否则将优先跳转</font>
+        </div>
+    </div>                        
+    <div class="form-group">
+        <label class="col-sm-2 control-label">文章内容</label>
+        <div class="col-sm-9">
+            <textarea style='height:180px;width:100%' data-editor name="content">{$vo.content}</textarea>
+        </div>
+    </div>
+    <notempty name="vo">
+        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+    </notempty>
+
+</block>

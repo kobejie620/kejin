@@ -1,0 +1,153 @@
+<extend name='Wap@Public:index' />
+
+<block name="body">
+    <form onsubmit="return false;" action="{:U('Shop/Order/show')}" data-ajax='true' method='post'>
+        <ul class="list-group shadow margin-bottom-0">
+            <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+                <span>收货信息</span>
+                <a id="edit-address" href="{:U('Wap/Member/address',array('redirect'=>encode(I('server.REQUEST_URI'))))}"><span class="glyphicon glyphicon-edit pull-right padding-top-8"></span></a>
+                <div class="font-12"><textarea onfocus="$.msg.alert('请填写收货信息'), $('body').scrollTop(0), this.blur()" required="" title="收货地址不能为空" style="height:1px;border:none;background:none;overflow:hidden;position:absolute" id="address_data"><notempty name="address">{$address|json_encode}</notempty></textarea></div>
+            </li>
+            <notempty name='address'>
+                <li class="list-group-item border-none line-height-36 margin-top-2">
+                    <p>
+                        <span class="padding-right-10">{$address.accept_name} </span>{$address.phone}
+                        <input type="hidden" name="accept_name" value="{$address.accept_name}" />
+                        <input type="hidden" name="phone" value="{$address.phone}" />
+                    </p>
+                    <p>
+                        {$address.province}{$address.city}{$address.address}<notempty name='address.postcode' value=''>({$address.postcode})</notempty>
+                <input type="hidden" name="province" value="{$address.province}" />
+                <input type="hidden" name="city" value="{$address.city}" />
+                <input type="hidden" name="area" value="{$address.area}" />
+                <input type="hidden" name="address" value="{$address.address}" />
+                <input type="hidden" name="postcode" value="{$address.postcode}" />
+				<input type="hidden" name="memberid" value="{$memberid}" />
+                </p>
+                </li>
+            </notempty>
+        </ul>
+        <ul class="padding-10 padding-bottom-0 shadow overflow-hidden margin-top-10">
+            <volist name="products" id="vo">
+                <li class="border-dashed overflow-hidden padding-top-14 relative padding-bottom-10">
+                    <a href="javascript:void(0)"><img class="width-80 pull-left padding-right-8" src="{:to_domain($vo['logo'])}" alt="" /></a>
+                    <div class="">
+                        <p class="ellipsis padding-right-40 text-333"><a href="javascript:void(0)">{$vo.name}</a></p>
+                        <p class="pull-left">
+                        <volist name="vo.all_params" id="model_param">
+                            {$key}<span class="text-999 padding-left-10">{$model_param}</span>
+                        </volist>
+                        </p>
+                    </div>
+                    <div class="absolute order-price">
+                        <span>¥{$vo.price}</span><br />
+                        <span class="text-999 pull-right">× {$vo.num}</span><br />
+                    </div>
+                </li>
+            </volist>
+
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+                <span class="glyphicon glyphicon-bed"></span>
+                <span class="padding-left-10">配送方式</span>
+            </li>
+
+            <li class="list-group-item">
+                <!-- delivery option -->
+                <eq name="free_express" value="0">
+                <!-- 不免邮 -->
+                <ul id="ul_delivery">
+                    <volist name="deliverys" id="de">
+                        <li>
+                            <div class="ml20">
+                                <label>
+                                    <input type="radio" name="freight" value="{$de.id}" <eq name="i" value="1">checked</eq>> 
+                                    <span class='font-16'> {$de.name}({$de.firstprice})</span>
+                                </label>
+                                <br />
+                                <span class="font-10"style="padding-left:26px;">
+                                    {$de.area_groupid}
+                                </span>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            <else />
+            <!-- 免邮 -->
+            <input type="radio" name="freight" value="0" style='opacity:0;' checked class="l mt2">免邮（随机发一种快递）
+            </eq>
+            </li>
+
+            <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+                <span class="glyphicon glyphicon-yen"></span>
+                <span class="padding-left-10">支付方式</span>
+                <span class="pull-right padding-right-10"><input type="hidden" name="pay_type" value="1" />微信支付</span>
+            </li>
+            <li class="list-group-item border-none shadow line-height-36 margin-top-2 ">
+                <span class="glyphicon glyphicon-comment"></span>
+                <span class="padding-left-10">备注</span>
+                <input type="text" name="remark" class="pull-right padding-top-8 text-right border-none" placeholder="请填写备注内容"/>
+            </li>
+            <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+                <span class="glyphicon glyphicon-yen"></span>
+                <span class="padding-left-10" id='choosecard'>使用优惠券</span>
+                <input type="hidden" name="user_card_code"/><input type="hidden" name="code_card_id" />
+                <span class="r card_choosed"></span>
+            </li>
+        </ul>
+        <div style='height:60px;'></div>
+        <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+            <div class="width-pct-50 pull-left">
+                <p>合计<span class="high-light-color font-16">¥{$total_price}</span></p>
+                <p class=" text-999 font-12">(不含运费)</p>
+            </div>
+            <textarea class="hide" name="list">{$list|json_encode}</textarea>
+            <div class=" pull-right"><button class="btn btn-danger btn-block">提交订单</button></div>
+        </div>
+    </form>
+</block>
+
+<block name='script'>
+    {:W("Wap/Wechat/jsSign")}
+    {:W('Wap/Wechat/jsHideMenu')}
+      <script>
+            /**
+             * 微信SDK操作
+             * @param {type} param
+             */
+            wx.ready(function () {
+                $("#choosecard").click(function () {
+                    wx.chooseCard({
+                        shopId: "{$kajuan.shopId}", // 门店Id
+                        cardType: "{$kajuan.cardType}", // 卡券类型
+                        cardId: "{$kajuan.cardId}", // 卡券Id
+                        timestamp: '{$kajuan.timestamp}', // 卡券签名时间戳
+                        nonceStr: "{$kajuan.nonceStr}", // 卡券签名随机串
+                        signType: "SHA1", // 签名方式，默认'SHA1'
+                        cardSign: "{$kajuan.cardSign}", // 卡券签名
+                        success: function (res) {
+                            var cardList = JSON.parse(res.cardList); // 用户选中的卡券列表信息
+                            //                        alert(cardList[0].encrypt_code);
+                            var tt_price = {$total_price};
+                            $.post('{:U("Shop/Order/usecard")}', {card_id: cardList[0].card_id, encrypt_code: cardList[0].encrypt_code, total_price: tt_price}, function (data) {
+                                if (data.status == 1) {
+                                    $('#totalprice').empty().append(data.last_price);    //如果满足使用代金卷，则使用代金卷
+                                    $(".card_choosed").empty().append("已选择(" + data.card_title + ")");
+                                    $("input[name='code_card_id']").val(data.card_id);
+                                    $("input[name='user_card_code']").val(data.user_card_code);
+                                } else if (data.status == 2) {
+                                    alert(data.info);
+                                } else if (data.status == 3) {
+                                    alert(data.info);
+                                }
+                            });
+                        },
+                        error: function (res) {
+                            alert(res.errmsg);
+                        }
+                    });
+                });
+            })
+        </script>        
+</block>

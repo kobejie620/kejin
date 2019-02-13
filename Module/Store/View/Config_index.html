@@ -1,0 +1,232 @@
+<extend name='Admin@Public:index' />
+
+<block name='pContent'>
+    <form onsubmit="return false" action="__URL__/edit" data-ajax="true"  method="post"  class="form-horizontal mb40 module-form" role="form">
+        <div class="panel panel-default mb10">
+            <div class="panel-heading title">
+                {$ptitle} - {$type_name}
+            </div>
+
+ <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label tr">商家名称 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input autofocus required="" value="{$vo.name}" pattern="^.{4,}$" title="商家名称至少4个字符！" type="text"   name="name" class="form-control" id="name" placeholder="输入商家名称">
+                </div>
+            </div>
+
+            <div class="form-group pl10 pr10">
+                <label class="col-sm-2 control-label tr">商家电话 <b class="required">*</b></label>
+                <div class="col-sm-9">
+                    <input required="" value="{$vo.phone}" pattern="^.{4,}$" title="商家名称至少4个字符！" type="text"   name="phone" class="form-control" placeholder="输入商家电话">
+                </div>
+            </div>
+
+            <div class="form-group pl10 pr10">
+                <label class="col-sm-2 control-label tr">商家地址 <b class="required">*</b></label>
+                <div class="col-sm-3">
+                    <select class="form-control" required="" title="请选择省份" name="province"></select>
+                </div>
+                <div class="col-sm-3">
+                    <select class="form-control" name="city"></select>		
+                </div>
+                <div class="col-sm-3">
+                    <select class="form-control" name="area"></select>
+                </div>
+            </div>
+
+            <div class="form-group pl10 pr10">
+                <label class="col-sm-2 control-label tr">详细地址</label>
+                <div class="col-sm-9">
+                    <input value="{$vo.address}" type="text"   name="address" class="form-control" placeholder="商家详细地址">
+                </div>
+            </div>
+
+            <div class="form-group pl10 pr10">
+                <label class="col-sm-2 control-label">微信支付</label>
+                <div class="col-sm-9">
+                    <div class='form-control'>
+                        <label><input <neq name='vo.wx_pay' value='1'>checked</neq> type="radio" name="wx_pay" value="2" /> 开启</label>
+                        <label><input <eq name='vo.wx_pay' value='1'>checked</eq> type="radio" name="wx_pay" value="1" /> 禁用</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group pl10 pr10">
+                <label class="col-sm-2 control-label">微信自动退款</label>
+                <div class="col-sm-9">
+                    <div class='form-control'>
+                        <label><input <neq name='vo.is_refund' value='0'>checked</neq> type="radio" name="is_refund" value="1" /> 开启</label>
+                        <label><input <eq name='vo.is_refund' value='0'>checked</eq> type="radio" name="is_refund" value="0" /> 禁用</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mt20 pl10 pr10">
+                <label class="col-sm-2 control-label">轮播图片 </label>
+                <label class='col-sm-9 control-label text-left'>
+                    <a href='javascript:void(0)'  class='add_item'>添加图片</a>
+                    建议上传图片尺寸640*360px
+                </label>
+                <div style="clear:both"></div>
+                <div class="mt10">
+                    <div class="col-sm-9 col-sm-offset-2">
+                        <textarea class="hide" name="content">{$vo.content}</textarea>
+                        <div class='link-show'></div>
+                    </div>
+                </div>
+            </div>
+
+            <input type="hidden" name="type" value="{$vo.type}" />
+
+            <notempty name="vo">
+                <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+            </notempty>
+
+            <if condition="auth('Site/Module/edit')">
+                <div class="tc p20">
+                    <button class="btn btn-success btn-sm"> 保 存 </button>
+                </div>
+            </if>
+        </div>
+    </form>
+
+    <script id="link-show-tpl" type="text/html">
+        <div class="media well">
+            <div class="media-left">
+                <input type="hidden" name="_src[{{id}}]" value="{{src}}" />
+                <img style="width: 210px;height:130px" data-online="true" data-name="_src[{{id}}]" class="media-object upload_one_img thumbnail" src="{{src}}?imageView2/2/w/640/h/360" alt/>
+            </div>
+            <div class="media-body pl20 pr20">
+                <div class="form-group">
+                    <label class="control-label">图片标题</label>
+                    <input class="form-control" name="_title[{{id}}]" value="{{title}}" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">跳转链接</label>
+                    <input class="form-control" name="_href[{{id}}]" value="{{href}}" />
+                </div>
+            </div>
+            <div class="media-right">
+                <a class="close remove-image" style="margin:-15px -15px auto auto" href="javascript:void(0)">×</a>
+                <a class="close move-image-up mt20" style="margin:0 -15px auto auto" href="javascript:void(0)"><i class="glyphicon glyphicon-arrow-up"></i></a>
+                <a class="close move-image-down" style="margin:0 -15px auto auto" href="javascript:void(0)"><i class="glyphicon glyphicon-arrow-down"></i></a>
+            </div>
+        </div>
+    </script>
+
+</block>
+
+<block name="script">
+    <script src="__LIB__/pcasunzips.js" type="text/javascript"></script>
+    <script>new PCAS('province', 'city', 'area', '{$vo.province}', '{$vo.city}', '{$vo.area}');</script>
+    <script src="__LIB__/template/template.js"></script>
+    <script>
+        !(function () {
+            /**
+             * 图片显示处理插件
+             * @returns {_up}
+             */
+            var _up = function () {
+                this.addItemImageSelecter = '.add_item';
+                this.containerSelecter = '.link-show';
+                this.formSelecter = 'form.module-form';
+                this.delSelecter = 'form.module-form .remove-image';
+                this.contentSelecter = '[name="content"]';
+                this.moveUpSelecter = '.move-image-up';
+                this.moveDownSelecter = '.move-image-down';
+                this.eventHandler();
+            };
+
+            /**
+             * 事件监听与处理
+             * @returns {undefined}
+             */
+            _up.prototype.eventHandler = function () {
+                var self = this;
+                $(this.addItemImageSelecter).on('click', function () {
+                    $(self.containerSelecter).prepend(self.getItemImageHtml());
+                });
+                $(this.formSelecter).on('submit', function () {
+                    self.syncData();
+                });
+                $('body').on('click', this.delSelecter, function () {
+                    confirm('确定要删除此项信息吗？') && $(this).parents('.media.well').slideUp(function () {
+                        $(this).remove(), self.syncData();
+                    });
+                }).on('click', this.moveUpSelecter, function () {
+                    self.moveUp($(this).parents('.media.well')), self.syncData();
+                }).on('click', this.moveDownSelecter, function () {
+                    self.moveDown($(this).parents('.media.well')), self.syncData();
+                });
+                self.init(JSON.parse($(this.contentSelecter).val() || "[]"));
+            };
+
+            /**
+             * 获取图片的模板内容
+             * @param {type} data
+             * @returns {unresolved}
+             */
+            _up.prototype.getItemImageHtml = function (data) {
+                data = data || {};
+                data.id = '_img_' + Math.floor(Math.random() * 100000000);
+                return template('link-show-tpl', data || {});
+            };
+
+            /**
+             * 向上移动图片
+             * @returns {undefined}
+             */
+            _up.prototype.moveUp = function ($this) {
+                var $pre = $this.prev('div.media.well');
+                if ($pre.size()) {
+                    $pre.insertAfter($this);
+                }
+            };
+
+            /**
+             * 向下移动图片
+             * @returns {undefined}
+             */
+            _up.prototype.moveDown = function ($this) {
+                var $next = $this.next('div.media.well');
+                if ($next.size()) {
+                    $next.insertBefore($this);
+                }
+            };
+
+            /**
+             * 同步表单内的数据
+             * @returns {undefined}
+             */
+            _up.prototype.syncData = function () {
+                var $form = $(this.formSelecter);
+                var $src = $form.find('[name^="_src[_img_"]');
+                var $title = $form.find('[name^="_title[_img_"]');
+                var $href = $form.find('[name^="_href[_img_"]');
+                var json_data = [];
+                $src.map(function (i) {
+                    json_data.push({
+                        src: $src.eq(i).val(),
+                        title: $title.eq(i).val(),
+                        href: $href.eq(i).val()
+                    });
+                });
+                $(this.contentSelecter).val(JSON.stringify(json_data));
+            };
+
+            /**
+             * 初始化显示图片
+             * @param {type} data
+             * @returns {undefined}
+             */
+            _up.prototype.init = function (data) {
+                $(this.containerSelecter).empty();
+                for (var i in data) {
+                    $(this.getItemImageHtml(data[i])).appendTo(this.containerSelecter);
+                }
+            };
+            new _up();
+        })();
+
+    </script>
+</block>

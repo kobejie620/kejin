@@ -1,0 +1,131 @@
+<div class="box body_box">
+    <extend name='Wap@Public:index' />
+    <block name="body">
+        <form onsubmit="return false;" action="{:U('Shop/Credit/show')}" data-ajax='true' method='post'>
+            <ul class="list-group shadow margin-bottom-0">
+                <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+                    <span>收货信息</span>
+                    <a id="edit-address" href="{:U('Wap/Member/address',array('redirect'=>encode(I('server.REQUEST_URI'))))}"><span class="glyphicon glyphicon-edit pull-right padding-top-8"></span></a>
+                    <div class="font-12"><textarea onfocus="$.msg.alert('请填写收货信息'), $('body').scrollTop(0), this.blur()" required="" title="收货地址不能为空" style="height:1px;border:none;background:none;overflow:hidden;position:absolute" id="address_data"><notempty name="address">{$address|json_encode}</notempty></textarea></div>
+                </li>
+                <notempty name='address'>
+                    <li class="list-group-item border-none line-height-36 margin-top-2">
+                        <p>
+                            <span class="padding-right-10">{$address.accept_name} </span>{$address.phone}
+                            <input type="hidden" name="accept_name" value="{$address.accept_name}" />
+                            <input type="hidden" name="phone" value="{$address.phone}" />
+                        </p>
+                        <p>
+                            {$address.province}{$address.city}{$address.address}({$address.postcode})
+                            <input type="hidden" name="province" value="{$address.province}" />
+                            <input type="hidden" name="city" value="{$address.city}" />
+                            <input type="hidden" name="area" value="{$address.area}" />
+                            <input type="hidden" name="address" value="{$address.address}" />
+                            <input type="hidden" name="postcode" value="{$address.postcode}" />
+                        </p>
+                    </li>
+                </notempty>
+            </ul>
+            <ul class="padding-10 padding-bottom-0 shadow overflow-hidden margin-top-10">
+                <volist name="product" id="vo">
+                    <li class="border-dashed overflow-hidden padding-top-14 relative padding-bottom-10">
+                        <a href="javascript:void(0)"><img class="width-80 pull-left padding-right-8" src="{:to_domain($vo['logo'])}" alt="" /></a>
+                        <div class="">
+                            <p class="ellipsis padding-right-40 text-333"><a href="javascript:void(0)">{$vo.name}</a></p>
+                            <p class="pull-left">
+                            <volist name="vo.all_params" id="model_param">
+                                {$key}<span class="text-999 padding-left-10">{$model_param}</span>
+                            </volist>
+                            </p>
+                        </div>
+                        <div class="absolute order-price">
+                            <span>{$vo.credit}积分</span><br />
+                            <span class="text-999 pull-right">× {$vo.num}</span><br />
+                        </div>
+                    </li>
+                </volist>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+                    <span class="glyphicon glyphicon-bed"></span>
+                    <span class="padding-left-10">配送方式</span>
+                    <span class="pull-right padding-right-10"><input type="hidden" name="freight_type" value="1"  />快递配送</span>
+                </li>
+
+                <li class="list-group-item">
+                    <!-- delivery option -->
+                    <eq name="free_express" value="0">
+                    <!-- 不免邮 -->
+                    <ul id="ul_delivery">
+                        <volist name="deliverys" id="de">
+                            <li>
+                                <label>
+                                    <input type="radio" name="freight" value="{$de.id}" <eq name="i" value="1">checked</eq> />
+                                    <span class='font-16'>{$de.name}({$de.firstprice})</span>
+                                </label>
+                                <br />
+                                <span class="font-10" style="padding-left:26px;">
+                                    {$de.area_groupid}
+                                </span>
+                            </li>
+                        </volist>
+                    </ul>
+                <else />
+                <!-- 免邮 -->
+
+                <input type="radio" name="freight" value="0" style='opacity: 0; ' checked class="mt2">免邮（随机发一种快递）
+                </eq>
+                </li>
+                <eq name="free_express" value="0">
+                <li class="list-group-item border-none shadow line-height-36 margin-top-10 ">
+                    <span class="glyphicon glyphicon-yen"></span>
+                    <span class="padding-left-10">支付方式</span>
+                    <span class="pull-right padding-right-10"><input type="hidden" name="pay_type" value="1" />微信支付</span>
+                </li>
+                </eq>
+                <li class="list-group-item border-none shadow line-height-36 margin-top-2 ">
+                    <span class="glyphicon glyphicon-comment"></span>
+                    <span class="padding-left-10">备注</span>
+                    <input type="text" name="remark" class="pull-right padding-top-8 text-right border-none" placeholder="请填写备注内容"/>
+                </li>
+            </ul>
+            <div style='height:60px;'></div>
+            <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+                <div class="pull-left">
+                    <p>合计<span class="high-light-color font-16">{$total_credit}</span><span class="font-12">积分</span>,可用<span class="font-16" style="color:blue;">{$integral}</span>积分</p>
+                    <p class=" text-999 font-12">(不含运费)</p>
+                </div>
+                <input type="hidden" name="flag" value="{$flag}" />
+                <input type="hidden" name="list" value='{$data}'  />
+                <div class=" pull-right"><button class="btn btn-danger btn-block">提交订单</button></div>
+            </div>
+        </form>
+    </block>
+</div>
+<block name='script'>
+    {:W('Wap/Wechat/jsHideMenu')}
+    <script>
+        $(function () {
+            //判断用户积分是否足够
+            var credit = parseInt("{$total_credit}");
+            var integral = parseInt("{$integral}");
+            if (credit > integral) {
+                $(".btn").attr("disabled", "disabled");
+                $(".btn").html("积分不足");
+            }
+            //控制地址与快递栏的显隐
+            $(":radio[name='freight_type']").click(function () {
+                var flag = parseInt($(this).val());
+                if (flag === 1) {
+                    $("#ul_delivery").show();
+                }
+            });
+        });
+        /**
+         * 选择编辑地址
+         * */
+        function selectAddress() {
+            window.location.href = "{:U('Wap/Member/address',array('redirect'=>encode(to_domain(url_filter()))))}";
+        }
+    </script>
+</block>

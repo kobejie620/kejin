@@ -1,0 +1,87 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+
+    <!--    <div class="form-group">
+            <label class="col-sm-2 control-label tr">登录帐号 <b class="red">*</b></label>
+            <div class="col-sm-9">
+                <input name="username" value="{$vo.username}" pattern="^[a-zA-Z]{4,}$" type="text" required="" title="请输入四位以上的登录帐号" class="form-control" placeholder="请输入登录帐号">
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label tr">登录密码 <b class="red">*</b></label>
+            <div class="col-sm-9">
+                <empty name='vo'>
+                    <input type="password" name='password' required="" pattern="^.{4,}$" title="请输入四位以上的登录密码" class="form-control" placeholder="请输入登录密码">
+                    <else />
+                    <input type="password" name='password' pattern="^.{4,}$" title="请输入四位以上的登录密码" class="form-control" placeholder="请输入登录密码">
+                    <p class="help-block">温馨提示：如不修改密码可以不填写！</p>
+                </empty>
+            </div>
+        </div>-->
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">呢称名字 <b class="red">*</b></label>
+        <div class="col-sm-9">
+            <input value="{$vo.nickname}" required="" title="请输入用户呢称" type="text" name="nickname" class="form-control" placeholder="输入用户呢称">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">用户性别</label>
+        <div class="col-sm-9">
+            <select name="sex" class="form-control">
+                <option value="保密">保密</option>
+                <option <eq name="vo.sex" value="男">selected</eq> value="男">男</option>
+                <option <eq name="vo.sex" value="女">selected</eq> value="女">女</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">真实姓名</label>
+        <div class="col-sm-9">
+            <input value="{$vo.realname}"  type="text" name="realname" class="form-control" placeholder="输入用户真实姓名">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">手机号</label>
+        <div class="col-sm-9">
+            <input value="{$vo.phone}" pattern="phone" title="请输入正确的手机号码" type="text" name="phone" class="form-control" placeholder="输入手机号码">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">所在城市</label>
+        <div class="col-sm-3">
+            <select class="form-control" name="province"></select>
+        </div>
+        <div class="col-sm-3">
+            <select class="form-control" name="city"></select>		
+        </div>
+        <div class="col-sm-3">
+            <select class="form-control" name="area"></select>		
+        </div>
+        <script> new PCAS('province', 'city', 'area', '{$vo.province}', '{$vo.city}', '{$vo.area}');</script>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">详细地址</label>
+        <div class="col-sm-9">
+            <input value="{$vo.address}" type="text" name="address" class="form-control" placeholder="详细地址">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">备注描述</label>
+        <div class="col-sm-9">
+            <textarea name="desc" class="form-control" placeholder="请输入用户备注描述">{$vo.desc}</textarea>
+        </div>
+    </div>
+
+    <notempty name="vo.id">
+        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+    </notempty>
+
+</block>

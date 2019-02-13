@@ -1,0 +1,29 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label tr">积分类型 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.type}" pattern="^.{2,}$" title="积分类型至少4个字符！" type="text" name="type" class="form-control" id="type" placeholder="输入积分类型">
+        </div>
+    </div>
+	
+	<div class="form-group">
+        <label class="col-sm-2 control-label tr">积分数量 <b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.integral_number}" type="text" name="integral_number" class="form-control" id="integral_number" placeholder="输入积分数量">
+        </div>
+    </div>
+	
+	<div class="form-group">
+        <label class="col-sm-2 control-label tr">次数<b class="required">*</b></label>
+        <div class="col-sm-9">
+            <input autofocus required="" value="{$vo.participate_times}" type="text" name="participate_times" class="form-control" id="participate_times" placeholder="输入次数">
+        </div>
+    </div>
+
+    <notempty name="vo">
+        <input type="hidden" value="{$vo.id|default=0}" name="id"/>
+    </notempty>
+</block>

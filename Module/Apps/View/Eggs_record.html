@@ -1,0 +1,14 @@
+<extend name='Admin@Public:index' />
+
+<block name='ptitle'>
+    {$ptitle}	
+</block>
+
+<block name='content'>
+    <wx:table 
+        list='list'
+        color="status|show_color"
+        class='table table-striped table-responsive table-bordered table-center' 
+        show='username:姓名,phone:手机号,name:奖品名,prize:获得积分,create_date:获取时间' 
+        />
+</block>

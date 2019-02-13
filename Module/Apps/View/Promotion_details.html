@@ -1,0 +1,42 @@
+<extend name='Admin@Public:form' />
+
+<block name="content">
+
+    <div class="modal-header title">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">{$ptitle}</h4>
+    </div>
+    <div class="modal-body"> 
+        <div class="row">
+            <div class="col-xs-12 ">
+                <div class="well p0 pb20">
+                    <div class='split'>
+                        <i class='glyphicon glyphicon-edit'></i> {$promotionname}所推广的用户信息
+                    </div>
+                    <volist name="info" id="vo">
+                        <div class="row mt10">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <div class="row mt10">
+                                            <div class="col-xs-2">用户姓名：<br />{$vo.name}</div>
+                                            <div class="col-xs-2">电话号码：<br />{$vo.phone}</div>
+                                            <div class="col-xs-2">昵称：<br />{$vo.nickname}</div>
+                                            <div class="col-xs-2">性别：<br />{$vo.sex}</div>
+                                            <div class="col-xs-2">地域：<br />{$vo.myaddress}</div>
+                                            <div class="col-xs-2">头像：<img class="media-object pull-left" alt='' src="{$vo.headimgurl}" style="width: 64px; height: 64px;"></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </volist>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <a class='btn btn-warning btn-sm mr20' onclick="$.form.close();" href='javascript:void(0);'>关闭</a>
+    </div>
+</block>

@@ -1,0 +1,201 @@
+<extend name='Wap@Public:index' />
+
+<block name="body">
+    <!--正文开始-->
+    <empty name='list'>
+        <ul class="list-group shadow margin-bottom-10">
+            <li class="list-group-item border-none line-height-36 margin-top-2 font-20 border-dashed">
+                <h4>您购物车还没有商品，快去选购吧！</h4>
+            </li>
+        </ul>
+
+        <else />
+        <form onsubmit="return checkOrder();" data-validate-none action='{:U("Shop/Order/check")}' method="GET"  >
+            <volist name="list" id="vo">
+                <div class="shadow order-car-item-container relative line-height-36 padding-10 margin-top-10 padding-bottom-14 item_box" data-param='{$vo.param}' data-id='{$vo.id}' data-cid='{$vo.cid}'>
+                    <div class="pull-left margin-top-26">
+                        <script class='json_params_data' style='display:none' type='text/json'>{$vo.product.params}</script>
+                        <input type="checkbox" class="width-20 height-20 checkbox" name="check[]" value='{$vo.id}' checked>
+                    </div>
+                    <a href="javascript:void(0)">
+                        <img class="pull-left margin-right-8 margin-left-2 width-80 img-rounded" src="{:to_domain($vo['product']['logo'])}" alt=""/>
+                    </a>
+                    <div>
+                        <h4 class="font-16 ellipsis padding-right-20">
+                            <a href="{:U('Shop/Index/edit',array('id'=>$vo['cid']))}">{$vo.product.name}</a>
+                        </h4>
+                        <p class='nowrap'>
+                        <volist name="vo.product.model_params" id="model_param">
+                            <span class="jk_speci" ><b>{$key}：</b> 
+                                <volist name="model_param" id="param">
+                                    <span class='jk_param ml10 jk_red'>{$param}</span>
+                                </volist>
+                            </span>
+                        </volist>
+                        <span class="high-light-color font-16 padding-left-8 nowrap">¥{$vo.product.sell_price}</span>
+                        </p>
+                        <p class="number">
+                            <i class="text-999 margin-right-4 normal font-12">数量：</i>
+                            <span class="text-center nowrap">
+                                <input type="hidden" name="car_id[]" value="{$vo.id}" /> 
+                                <a class="increase border-ddd" data-dishid="1">-</a>
+                                <input name="number[]" type="tel" value="{$vo.num|default=1}" class="amount border-ddd" />
+                                <a class="reduce border-ddd" data-dishid="1">+</a>
+                            </span>
+                            <span class="pull-right text-999 font-12" style="position: relative;top: -12px;right:15px;"><i class="normal padding-right-2">库存</i><span class="store_nums"></span>件</span>
+                        </p>
+                    </div>
+                    <a data-del='{$vo.id}' data-path='Shop/Car/del' class="pull-right delete red absolute" href="javascript:void(0)"><i class='glyphicon glyphicon-remove'></i></a>
+                </div>
+            </volist>
+    </empty>
+    <div style='height:60px;'></div>
+    <!--底部购买菜单栏开始-->
+    <div class="padding-10 padding-top-12 shadow-bottom overflow-hidden margin-top-18 navbar-fixed-bottom">
+        <div class="pull-left">
+            <p>共<span class="red total_nums">2</span>件,合计<i class="normal high-light-color padding-left-2">¥</i><span class="high-light-color font-16 total_price">...</span></p>
+            <p class="text-999 font-12">(不含运费)</p>
+        </div>
+        <button class="btn btn-danger padding-left-20 padding-right-20 pull-right">结算</button>
+    </div>
+</form>
+</block>
+
+<block name="script">
+    {:W('Wap/Wechat/jsHideMenu')}
+    <empty name="list">
+        <script>
+            $(function () {
+                $.msg.alert('购物车里没有商品，赶紧去选购吧', function () {
+                    window.location.href = "{:U('Shop/Index/index')}";
+                });
+            });
+        </script>
+    </empty>
+    <script>
+            /**
+             * 提交订单
+             */
+            function checkOrder() {
+                var list = new Array();
+                $(':checkbox:checked').map(function () {
+                    var a = $(this).val();
+                    list.push(a);
+                });
+                if (list.length < 1) {
+                    $.msg.alert("请选择要结算的商品！");
+                    return false;
+                }
+                if (window.doing) {
+                    return false;
+                }
+
+                window.doing = true;
+                return true;
+            }
+
+            /**
+             * 数据功能js
+             * @returns {undefined}
+             */
+            $(function () {
+                /**
+                 * 商品数量加减操作
+                 */
+                $('.number').map(function () {
+                    $(this).find('a').eq(0).on('click', function () {
+                        var input = $(this).next('input');
+                        input.val(parseInt(input.val()) - 1).trigger('change');
+                        initShow();
+                    }).end().eq(1).on('click', function () {
+                        var input = $(this).prev('input');
+                        input.val(parseInt(input.val()) + 1).trigger('change');
+                        initShow();
+                    }).prev('input').on('change', function () {
+                        var max = $(this).data('max');
+                        this.value = parseInt(isNaN(this.value) || this.value < 1 ? 1 : this.value);
+                        this.value = this.value > max ? max : this.value;
+                        initShow();
+                    }).trigger('change');
+                });
+
+                //初始化数据函数
+                function initShow() {
+                    //初始化总数与总价格
+                    var total_nums = 0;
+                    var total_price = 0;
+
+                    //循环列出商品的属性，然后收集订单数据
+                    $(".item_box").map(function () {
+                        var self = $(this);
+                        //@Array 购物车中商品的属性参数
+                        var param = $(this).data('param').split('_split_');
+                        //@Array 商品全部属性参数
+                        var params = jQuery.parseJSON(self.find('.json_params_data').html());
+                        //console.log(params);
+                        //读取购物商品属性数据
+                        var select = [];
+                        self.find(".jk_speci").map(function (i) {
+                            //选取用户选中的数据，同时隐藏其他数据
+                            $(this).find('span').map(function () {
+                                if (this.innerHTML === param[i]) {
+                                    $(this).addClass("jk_on").siblings().removeClass("jk_on").hide();
+                                } else {
+                                    //控制属性动画
+                                    $(".jk_speci span").click(function () {
+                                        $(this).addClass("jk_on").siblings().removeClass("jk_on");
+                                    });
+                                }
+                            });
+                            var html = $(this).find("span.jk_on").html();
+                            !!html && select.push(html);
+                        });
+                        //当记录被选择时收集订单数据
+                        var data = {
+                            id: self.data("id"),
+                            cid: self.data("cid"),
+                            num: self.find(".amount").val(),
+                            param: select.join('_split_')
+                        };
+                        /**
+                         * 显示商品属性的库存与价格
+                         * @return {undefined}
+                         * */
+                        function showParam() {
+                            var price_str = data.param + '_split_price';
+                            var store_str = data.param + '_split_store';
+                            //显示该属性下的价格
+                            if (params[price_str]) {
+                                data.price = params[price_str];
+                                self.find(".sell_price").html(params[price_str]);
+                            } else {
+                                //没有属性的情况
+                                data.price = self.find(".sell_price").html();
+                            }
+                            //显示该属性下的库存
+                            if (params[store_str]) {
+                                self.find(".store_nums").html(params[store_str]);
+                                self.find('.amount').data("max", parseInt(params[store_str]));
+                            } else {
+                                self.find(".store_nums").html(params[store_str]);
+                                self.find('.amount').data("max", parseInt(params[store_str]));
+                            }
+                        }
+                        showParam();
+                        self.find(".jk_speci span").on('click', showParam);
+                        //在元素上存放元素
+                        self.data('data', data);
+                        //统计选中的价格和数量
+                        if (self.find("input:checkbox").is(":checked")) {
+                            total_nums += parseInt(data.num);
+                            total_price += parseInt(data.num) * data['price'];
+                        }
+                    });
+                    $(".total_nums").html(total_nums);
+                    $(".total_price").html(total_price.toFixed(2));
+                }
+                initShow();
+                $('.checkbox').on('ifChanged', initShow);
+            });
+    </script>
+</block>

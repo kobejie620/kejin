@@ -1,0 +1,27 @@
+<!-- 左侧菜单 -->
+<div class="tab-content left-panel animated fadeIn hidden-xs">
+    <volist name="sys_menu" id="_vo">     
+        <in name='_vo._class' value='active,parent active,active sub'>
+        <div class="tab-pane active">
+            <div class="list-group">
+                <a class='list-group-item tc default-heading'><strong>{$_vo.title}</strong></a>
+                <div class='left-panel-item'>
+                    <volist name="_vo.sub" id="sub_vo">
+                        <a class="list-group-item br0 {$sub_vo._class}" target="{$sub_vo.target}" href="{$sub_vo.url}">
+                            <span class="{$sub_vo.ico|default='glyphicon glyphicon-align-justify'}"></span> {$sub_vo.title} <i class="pull-right glyphicon <in name='sub_vo._class' value='parent,parent active'>glyphicon-chevron-right</in> <in name='sub_vo._class' value='parent active'>glyphicon-chevron-down</in>"></i></a>
+                        <notempty name="sub_vo.sub">
+                            <div class="list-group sub-list-group <notin name='sub_vo._class' value='parent active,active'>hide</notin>">
+                                <volist name="sub_vo.sub" id="sub_vo_sub">
+                                    <a target="{$sub_vo_sub.target}" href="{$sub_vo_sub.url}" class="list-group-item list-callout br0 {$sub_vo_sub._class}">
+                                        <span class="{$sub_vo_sub.ico|default='glyphicon glyphicon-indent-left'}" ></span><span class=' dib pl5 pr5'></span> {$sub_vo_sub.title}
+                                    </a>
+                                </volist>
+                            </div>
+                        </notempty>
+                    </volist>
+                </div>
+            </div>
+        </div>
+        </in>
+    </volist>
+</div>

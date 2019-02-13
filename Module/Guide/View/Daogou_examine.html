@@ -1,0 +1,28 @@
+<extend name='Admin@Public:index' />
+
+<block name='ptitle'>
+    {$ptitle}
+</block>
+
+<block name='content'>    
+	<eq name="role" value="0">   <!-- 门店后台-->
+		<wx:table
+			list='list'
+			color="status"
+			sort='false'
+			check="false"
+			class='table table-striped table-responsive table-bordered table-center' 
+			show='type|get_company_type:审核状态,create_date:申请时间,guide_name:导购员姓名,phone:联系电话'
+			action='id|show_load_button:详情#Guide/Daogou/edit' />
+	
+		<!--其他-->
+		<else />	 
+			<wx:table                        
+				list='list'
+				color="status"
+				check="false"
+				class='table table-striped table-responsive table-bordered table-center' 
+				show='type|get_company_type:审核状态,create_date:申请时间,guide_name:导购员姓名,phone:联系电话,number:门店编号,name:所属门店'
+				action='id|show_load_button:详情#Guide/Daogou/edit' />
+	</eq>
+</block>

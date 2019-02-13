@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>{$ptitle}</title>
+	<link href="__RES__/jonza3/css/base.css" rel="stylesheet" type="text/css" />
+	<link href="__RES__/jonza3/css/css.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__RES__/jonza3/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__RES__/jonza3/js/k.js"></script>
+
+</head>
+
+<body>
+	<div class="fix box">
+    	<div class="fix rel">
+        	<img src="__RES__/jonza3/images/img_01.jpg" alt="img" width="100%" class="db" />
+            <div class="header-box pct100 tc">
+            	<a href="javascript:;" class="dib p6 bgwh brpct50 header-box-img"><img src="{$info['headimgurl']}" alt="img" width="100%" class="db brpct50" /></a>
+                <p class="g6 f16">{$guide['guide_num']}</p>
+            </div>
+        </div>
+        <div class="fix bg-green tc white f16 pt30 pb30">
+        	提成总额：<span class="f20">{$total}</span>元
+        </div>
+        <div class="fix bs1">
+        	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="cjTab bgwh tc lh20">
+              <tr>
+                <td>
+                	<p><span class="f20 green">{$data.fenxiang}</span>个</p>
+                    <p>分享</p>
+                </td>
+                <td>
+                	<p><span class="f20 green">{$data.dianji}</span>次</p>
+                    <p>用户点击</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+					<a href="{:U('Wap/Guide/tuijian')}" >
+						<p><span class="f20 green">{$guanzhu}</span>个</p>
+						<p>推荐关注</p>
+					</a>
+                </td>
+                <td>
+					<a href="{:U('Wap/Guide/xianxiabinding')}" >
+						<p><span class="f20 green">{$bangding}</span>个</p>
+						<p>线下绑定</p>
+					</a>
+                </td>
+              </tr>
+              <tr>
+				  <td colspan="2">
+					<a href="{:U('Wap/Guide/rebate')}" >
+						<p><span class="f20 green">{$goumai}</span>次</p>
+						<p>用户购买</p>
+					</a>
+				</td>
+              </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

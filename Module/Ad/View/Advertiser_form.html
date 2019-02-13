@@ -1,0 +1,117 @@
+<extend name='Admin@Public:form' />
+
+<block name='form'>
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">广告商名称 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input autofocus required="" value="{$vo.name}" pattern="^.{2,}$" title="广告商名称至少2个字符！" type="text" name="name" class="form-control" id="name" placeholder="输入广告商名称">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">广告商邮箱 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input required="" value="{$vo.email}" type="text" name="email" class="form-control">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">广告商头像</label>
+		<div class="col-sm-9">
+			<input type='hidden' name="portrait" value="{$vo.portrait}" />
+			<span class="help-block">建议图片尺寸150*150，或宽高比1：1</span>
+			<img alt="" class="upload_one_img thumbnail cursor" data-online="true" data-name="portrait" title="广告商头像" style="height:80px" src="{$vo.portrait}" />
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label">身份</label>
+		<div class="col-sm-9">
+			<div class='form-control'>
+				<label><input <neq name='vo.identity' value='1'>checked</neq> type="radio" name="identity" value="1" /> 公司</label>
+				<label><input <eq name='vo.identity' value='1'>checked</eq> type="radio" name="identity" value="2" /> 个人</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label">类型</label>
+		<div class="col-sm-9">
+			<select name="type"  required="" pattern='^[1-9]+[0-9]*$' title='请选择类型' class="form-control">
+				<option value="">请选择类型</option>
+				<option value='1' <eq name='vo.type' value='1'>selected="selected"</eq>>广告商</option>
+				<option value='2' <eq name='vo.type' value='2'>selected="selected"</eq>>渠道</option>
+				<option value='3' <eq name='vo.type' value='3'>selected="selected"</eq>>广告平台</option>
+				<option value='4' <eq name='vo.type' value='4'>selected="selected"</eq>>代理商</option>
+				<option value='5' <eq name='vo.type' value='5'>selected="selected"</eq>>其他</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">官网</label>
+		<div class="col-sm-9">
+			<input value="{$vo.network}" type="text" name="network" class="form-control">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">公司LOGO</label>
+		<div class="col-sm-9">
+			<input type='hidden' name="logo" value="{$vo.logo}" />
+			<span class="help-block">建议图片尺寸150*150，或宽高比1：1</span>
+			<img alt="" class="upload_one_img thumbnail cursor" data-online="true" data-name="logo" title="公司LOGO" style="height:80px" src="{$vo.logo}" />
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">联系人名字 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input autofocus required="" value="{$vo.contacts_name}" pattern="^.{2,}$" title="联系人名字至少2个字符！" type="text" name="contacts_name" class="form-control" id="contacts_name" placeholder="输入联系人名字">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">联系人邮箱 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input required="" value="{$vo.contacts_emali}" type="text"name="contacts_emali" class="form-control">
+		</div>
+	</div>
+
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">联系人手机号码 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input autofocus required="" value="{$vo.contacts_mobile}" pattern="^.{2,}$" title="联系人手机号码至少2个字符！" type="text" name="contacts_mobile" class="form-control" id="contacts_mobile" placeholder="请输入联系人手机号码">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">联系人QQ <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input required="" value="{$vo.contacts_qq}" type="text" name="contacts_qq" placeholder="请输入联系人QQ" class="form-control">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">联系人微信 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<input autofocus required="" value="{$vo.contacts_wechat}" pattern="^.{2,}$" title="联系人微信至少2个字符！" type="text" name="contacts_wechat" class="form-control" id="contacts_wechat" placeholder="输入联系人微信">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label tr">状态 <b class="required">*</b></label>
+		<div class="col-sm-9">
+			<select name='pid' class='form-control'>
+				<option value='2' <eq name='vo.status' value='2'>selected="selected"</eq>>开启</option>
+				<option value='1' <eq name='vo.status' value='1'>selected="selected"</eq>>关闭</option>
+			</select>
+		</div>
+	</div>
+
+	<notempty name="vo">
+		<input type="hidden" value="{$vo.advertiser_id|default=0}" name="advertiser_id"/>
+	</notempty>
+
+</block>

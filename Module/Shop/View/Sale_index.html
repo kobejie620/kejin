@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>限时抢购</title>
+	<link href="__RES__/three/css/base.css" rel="stylesheet" type="text/css" />
+	<link href="__RES__/three/css/css.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__RES__/three/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__RES__/three/js/k.js"></script>
+</head>
+
+<body>
+<!--	<div class="fix box">
+		<div class="box_pic">
+			<div id="slider1" class="swipe">
+				<ul class="piclist">
+					<volist name="llimg" id="img">
+						<li><a href="{$img->href}"><img class="img-responsive" src="{$img->src}" alt="" /></a></li>
+					</volist>
+				</ul>
+			</div>
+		</div>-->
+    	<!--<img src="__RES__/three/images/bn.jpg" alt="img" width="100%" class="db" />-->
+		<notempty name="list">
+        <div class="fix tc bgwh bs1 lh40 bbd" style="background:url(__RES__/three/images/s-yellow.png); background-size: atuo 100%;">
+			<div class="dtc" id="bck_red" style="width: 1%;">
+				<p class="white pl12 tl" style="background:#f51c4a url(__RES__/three/images/s-red.png) right center no-repeat; background-size:auto 100%;">
+					<span class="yellow" id="surplus_l">
+					</span>
+				</p>
+			</div>
+			<div class="dtc pct1" id="surplus">
+				<span class="g6" id="tips">剩余：</span>
+				<span class="bgwh g6 p2 pl4 pr4 br2 ml2 mr2"><i id="time_h"></i></span>:
+				<span class="bgwh g6 p2 pl4 pr4 br2 ml2 mr2"><i id="time_m"></i></span>:
+				<span class="bgwh g6 p2 pl4 pr4 br2 ml2 mr2"><i id="time_s"></i></span>
+				<span id="tips_2" class="g6"></span>
+			</div>
+		</div>
+		<volist name="list" id="vo">
+			<div class="fix bs1 p10 bgwh mb12">
+			<a href='{:U("Shop/Index/edit",array("id"=>$vo["id"]))}'>
+				<img src="{$vo.logo}" alt="img" width="90" class="db l mr10" />
+			</a>
+            <div class="cell">
+            	<h3 class="f16 g6">{$vo.name}</h3>
+                <div class="fix mt4">
+                	<span class="red">¥<i class="f18">{$vo.sell_price}</i></span>
+                	<span class="ml10">原价 <i class="tdl">¥{$vo.original_price}</i></span>
+                </div>
+                <div class="fix mt4">
+                    <?php
+						if($vo['xs_start_time'] < $now_time){
+							echo  '<button class="bg-red white bd0 br4 h28 lh28 dib pl12 pr12"  style="cursor: pointer;" onclick="checkLink()">立即抢购</button>';
+						}else{
+							echo '<button class="btn-gray white bd0 br4 h28 lh28 dib pl12 pr12 disabled" style="">即将开始</button>';
+						}
+                    ?>
+					<span class="ml10">还剩<i class="green ml2 mr2">{$vo.store_nums}</i>份</span>
+                </div>
+            </div>
+        </div>
+        </volist>
+		<else/>
+		<div>
+			没有抢购的商品
+		</div>
+		</notempty>
+		
+		<notempty name="morgen_info" id="morgen">
+        <div class="fix tc bgwh bs1 lh40 bbd">
+            <div class="dtc pct1">
+                <p class="white pl12 tl" style="background:#5baea3 url(__RES__/three/images/s-green.png) right center no-repeat; background-size:auto 100%;" id="surplus_2">
+					明日&nbsp;<span class="yellow">{$morgen}</span>&nbsp;开抢
+				</p>
+            </div>
+            <div class="dtc pct1">
+                <span class="g6" id="tips_3">倒计时：</span>
+				<span class="bg-green white p2 pl4 pr4 br2 ml2 mr2"><i id="time_h_1"></i></span>:
+				<span class="bg-green white p2 pl4 pr4 br2 ml2 mr2"><i id="time_m_1"></i></span>:
+				<span class="bg-green white p2 pl4 pr4 br2 ml2 mr2"><i id="time_s_1"></i></span>
+            </div>
+        </div>
+		<volist name="morgen_info" id="morgen">
+        <div class="fix bs1 p10 bgwh mb12">
+        	<img src="{$morgen.logo}" alt="img" width="90" class="db l mr10" />
+            <div class="cell">
+            	<h3 class="f16 g6">{$morgen.name}</h3>
+                <div class="fix mt4">
+                	<span class="red">¥<i class="f18">{$morgen.sell_price}</i></span>
+                	<span class="ml10">原价 <i class="tdl">¥{$morgen.original_price}</i></span>
+                </div>
+                <div class="fix mt4">
+					<button class="btn-gray white bd0 br4 h28 lh28 dib pl12 pr12" id="morgen_but">即将开始</button>
+                    <span class="ml10">还剩<i class="green ml2 mr2">{$morgen.store_nums}</i>份</span>
+                </div>
+            </div>
+        </div>
+		</volist>
+		<else/>
+		<div>
+			明日没有抢购的商品
+		</div>
+		</notempty>
+    </div>
+	<script src="__RES__/wap/js/touchslider.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var sliderLink, slider;
+		sliderLink = $('#pagenavi a').on('click', function () {
+			var index = $(this).index();
+			slider.slide(index);
+		});
+		slider = new TouchSlider({
+			id: 'slider1',
+			auto: '0',
+			fx: 'ease-out',
+			direction: 'left',
+			speed: 600,
+			timeout: 5000,
+			before: function (index) {
+				sliderLink.removeClass('active').eq(index).addClass('active');
+			}
+		});
+		
+		/**
+		 * 跳转链接
+		 */
+		function checkLink(){
+			location.href="{:U("Shop/Index/edit",array("id"=>$vo["id"]))}";
+		}
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			show_time();
+		});
+		var time_start = parseInt("<?php echo  strtotime($vo['xs_start_time'])*1000;?>"); //设定开始时间
+		var time_end = parseInt("<?php echo  strtotime($vo['xs_end_time'])*1000;?>"); //设定目标时间
+		var morgen_time = parseInt("<?php echo strtotime($morgen['xs_start_time'])*1000;?>"); // 设定明天的时间
+		/**
+		 * 控制活动时间
+		 */
+		function show_time(){
+			var now_time = new Date().getTime();
+			var morgen = new Date().getTime() + 1; // 明日的时间
+			var time_distance = 0;
+			var time_distance_1 = 0;
+			if (now_time < time_start){
+				$('#bck_red').attr('class','pct0');
+				$('#tips').text('倒计时：');
+				$('#tips_2').text('后正式开抢');
+				// 计算时间差 
+				time_distance = (time_start - now_time);
+//				$("#immediately_btn").attr("disabled", true).removeClass('bg-red').addClass('disabled,bg-gray').text("即将开始");
+			} else if (now_time > time_end){
+				$('#tips').text('距开始：');
+				time_distance = (time_start - now_time) + 1000 * 60 * 60 * 24;
+//				$("#immediately_btn").attr("disabled", true).removeClass('bg-red').addClass('disabled,bg-gray').text("即将开始");
+			} else {
+				$('#surplus_l').text('<?php echo $vo['sale'];?> 位用户正在抢购');
+				$('#tips').text('剩余：');
+				time_distance = (time_end - now_time);
+//				$("#immediately_btn").attr("disabled", false).text("立即抢购").removeClass('disabled');
+			}
+			
+			// 明天的时间
+			if(morgen < morgen_time){
+//				$('#surplus_2').text('明日 <?php echo $morgen ?>开抢');
+				$('#tips_3').text('倒计时：');
+				// 计算时间差
+				time_distance_1 = (morgen_time - morgen);
+				$("#morgen_but").attr("disabled", true).addClass('disabled').text("即将开始");
+			}
+			
+			// 时
+			var int_hour = Math.floor(time_distance / 3600000);
+			time_distance -= int_hour * 3600000;
+			// 分
+			var int_minute = Math.floor(time_distance / 60000);
+			time_distance -= int_minute * 60000;
+			// 秒 
+			var int_second = Math.floor(time_distance / 1000);
+			
+			// 时分秒为单数时、前面加零 
+			if (int_hour < 10){
+				int_hour = "0" + int_hour;
+			}
+			if (int_minute < 10){
+				int_minute = "0" + int_minute;
+			}
+			if (int_second < 10){
+				int_second = "0" + int_second;
+			}
+			
+			// 明日的时间判断
+			var int_hour_1 = Math.floor(time_distance_1 / 3600000);
+			time_distance_1 -= int_hour_1 * 3600000;
+			
+			var int_minute_1 = Math.floor(time_distance_1 / 60000);
+			time_distance_1 -= int_minute_1 * 60000;
+			
+			var int_second_1 = Math.floor(time_distance_1 / 1000);
+			
+			// 明日的时间判断
+			if (int_hour_1 < 10){
+				int_hour_1 = "0" + int_hour_1;
+			}
+			if (int_minute_1 < 10){
+				int_minute_1 = "0" + int_minute_1;
+			}
+			if (int_second_1 < 10){
+				int_second_1 = "0" + int_second_1;
+			}
+			// 显示时间 
+			$("#time_h").text(int_hour);
+			$("#time_m").text(int_minute);
+			$("#time_s").text(int_second);
+			// 设置定时器
+			setTimeout("show_time()", 1000);
+			
+			$("#time_h_1").text(int_hour_1);
+			$("#time_m_1").text(int_minute_1);
+			$("#time_s_1").text(int_second_1);
+			// 设置定时器
+			setTimeout("show_time()", 1000);
+		}
+	</script>
+</body>
+</html>

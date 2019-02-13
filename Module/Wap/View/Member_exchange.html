@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>确认兑换</title>
+<link href="__RES__/jdjz/css/base.css" rel="stylesheet" type="text/css" />
+<link href="__RES__/jdjz/css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__RES__/jdjz/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__RES__/jdjz/js/k.js"></script> 
+</head>
+
+<body>
+<div class="box">
+    <form data-ajax="true" method="POST" action="{:U('Wap/Member/exchange')}">
+        <div class="m12  fix bgwh bsdow">
+            <div class="tc p20">
+                <div class="p8 bde br2 mb20"><span class="pink">兑换码：</span>{$code}</div>
+                <div class="fix">
+                    <img src="{$info.prize_img}" alt="img" width="100%" />
+                    <p class="mt10">兑换奖品：{$info.prize_name}</p>
+                </div>
+            </div>
+            <div class="fix p20 btd2">
+                <button type="submit" class="dib btn bd0 br4 bg-pink lh24 pct100">完成兑换</button>
+<!--                <button type="button" id="nearstore" class="dib btn bd0 br4 bg-pink lh24 pct100">附近门店</button>-->
+            </div>
+            <div style="display: none">
+                <input type="text" name="code" class="txt bdd" value="{$code}" />
+                <input type="text" name="store_id" class="txt bdd" value="{$store_id}"/>
+                <input type="text" name="latitude" id="latitude" class="txt bdd" value=""/>
+                <input type="text" name="longitude" id="longitude" class="txt bdd" value=""/>
+                
+            </div>
+        </div>
+    </form>
+</div>
+    
+<!--    <script>
+        wx.config({
+            debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+            appId: '{$jsSign.appId}', // 必填，公众号的唯一标识
+            timestamp: , // 必填，生成签名的时间戳
+            nonceStr: '', // 必填，生成签名的随机串
+            signature: '',// 必填，签名，见附录1
+            jsApiList: [] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+        });
+        }
+    </script>-->
+    <!-- 微信获取位置 -->
+    {:W("Wap/Wechat/jsSign")}
+        <script>
+        $('form').submit(function (e) {
+            e.preventDefault();
+            var self = this;
+            wx.getLocation({
+                success: function (res) {
+                    var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                    var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                    document.getElementById("latitude").value=latitude;
+                    document.getElementById("longitude").value=longitude;
+                    //window.location.href = "{:U('Wap/Store/index')}?latitude=" + latitude + "&longitude=" + longitude;
+                    self.submit();
+                },error:function(){
+                    alert("位置获取失败");
+                }
+            });
+        });
+        </script>
+</body>
+ 
+</html>
