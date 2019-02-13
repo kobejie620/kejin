@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>拼图游戏 | 冷月无声-个人网站-前端博客</title>
+    <link rel="stylesheet" type="text/css" href="xcx.base.css" />
+    <script type="text/javascript" src="xcx.jigsaw.js"></script>
+    <script type="text/javascript" src="xcx.core.js"></script>
+    <style type="text/css">
+        header{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-family: "微软雅黑";
+            font-size: 1.5em;
+            background: #aab5bc;
+            background-image: linear-gradient(#aab5bc,#aaccdd);
+        }
+        article{
+            position: relative;
+            margin: 1%;
+        }
+        .jigsaw{
+            position: relative;
+            border: 2px solid #7f9db9;
+            overflow: hidden;
+        }
+        .jigsaw div{
+            position: relative;
+            float: left;
+            overflow: hidden;
+        }
+        .jigsaw img{
+            position: absolute;
+            cursor: pointer;
+        }
+        .source{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>拼图游戏V2.0</h1>
+</header>
+<article>
+    <section class="jigsaw" id="jigsaw"></section>
+    <section class="tools">
+        <p>步数：<span id="steps">0</span></p>
+        <p>耗时：<span id="times"></span></p>
+        <div>
+            <button type="button" id="reset">重新排列</button>
+            <button type="button" id="seeSource">查看原图</button>
+        </div>
+    </section>
+    <section class="source" id="source" style="display: none;">
+        <img id="sourceImg" src="2.jpg" width="100%" height="100%" />
+    </section>
+</article>
+<script type="text/javascript">
+    var obj = X.$('jigsaw');
+    var steps = X.$('steps');
+    var times = X.$('times');
+    var source = X.$('source');
+    var jigsaw = new Jigsaw(obj, {
+        initHandler: function() {
+            source.style.width = obj.offsetWidth +'px';
+            source.style.height = obj.offsetHeight +'px';
+        },
+        changeHandler: function(s) {
+            steps.innerHTML = s;
+        },
+        runHandler: function(o) {
+            times.innerHTML = o[0] +':'+ o[1] +':'+ o[2];
+        },
+        successHandler: function() {
+            if(confirm('恭喜你拼图成功！是否再来一次呢？')) {
+                jigsaw.init();
+            }
+        }
+    }, X.$('sourceImg').src);
+    X.addEvent(X.$('reset'), 'click', function() {
+        steps.innerHTML = '0';
+        jigsaw.init();
+    });
+    X.addEvent(X.$('seeSource'), 'click', function() {
+        if(source.style.display === 'none') {
+            source.style.display = '';
+            setTimeout(function() {
+                source.style.display = 'none';
+            }, 3000);
+        } else {
+            source.style.display = 'none';
+        }
+    });
+</script>
+</body>
+</html>
