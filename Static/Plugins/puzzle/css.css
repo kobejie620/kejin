@@ -1,0 +1,32 @@
+article{
+	position: relative;
+}
+#jigsaw{
+	position: relative;
+	border:2px solid #ff851b;
+	background: #ff851b;
+	margin:0 auto;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom:8px;
+}
+#jigsaw div{
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+#jigsaw img{
+	position: absolute;
+	cursor: pointer;
+}
+#source{
+	position: absolute;
+	margin: 2px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.word-color{ color:#ff8000;}
+
+.yxb_info{ width:180px; height:73px; padding:10px; background:url(images/pt_17.png); background-size:100% 100%; margin:0 auto; color:#c00000; margin-top:10px;}
